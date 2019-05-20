@@ -18,6 +18,6 @@ module.exports = {
       chunkFilename: "[name].js"
     }
   },
-  // UNCOMMENT THIS LINE BEFORE YOU RUN 'npm run build'
+  //  UNCOMMENT THIS LINE BEFORE YOU RUN 'npm run build'
   // publicPath: "././"
 };
