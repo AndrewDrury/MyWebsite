@@ -1,31 +1,35 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import page1 from './views/Page1.vue'
-
-Vue.use(Router)
+import Vue from "vue";
+import Router from "vue-router";
+import Home from "./views/Home.vue";
+import About from "./views/About.vue";
+Vue.use(Router);
 
 export default new Router({
-  mode: 'history',
+  // mode: "history", //If commented out, use hash mode
   base: process.env.BASE_URL,
   routes: [
     {
-      path: '/',
-      name: 'page1',
-      component: page1
+      path: "/",
+      name: "home",
+      component: Home
     },
     {
-      path: '/page1',
-      name: 'page1',
-
-      component: () =>
-        import(/* webpackChunkName: "page1" */ './views/Page1.vue')
-    },
-    {
-      path: '/page2',
-      name: 'page2',
-
-      component: () =>
-        import(/* webpackChunkName: "page2" */ './views/Page2.vue')
+      path: "/about",
+      name: "about",
+      component: About
     }
-  ]
-})
+  ],
+  
+  scrollBehavior(to) {
+    if (to.hash) {
+      const element = document.getElementById(to.hash.slice(1));
+      if (element) {
+        return window.scrollTo({
+          top: element.offsetTop,
+          behavior: "smooth"
+        });
+      }
+    }
+    return window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+});
