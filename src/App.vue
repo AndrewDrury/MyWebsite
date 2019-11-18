@@ -96,6 +96,13 @@
             </ul>
           </b-col>
         </b-row>
+        <b-row>
+          <b-col>
+            <p>
+              Designed &amp; Built by Andrew Drury
+            </p>
+          </b-col>
+        </b-row>
       </div>
     </section>
   </div>

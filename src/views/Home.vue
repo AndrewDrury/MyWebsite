@@ -4,8 +4,15 @@
       <b-row>
         <b-col>
           <b-row class="top-space">
-            <b-col>
-              <h1>Andrew Drury</h1>
+            <b-col align="left">
+              <h1>Hi!</h1>
+              <h1>I am Andrew Drury.</h1>
+              <h6>Full Stack Developer</h6>
+              <h6>based in Toronto</h6>
+
+
+              <p>planning sections: Home, Experience, Projects, About, Contact, Resume</p>
+              <p>Option B: Experience, Projects, Home(logo), Resume, Contact</p>
             </b-col>
           </b-row>
         </b-col>
@@ -29,7 +36,7 @@
     @media (max-width: $screen-sm) {
       margin-top: 100px;
     }
-    margin-bottom:500px;
+    margin-bottom:150px;
   }
 
   .desktop {
