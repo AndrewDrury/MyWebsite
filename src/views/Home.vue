@@ -13,6 +13,15 @@
 
               <p>planning sections: Home, Experience, Projects, About, Contact, Resume</p>
               <p>Option B: Experience, Projects, Home(logo), Resume, Contact</p>
+
+              <!-- 
+                Sections:
+                  1. Home
+                  2. Experience
+                  3. Projects
+                  4. Contact(and about)
+                  5. Resume
+               -->
             </b-col>
           </b-row>
         </b-col>
@@ -37,20 +46,6 @@
       margin-top: 100px;
     }
     margin-bottom:150px;
-  }
-
-  .desktop {
-    display: inline;
-    @media (max-width: $screen-sm) {
-      display: none;
-    }
-  }
-
-  .mobile {
-    display: none;
-    @media (max-width: $screen-sm) {
-      display: inline;
-    }
   }
 }
 

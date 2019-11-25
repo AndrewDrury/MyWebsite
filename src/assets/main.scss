@@ -42,3 +42,20 @@
   justify-content: center;
   align-items: center;
 }
+
+.section {
+  padding-top: 80px;
+}
+
+.desktop {
+  display: inline;
+  @media (max-width: $screen-sm) {
+    display: none;
+  }
+}
+.mobile {
+  display: none;
+  @media (max-width: $screen-sm) {
+    display: inline;
+  }
+}

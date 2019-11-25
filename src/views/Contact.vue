@@ -1,11 +1,11 @@
 <template>
-  <div class="about" id="about" name="about">
+  <div class="contact section" id="contact" name="contact">
     <b-container fluid>
       <b-row>
         <b-col>
           <b-row>
             <b-col>
-              <h2>About</h2>
+              <h2>contact</h2>
             </b-col>
           </b-row>
         </b-col>
