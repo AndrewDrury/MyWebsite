@@ -5,7 +5,7 @@
         <b-col>
           <b-row>
             <b-col>
-              <h2>contact</h2>
+              <h2>Contact</h2>
             </b-col>
           </b-row>
         </b-col>
@@ -16,5 +16,4 @@
 
 <style lang="scss">
 @import "../assets/variables.scss";
-
 </style>

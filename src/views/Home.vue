@@ -10,8 +10,10 @@
               <h6>Full Stack Developer</h6>
               <h6>based in Toronto</h6>
 
-
-              <p>planning sections: Home, Experience, Projects, About, Contact, Resume</p>
+              <p>
+                planning sections: Home, Experience, Projects, About, Contact,
+                Resume
+              </p>
               <p>Option B: Experience, Projects, Home(logo), Resume, Contact</p>
 
               <!-- 
@@ -45,10 +47,9 @@
     @media (max-width: $screen-sm) {
       margin-top: 100px;
     }
-    margin-bottom:150px;
+    margin-bottom: 150px;
   }
 }
-
 </style>
 
 <script lang="ts">

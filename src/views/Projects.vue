@@ -5,9 +5,16 @@
         <b-col>
           <b-row>
             <b-col>
-              <h2>projects</h2>
+              <h2>Projects</h2>
             </b-col>
           </b-row>
+
+          <!-- PROJECTS -->
+          <grow />
+          <TableStory />
+          <FlySafe />
+          <sliai />
+          <ePaid />
         </b-col>
       </b-row>
     </b-container>
@@ -16,5 +23,24 @@
 
 <style lang="scss">
 @import "../assets/variables.scss";
-
 </style>
+
+<script lang="ts">
+import Vue from "vue";
+import grow from "./Projects/grow.vue";
+import TableStory from "./Projects/TableStory.vue";
+import FlySafe from "./Projects/FlySafe.vue";
+import sliai from "./Projects/sliai.vue";
+import ePaid from "./Projects/ePaid.vue";
+
+export default Vue.extend({
+  name: "projects",
+  components: {
+    grow,
+    TableStory,
+    FlySafe,
+    sliai,
+    ePaid
+  }
+});
+</script>

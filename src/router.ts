@@ -31,7 +31,7 @@ export default new Router({
       component: Contact
     }
   ],
-  
+
   scrollBehavior(to) {
     if (to.hash) {
       const element = document.getElementById(to.hash.slice(1));

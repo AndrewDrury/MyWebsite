@@ -5,9 +5,14 @@
         <b-col>
           <b-row>
             <b-col>
-              <h2>experiences</h2>
+              <h2>Experiences</h2>
             </b-col>
           </b-row>
+
+          <!-- EXPERIENCES -->
+          <Stratus360 />
+          <TDLab />
+          <ZurApps />
         </b-col>
       </b-row>
     </b-container>
@@ -16,5 +21,20 @@
 
 <style lang="scss">
 @import "../assets/variables.scss";
-
 </style>
+
+<script lang="ts">
+import Vue from "vue";
+import Stratus360 from "./Experiences/Stratus360.vue";
+import TDLab from "./Experiences/TDLab.vue";
+import ZurApps from "./Experiences/ZurApps.vue";
+
+export default Vue.extend({
+  name: "experiences",
+  components: {
+    Stratus360,
+    TDLab,
+    ZurApps
+  }
+});
+</script>
