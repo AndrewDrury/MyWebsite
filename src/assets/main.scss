@@ -59,3 +59,60 @@
     display: inline;
   }
 }
+
+.square-pic {
+  width: 100%;
+}
+
+.experience {
+  .experienceRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 50px;
+
+    @media (max-width: $screen-sm) {
+      padding-bottom: 80px;
+    }
+
+    .title {
+      font-size: 30px;
+      font-weight: 500;
+    }
+    .category {
+      color: $primary;
+      font-size: 19px;
+      font-weight: 500;
+      padding-bottom: 15px;
+    }
+    .tag-line {
+      font-size: 25px;
+      font-weight: 500;
+      padding-bottom: 5px;
+    }
+    .skill-title {
+      font-weight: 500;
+      font-size: 19px;
+      color: white;
+      margin-top: 64px;
+      @media (max-width: $screen-sm) {
+        margin-top: 34px;
+      }
+    }
+    .description {
+      font-size: 25px;
+    }
+    .skill {
+      padding-right: 32px;
+      align: left;
+      display: inline-block;
+      font-size: 17px;
+      font-weight: 500;
+      color: white;
+      @media (max-width: $screen-sm) {
+        width: 100%;
+      }
+    }
+  }
+}

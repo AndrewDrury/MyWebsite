@@ -29,19 +29,21 @@
       </b-collapse>
     </b-navbar>
 
-    <div id="main">
-      <!-- Dynamic Content -->
-      <transition name="fade">
-        <router-view></router-view>
-      </transition>
-    </div>
+	<div id="margin-wrap">
+		<div id="main">
+		<!-- Dynamic Content -->
+		<transition name="fade">
+			<router-view></router-view>
+		</transition>
+		</div>
+		<Experiences />
+		<div style="height:500px"></div>
+		<Projects />
+		<div style="height:500px"></div>
+		<Contact />
+		<div style="height:500px"></div>
+	</div>
 
-    <Experiences />
-    <div style="height:500px"></div>
-    <Projects />
-    <div style="height:500px"></div>
-    <Contact />
-    <div style="height:500px"></div>
 
     <!-- Footer -->
     <section id="footer">
@@ -122,17 +124,15 @@
   text-align: center;
   background-color: $grey;
 
-  #main {
+  #margin-wrap {
     @media (min-width: $screen-md) {
-      .home {
-        margin-left: 9.86%;
-        margin-right: 9.86%;
-      }
+		margin-left: 9.86%;
+		margin-right: 9.86%;
     }
 
     @media (max-width: $screen-md) {
-      margin-left: 5%;
-      margin-right: 5%;
+		margin-left: 5%;
+		margin-right: 5%;
     }
   }
 }
