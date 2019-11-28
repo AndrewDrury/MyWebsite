@@ -29,6 +29,9 @@
   // Black           900
 }
 
+.link {
+  color:$primary;
+}
 
 .vert-center {
   display: flex;
@@ -71,14 +74,19 @@
   width: 100%;
 }
 
+h2 {
+  margin-bottom: 50px;
+}
+
 .experiences {
-  h2 {
+  h5{
+    color: $primary;
     margin-bottom: 50px;
   }
 }
 
-.experience {
-  .experienceRow {
+.experience, .contact {
+  .experienceRow, .contactRow {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,7 +141,7 @@
       font-weight: 500;
       padding-bottom: 15px;
     }
-    p {
+    .description {
       font-size: 22px;
     }
     .skill-title {

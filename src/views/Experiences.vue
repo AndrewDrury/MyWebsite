@@ -8,6 +8,13 @@
               <h2>Experiences</h2>
             </b-col>
           </b-row>
+          <b-row>
+            <b-col>
+              <h5>
+                I am currently seeking a developer internship for Summmer 2020.
+              </h5>
+            </b-col>
+          </b-row>
 
           <!-- EXPERIENCES -->
           <Stratus360 />

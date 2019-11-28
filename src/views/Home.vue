@@ -24,6 +24,87 @@
                   4. Contact(and about)
                   5. Resume
                -->
+
+               <!--
+    Website ideas
+
+
+
+    Establish vision and message
+    Pick colours (accents: yellow, orange, red, blue)
+    Pick fonts
+    Design logo
+
+
+    Vision
+
+    Full-stack or backend at a medium to large company in Cali
+    Min pay: 
+    Get more specific with position
+    Looking to learn more and be able to contribute to the company, not just do 'coop' projects
+
+
+
+
+    Sections:
+
+    Home
+    Experience
+    Projects
+    Contact(and about)
+    Resume
+
+
+
+
+    Ideas:
+
+    have github, LinkedIn, email, and resume (PDF symbol) at bottom left at all times
+
+
+
+    Home page or about have Toronto pic of me
+
+
+
+    Home page:
+
+    Large text in background
+    Graph line mountains
+    Trace logo
+    Write out 'Hi! I am Andrew Drury" really coolly
+
+
+    Experience
+
+    company name
+    Position
+    Location
+    Date
+    Languages and tools, keywords
+    Summary of company
+    Summary of what I did
+
+
+    Project section
+
+    Project name
+    Date
+    Location
+    Awards
+    Languages and technologies
+    One sentence description
+    Some way to hide and show more details, like bullet point list of things done or my contributions
+    Github link or project submission link
+
+
+
+
+
+
+    Content scroll fast,
+
+    Pic Scroll Slow -->
             </b-col>
           </b-row>
         </b-col>
