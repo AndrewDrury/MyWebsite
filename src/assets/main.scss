@@ -1,12 +1,5 @@
 @import "./variables.scss";
-@import url("https://fonts.googleapis.com/css?family=Red+Hat+Text:400,500,700");
-
-@font-face {
-  font-family: AvenirBold;
-  src: url(/assets/fonts/AvenirLTStd-Heavy.woff) format("woff");
-  font-style: normal;
-  font-weight: 600;
-}
+@import url('https://fonts.googleapis.com/css?family=Muli:400,500,700&display=swap');
 
 // .fade-enter-active,
 // .fade-leave-active {
@@ -21,7 +14,7 @@
 
 * {
   color: white;
-  font-family: "Red Hat Text", sans-serif;
+  font-family: 'Muli', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
@@ -60,8 +53,28 @@
   }
 }
 
+.desktop1 {
+  display: inline;
+  @media (max-width: $screen-md) {
+    display: none;
+  }
+}
+
+.mobile1 {
+  display: none;
+  @media (max-width: $screen-md) {
+    display: inline;
+  }
+}
+
 .square-pic {
   width: 100%;
+}
+
+.experiences {
+  h2 {
+    margin-bottom: 50px;
+  }
 }
 
 .experience {
@@ -70,26 +83,58 @@
     justify-content: center;
     align-items: center;
 
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 
     @media (max-width: $screen-sm) {
       padding-bottom: 80px;
     }
 
-    .title {
-      font-size: 30px;
+    .content-left {
+      padding-right:45px;
+    }
+    .content-right {
+      @media (min-width: $screen-md) {
+        padding-left:45px;
+      }
+    }
+
+    .logo{
+      img {
+        -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        height: 150px;
+        margin-bottom: 50px;
+
+        -webkit-transition: 0.5s all ease;
+        -moz-transition: 0.5s all ease;
+        transition: 0.5s all ease;
+      }
+
+      a:hover img {
+        top: 2px;
+        left:2px;
+        height: 170px;
+        margin-top: -10px;
+        margin-bottom: 40px;
+      }
+    }
+
+    .mobile {
+      margin-top: 15px;
+    }
+
+    h3 {
+      font-size: 28px;
       font-weight: 500;
     }
-    .category {
+    h4 {
       color: $primary;
-      font-size: 19px;
+      font-size: 22px;
       font-weight: 500;
       padding-bottom: 15px;
     }
-    .tag-line {
-      font-size: 25px;
-      font-weight: 500;
-      padding-bottom: 5px;
+    p {
+      font-size: 22px;
     }
     .skill-title {
       font-weight: 500;
@@ -99,9 +144,6 @@
       @media (max-width: $screen-sm) {
         margin-top: 34px;
       }
-    }
-    .description {
-      font-size: 25px;
     }
     .skill {
       padding-right: 32px;

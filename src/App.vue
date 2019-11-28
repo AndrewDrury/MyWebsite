@@ -24,7 +24,7 @@
           <b-nav-item class="tab" :to="{ name: 'home', hash: '#contact' }"
             >Contact</b-nav-item
           >
-          <b-nav-item class="tab" href="" target="_blank">Resume</b-nav-item>
+          <b-nav-item class="tab" href="./Resume_AndrewDrury.pdf" target="_blank">Resume</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
@@ -131,8 +131,8 @@
     }
 
     @media (max-width: $screen-md) {
-		margin-left: 5%;
-		margin-right: 5%;
+		margin-left: 1%;
+		margin-right: 1%;
     }
   }
 }

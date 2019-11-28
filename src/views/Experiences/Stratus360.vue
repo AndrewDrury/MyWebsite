@@ -1,23 +1,37 @@
 <template>
   <div class="experience" id="Stratus360" name="Stratus360">
     <b-container fluid>
-      <b-row>
-        <b-col>
-          <h3>Stratus360</h3>
-        </b-col>
-      </b-row>
-
       <b-row class="experienceRow">
-        <b-col class="desktop" lg="7" align="left">
-          <!-- <h3 class="title">Fiti</h3> -->
-          <!-- <h4 class="category">Passion Project</h4>
-          <h5 class="tag-line">
-            A fitness app for people with paraplegia.
-          </h5> -->
+        <b-col class="desktop content-left" lg="6" align="left">
+          <b-row>
+            <b-col class="logo" align="center">
+              <a href="https://www.stratus360.com/" target="_blank">
+                <img src="@/assets/ExperiencePics/Stratus360Logo.png" >
+              </a>
+            </b-col>
+          </b-row>
+          <b-row>
+            <b-col col="6">
+              <a href="https://www.stratus360.com/" target="_blank">
+                <h3>Stratus360</h3>
+              </a>
+            </b-col>
+            <b-col col="6" align="right">
+              <h3>Toronto, ON</h3>
+            </b-col>
+          </b-row>
+          <b-row>
+            <b-col>
+              <h4>Full Stack Developer</h4>
+            </b-col>
+            <b-col align="right">
+              <h4>Sept 2019 - Dec 2019</h4>
+            </b-col>
+          </b-row>
           <p class="description">
-            Here is a description. Here is a description. Here is a description.
+            Lorem ipsum dolor amet readymade direct trade biodiesel vinyl try-hard hell of pok pok, hexagon shaman jianbing franzen. Literally art party hot chicken try-hard 8-bit, bicycle rights kombucha seitan cornhole pour-over.
           </p>
-          <h6 class="skill-title">Stuff</h6>
+          <!-- <h6 class="skill-title">Stuff</h6>
           <b-row align="left">
             <b-col>
               <div class="skill">Stuff</div>
@@ -25,26 +39,44 @@
               <div class="skill">Stuff</div>
               <div class="skill">Stuff</div>
             </b-col>
-          </b-row>
+          </b-row> -->
         </b-col>
-        <b-col lg="5" align="right">
-          <!-- <a href="./#/Fiti" target="_blank"> -->
+
+        <b-col class="logo mobile" align="center">
+          <a href="https://www.stratus360.com/" target="_blank">
+            <img src="@/assets/ExperiencePics/Stratus360Logo.png" >
+          </a>
+        </b-col>
+
+        <b-col lg="6" align="right">
+          <a href="https://www.stratus360.com/" target="_blank">
             <img
               class="square-pic"
               src="@/assets/ExperiencePics/Stratus360Pic.png"
             />
-          <!-- </a> -->
+          </a>
         </b-col>
         <b-col class="mobile" align="left">
-          <!-- <h3 class="title">Fiti</h3>
-          <h4 class="category">Passion Project</h4>
-          <h5 class="tag-line">
-            A fitness app for people with paraplegia.
-          </h5> -->
+          <b-row>
+            <b-col col="6">
+              <h3>Stratus360</h3>
+            </b-col>
+            <b-col col="6" align="right">
+              <h3>Toronto, ON</h3>
+            </b-col>
+          </b-row>
+          <b-row>
+            <b-col>
+              <h4>Full Stack Developer</h4>
+            </b-col>
+            <b-col align="right">
+              <h4>Sept 2019 - Dec 2019</h4>
+            </b-col>
+          </b-row>
           <p class="description">
-            Here is a description. Here is a description. Here is a description.
+            Lorem ipsum dolor amet readymade direct trade biodiesel vinyl try-hard hell of pok pok, hexagon shaman jianbing franzen. Literally art party hot chicken try-hard 8-bit, bicycle rights kombucha seitan cornhole pour-over.
           </p>
-          <h6 class="skill-title">Stuff</h6>
+          <!-- <h6 class="skill-title">Stuff</h6>
           <b-row align="left">
             <b-col>
               <div class="skill">Stuff</div>
@@ -52,7 +84,7 @@
               <div class="skill">Stuff</div>
               <div class="skill">Stuff</div>
             </b-col>
-          </b-row>
+          </b-row> -->
         </b-col>
       </b-row>
     </b-container>

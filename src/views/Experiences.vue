@@ -12,7 +12,7 @@
           <!-- EXPERIENCES -->
           <Stratus360 />
           <TDLab />
-          <ZurApps />
+          <!-- <ZurApps /> -->
         </b-col>
       </b-row>
     </b-container>
