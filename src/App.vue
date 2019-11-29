@@ -29,21 +29,48 @@
       </b-collapse>
     </b-navbar>
 
-	<div id="margin-wrap">
-		<div id="main">
-		<!-- Dynamic Content -->
-		<transition name="fade">
-			<router-view></router-view>
-		</transition>
-		</div>
-		<Experiences />
-		<div style="height:500px"></div>
-		<Projects />
-		<div style="height:500px"></div>
-		<Contact />
-		<div style="height:500px"></div>
-	</div>
+    <div id="margin-wrap">
+      <div id="main">
+      <!-- Dynamic Content -->
+      <transition name="fade">
+        <router-view></router-view>
+      </transition>
+      </div>
+      <Experiences />
+      <Projects />
+      <Contact />
+    </div>
 
+    <div class='desktop' id='bottom-links'>
+      <ul class="list-unstyled social text-center">
+        <li>
+          <a href="./Resume_AndrewDrury.pdf" target="_blank">
+            <i class="fa fa-file-pdf-o"></i>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/andrew-drury"
+            target="_blank"
+          >
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:andrew.drury@waterloo.com" target="_blank">
+            <i class="fa fa-envelope"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/AndrewDrury/grow" target="_blank">
+            <i class="fa fa-github"></i>
+          </a>
+        </li>
+      </ul>
+      <div class='vertical-line' style='height:50px'></div>
+
+
+    </div>
 
     <!-- Footer -->
     <section id="footer">
@@ -63,39 +90,39 @@
                 >
                   <i class="fa fa-linkedin"></i>
                   <!-- <img
-						srcset="
-						@/assets/homepage/linkedin-logo.png,
-						@/assets/homepage/linkedin-logo@2x.png 2x,
-						@/assets/homepage/linkedin-logo@3x.png 3x
-						"
-						style="width:1em"
-					/> -->
+                    srcset="
+                    @/assets/homepage/linkedin-logo.png,
+                    @/assets/homepage/linkedin-logo@2x.png 2x,
+                    @/assets/homepage/linkedin-logo@3x.png 3x
+                    "
+                    style="width:1em"
+                  /> -->
                 </a>
               </li>
               <li class="list-inline-item">
                 <a href="mailto:andrew.drury@waterloo.com" target="_blank">
                   <i class="fa fa-envelope"></i>
                   <!-- <img
-						srcset="
-						@/assets/homepage/envelope.png,
-						@/assets/homepage/envelope@2x.png 2x,
-						@/assets/homepage/envelope@3x.png 3x
-						"
-						style="width:1.25em"
-					/> -->
+                    srcset="
+                    @/assets/homepage/envelope.png,
+                    @/assets/homepage/envelope@2x.png 2x,
+                    @/assets/homepage/envelope@3x.png 3x
+                    "
+                    style="width:1.25em"
+                  /> -->
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="" target="_blank">
+                <a href="https://github.com/AndrewDrury/grow" target="_blank">
                   <i class="fa fa-github"></i>
                   <!-- <img
-						srcset="
-						@/assets/homepage/medium/Shape.png,
-						@/assets/homepage/medium/Shape@2x.png 2x,
-						@/assets/homepage/medium/Shape@3x.png 3x
-						"
-						style="width:1.25em"
-					/> -->
+                    srcset="
+                    @/assets/homepage/medium/Shape.png,
+                    @/assets/homepage/medium/Shape@2x.png 2x,
+                    @/assets/homepage/medium/Shape@3x.png 3x
+                    "
+                    style="width:1.25em"
+                  /> -->
                 </a>
               </li>
             </ul>
@@ -168,6 +195,45 @@
   }
 }
 
+#bottom-links {
+  position: fixed;
+  bottom: 0px;
+  left: 20px;
+  z-index: 1;
+
+  ul.social li a i {
+    font-size: 18px;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+    color: $primary;
+  }
+  ul.social li:hover a i {
+    font-size: 24px;
+    margin-top: -12px;
+    color: white;
+  }
+  ul.social li a img {
+    font-size: 18px;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+    color: $primary;
+  }
+  ul.social li:hover a img {
+    font-size: 24px;
+    margin-top: -12px;
+    color: white;
+  }
+
+  .vertical-line {
+    margin-left:8px;
+    width: 1px;
+    background-color: $primary;
+    height: 100%;
+  }
+}
+
 // Navbar
 #navbar {
   background-color: $grey-opac;
@@ -228,6 +294,8 @@ section {
 #footer {
   background: $dark-grey !important;
   z-index: 99;
+  position: absolute;
+  width: 100%;
 }
 #footer ul.social li a i {
   margin-right: 15px;

@@ -1,7 +1,6 @@
 <template>
   <div class="experience" id="TDLab" name="TDLab">
     <b-container fluid>
-
       <b-row class="experienceRow">
         <b-col class="logo mobile1" align="center">
           <a href="https://tdlab.io/" target="_blank">
@@ -29,7 +28,7 @@
           <b-row>
             <b-col col="6">
               <a href="https://tdlab.io/" target="_blank">
-                <h3>TD Innovation Lab</h3>
+                <h3>TD Lab</h3>
               </a>
             </b-col>
             <b-col col="6" align="right">
@@ -37,11 +36,11 @@
             </b-col>
           </b-row>
           <b-row>
-            <b-col>
+            <b-col class="position">
               <h4>Software Developer</h4>
             </b-col>
-            <b-col align="right">
-              <h4>Jan 2019 – Apr 2019</h4>
+            <b-col class="time" align="right">
+              <h4>Jan – Apr 2019</h4>
             </b-col>
           </b-row>
           <p class="description">
@@ -57,8 +56,6 @@
             </b-col>
           </b-row> -->
         </b-col>
-
-        
       </b-row>
     </b-container>
   </div>

@@ -85,8 +85,8 @@ h2 {
   }
 }
 
-.experience, .contact {
-  .experienceRow, .contactRow {
+.experience, .contact, .project {
+  .experienceRow, .contactRow, .projectRow {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,6 +95,14 @@ h2 {
 
     @media (max-width: $screen-sm) {
       padding-bottom: 80px;
+    }
+
+    .position {
+      min-width:55%;
+    }
+
+    .time {
+      min-width: 45%;
     }
 
     .content-left {

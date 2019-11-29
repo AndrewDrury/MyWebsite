@@ -21,11 +21,11 @@
             </b-col>
           </b-row>
           <b-row>
-            <b-col>
+            <b-col class='position'>
               <h4>Full Stack Developer</h4>
             </b-col>
-            <b-col align="right">
-              <h4>Sept 2019 - Dec 2019</h4>
+            <b-col class='time' align="right">
+              <h4>Sept - Dec 2019</h4>
             </b-col>
           </b-row>
           <p class="description">
@@ -66,11 +66,11 @@
             </b-col>
           </b-row>
           <b-row>
-            <b-col>
+            <b-col class='position'>
               <h4>Full Stack Developer</h4>
             </b-col>
-            <b-col align="right">
-              <h4>Sept 2019 - Dec 2019</h4>
+            <b-col class='time' align="right">
+              <h4>Sept – Dec 2019</h4>
             </b-col>
           </b-row>
           <p class="description">

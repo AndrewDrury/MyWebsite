@@ -72,13 +72,13 @@
               <h4>Sept 2019 - Dec 2019</h4>
             </b-col>
           </b-row> -->
-          <p class="description">
+          <div class="description">
             Hi! My name is Andrew Drury. I am in my third year of study at the University of Waterloo for Mechatronics Engineering.
-          </p>
-          <p class="description">
-            I am currently seeking internship opportunities for Summer 2020 as a developer intern. Get in touch with me at
-            <i>&nbsp;andrew.drury@uwaterloo.ca</i>!
-          </p>
+            <br />
+            <br />
+            I am currently seeking internship opportunities for Summer 2020 as a developer intern. Get in touch with me at&nbsp;
+            <a class='link mr-1' href="mailto:andrew.drury@waterloo.com" target="_blank">andrew.drury@uwaterloo.ca</a>!
+          </div>
           <!-- <h6 class="skill-title">Stuff</h6>
           <b-row align="left">
             <b-col>
