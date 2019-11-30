@@ -2,7 +2,7 @@
   <div class="project" id="grow" name="grow">
     <b-container fluid>
       <b-row class="projectRow">
-        <b-col lg="6" align="left">
+        <b-col class='pic-left' lg="4" align="left">
           <a href="https://github.com/AndrewDrury/grow" target="_blank">
             <img
               class="square-pic"
@@ -11,9 +11,9 @@
           </a>
         </b-col>
 
-        <b-col class="content-right" lg="6" align="left">
+        <b-col class="content-right" lg="8" align="left">
           <b-row>
-            <b-col col="6">
+            <b-col col="8">
               <a href="https://github.com/AndrewDrury/grow" target="_blank">
                 <h3>grow</h3>
               </a>

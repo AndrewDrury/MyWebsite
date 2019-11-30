@@ -1,5 +1,10 @@
 <template>
   <div id="app" class="app">
+    <!-- Scroll progress bar -->
+    <VueScrollProgress></VueScrollProgress>
+
+    <div class='mobile1 navbar-background'></div>
+    
     <!-- Navbar -->
     <b-navbar toggleable="md" class="fixed-top navbar-dark" id="navbar">
       <div class="mobile">
@@ -41,7 +46,7 @@
       <Contact />
     </div>
 
-    <div class='desktop' id='bottom-links'>
+    <div class='desktop1' id='bottom-links'>
       <ul class="list-unstyled social text-center">
         <li>
           <a href="./Resume_AndrewDrury.pdf" target="_blank">
@@ -68,8 +73,6 @@
         </li>
       </ul>
       <div class='vertical-line' style='height:50px'></div>
-
-
     </div>
 
     <!-- Footer -->
@@ -130,7 +133,7 @@
         </b-row>
         <b-row>
           <b-col>
-            <p>
+            <p class='endtag'>
               Designed &amp; Built by Andrew Drury
             </p>
           </b-col>
@@ -162,6 +165,31 @@
 		margin-right: 1%;
     }
   }
+}
+
+#progress-container-el {
+  /* background */
+  background-color: transparent !important;
+  top: 0px !important;
+  width: 78% !important;
+
+  @media (max-width: $screen-md) {
+    width: 61% !important;
+  }
+}
+#progress-el {
+  /* progress bar */
+  background-color: $primary !important;
+}
+
+.navbar-background {
+  width: 100%;
+  top: 0px;
+  position: fixed;
+  background-color:$grey;
+  left: 0px;
+  height: 65.653px;
+  z-index: 1;
 }
 
 .btn {
@@ -198,39 +226,54 @@
 #bottom-links {
   position: fixed;
   bottom: 0px;
-  left: 20px;
+  left: 0px;
   z-index: 1;
+  width: 9.86%;
+  text-align: center;
+  margin-bottom: -5px;
+
+  ul {
+    margin-bottom: 10px;
+  }
 
   ul.social li a i {
+    margin-top:8px;
     font-size: 18px;
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
     transition: 0.5s all ease;
     color: $primary;
-  }
-  ul.social li:hover a i {
-    font-size: 24px;
-    margin-top: -12px;
-    color: white;
   }
   ul.social li a img {
+    margin-top:8px;
     font-size: 18px;
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
     transition: 0.5s all ease;
     color: $primary;
   }
+
+  .fa-github {
+    font-size: 21px !important;
+  }
+
+  ul.social li:hover a i {
+    font-size: 24px !important;
+    margin-top: 5px;
+    color: white;
+  }
+
   ul.social li:hover a img {
-    font-size: 24px;
-    margin-top: -12px;
+    font-size: 24px !important;
+    margin-top: 5px;
     color: white;
   }
 
   .vertical-line {
-    margin-left:8px;
     width: 1px;
     background-color: $primary;
     height: 100%;
+    display: inline-block;
   }
 }
 
@@ -328,6 +371,9 @@ section {
 #footer h3 {
   font-size: 24px;
   font-weight: 500;
+}
+#footer .endtag {
+  margin-bottom: 0px;
 }
 // #footer .copyright {
 //   color: $primary;
