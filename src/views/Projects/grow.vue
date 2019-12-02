@@ -2,12 +2,9 @@
   <div class="project" id="grow" name="grow">
     <b-container fluid>
       <b-row class="projectRow">
-        <b-col class='pic-left' lg="4" align="left">
+        <b-col class="pic-left" lg="4" align="left">
           <a href="https://github.com/AndrewDrury/grow" target="_blank">
-            <img
-              class="square-pic"
-              src="@/assets/iPhone.png"
-            />
+            <img class="square-pic" src="@/assets/iPhone.png" />
           </a>
         </b-col>
 
@@ -31,7 +28,10 @@
             </b-col>
           </b-row> -->
           <p class="description">
-            Lorem ipsum dolor amet readymade direct trade biodiesel vinyl try-hard hell of pok pok, hexagon shaman jianbing franzen. Literally art party hot chicken try-hard 8-bit, bicycle rights kombucha seitan cornhole pour-over.
+            Lorem ipsum dolor amet readymade direct trade biodiesel vinyl
+            try-hard hell of pok pok, hexagon shaman jianbing franzen. Literally
+            art party hot chicken try-hard 8-bit, bicycle rights kombucha seitan
+            cornhole pour-over.
           </p>
           <!-- <h6 class="skill-title">Stuff</h6>
           <b-row align="left">

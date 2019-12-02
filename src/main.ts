@@ -6,7 +6,7 @@ import BootstrapVue from "bootstrap-vue";
 import "@/assets/variableOveride.scss";
 import "@/assets/main.scss";
 import VueScrollTo from "vue-scrollto";
-import VueScrollProgress from 'vue-scroll-progress';
+import VueScrollProgress from "vue-scroll-progress";
 
 Vue.use(BootstrapVue);
 Vue.use(VueScrollTo);

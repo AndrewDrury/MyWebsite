@@ -3,8 +3,8 @@
     <!-- Scroll progress bar -->
     <VueScrollProgress></VueScrollProgress>
 
-    <div class='mobile1 navbar-background'></div>
-    
+    <div class="mobile1 navbar-background"></div>
+
     <!-- Navbar -->
     <b-navbar toggleable="md" class="fixed-top navbar-dark" id="navbar">
       <div class="mobile">
@@ -29,24 +29,36 @@
           <b-nav-item class="tab" :to="{ name: 'home', hash: '#contact' }"
             >Contact</b-nav-item
           >
-          <b-nav-item class="tab" href="./Resume_AndrewDrury.pdf" target="_blank">Resume</b-nav-item>
+          <b-nav-item
+            class="tab"
+            href="./Resume_AndrewDrury.pdf"
+            target="_blank"
+            >Resume</b-nav-item
+          >
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
 
     <div id="margin-wrap">
       <div id="main">
-      <!-- Dynamic Content -->
-      <transition name="fade">
-        <router-view></router-view>
-      </transition>
+        <!-- Dynamic Content -->
+        <transition name="fade">
+          <router-view></router-view>
+        </transition>
       </div>
       <Experiences />
       <Projects />
+      <!-- <div class="jarallax">
+        <img
+          class="jarallax-img"
+          src="@/assets/ExperiencePics/TDLabPic.png"
+        />
+      </div> -->
       <Contact />
     </div>
 
-    <div class='desktop1' id='bottom-links'>
+
+    <div class="desktop1" id="bottom-links">
       <ul class="list-unstyled social text-center">
         <li>
           <a href="./Resume_AndrewDrury.pdf" target="_blank">
@@ -54,10 +66,7 @@
           </a>
         </li>
         <li>
-          <a
-            href="https://www.linkedin.com/in/andrew-drury"
-            target="_blank"
-          >
+          <a href="https://www.linkedin.com/in/andrew-drury" target="_blank">
             <i class="fa fa-linkedin"></i>
           </a>
         </li>
@@ -72,7 +81,7 @@
           </a>
         </li>
       </ul>
-      <div class='vertical-line' style='height:50px'></div>
+      <div class="vertical-line" style="height:50px"></div>
     </div>
 
     <!-- Footer -->
@@ -103,7 +112,7 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="mailto:andrew.drury@waterloo.com" target="_blank">
+                <a href="mailto:andrew.drury@waterloo.ca" target="_blank">
                   <i class="fa fa-envelope"></i>
                   <!-- <img
                     srcset="
@@ -133,7 +142,7 @@
         </b-row>
         <b-row>
           <b-col>
-            <p class='endtag'>
+            <p class="endtag">
               Designed &amp; Built by Andrew Drury
             </p>
           </b-col>
@@ -156,13 +165,13 @@
 
   #margin-wrap {
     @media (min-width: $screen-md) {
-		margin-left: 9.86%;
-		margin-right: 9.86%;
+      margin-left: 9.86%;
+      margin-right: 9.86%;
     }
 
     @media (max-width: $screen-md) {
-		margin-left: 1%;
-		margin-right: 1%;
+      margin-left: 1%;
+      margin-right: 1%;
     }
   }
 }
@@ -186,7 +195,7 @@
   width: 100%;
   top: 0px;
   position: fixed;
-  background-color:$grey;
+  background-color: $grey;
   left: 0px;
   height: 65.653px;
   z-index: 1;
@@ -237,7 +246,7 @@
   }
 
   ul.social li a i {
-    margin-top:8px;
+    margin-top: 8px;
     font-size: 18px;
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
@@ -245,7 +254,7 @@
     color: $primary;
   }
   ul.social li a img {
-    margin-top:8px;
+    margin-top: 8px;
     font-size: 18px;
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
@@ -400,12 +409,22 @@ import Projects from "./views/Projects.vue";
 import Contact from "./views/Contact.vue";
 // @ is an alias to /src
 
+// add scr: src="jarallax/dist/jarallax.min.js"
+// import { jarallax, jarallaxElement, jarallaxVideo } from "jarallax";
+// jarallaxVideo();
+// jarallaxElement();
+
+// jarallax(document.querySelectorAll(".jarallax"), {
+//   speed: 0.2
+// });
+
 export default Vue.extend({
   name: "home",
   components: {
     Experiences,
     Projects,
     Contact
+    // parallax: require("vue-parallax")
   }
 });
 </script>

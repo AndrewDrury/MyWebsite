@@ -4,7 +4,7 @@
       <b-row class="experienceRow">
         <b-col class="logo mobile1" align="center">
           <a href="https://tdlab.io/" target="_blank">
-            <img src="@/assets/ExperiencePics/TDLabLogo.jpg" >
+            <img src="@/assets/ExperiencePics/TDLabLogo.jpg" />
           </a>
         </b-col>
 
@@ -13,6 +13,7 @@
             <img
               class="square-pic"
               src="@/assets/ExperiencePics/TDLabPic.png"
+              v-parallax="0.2"
             />
           </a>
         </b-col>
@@ -21,7 +22,7 @@
           <b-row>
             <b-col class="logo desktop1" align="center">
               <a href="https://tdlab.io/" target="_blank">
-                <img src="@/assets/ExperiencePics/TDLabLogo.jpg" >
+                <img src="@/assets/ExperiencePics/TDLabLogo.jpg" />
               </a>
             </b-col>
           </b-row>
@@ -44,7 +45,10 @@
             </b-col>
           </b-row>
           <p class="description">
-            Lorem ipsum dolor amet readymade direct trade biodiesel vinyl try-hard hell of pok pok, hexagon shaman jianbing franzen. Literally art party hot chicken try-hard 8-bit, bicycle rights kombucha seitan cornhole pour-over.
+            Lorem ipsum dolor amet readymade direct trade biodiesel vinyl
+            try-hard hell of pok pok, hexagon shaman jianbing franzen. Literally
+            art party hot chicken try-hard 8-bit, bicycle rights kombucha seitan
+            cornhole pour-over.
           </p>
           <!-- <h6 class="skill-title">Stuff</h6>
           <b-row align="left">
