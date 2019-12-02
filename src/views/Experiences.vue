@@ -34,14 +34,17 @@
 import Vue from "vue";
 import Stratus360 from "./Experiences/Stratus360.vue";
 import TDLab from "./Experiences/TDLab.vue";
-import ZurApps from "./Experiences/ZurApps.vue";
+// import ZurApps from "./Experiences/ZurApps.vue";
+// const Stratus360 = require("./Experiences/Stratus360.vue");
+// const TDLab = require("./Experiences/TDLab.vue");
+// const ZurApps = require("./Experiences/ZurApps.vue");
 
 export default Vue.extend({
   name: "experiences",
   components: {
     Stratus360,
-    TDLab,
-    ZurApps
+    TDLab
+    // ZurApps
   }
 });
 </script>

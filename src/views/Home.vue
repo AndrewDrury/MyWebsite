@@ -5,6 +5,74 @@
         <b-col>
           <b-row class="top-space">
             <b-col align="left">
+              <!-- https://vue-particles.netlify.com/ to customize -->
+              <vue-particles
+                color=$primary
+                :particleOpacity="0.9"
+                :particlesNumber="120"
+                shapeType="edge"
+                :particleSize="6"
+                linesColor=$primary
+                :linesWidth="1"
+                :lineLinked="true"
+                :lineOpacity="0.4"
+                :linesDistance="100"
+                :moveSpeed="6"
+                :hoverEffect="true"
+                hoverMode="grab"
+                :clickEffect="true"
+                clickMode="repulse"
+              >
+              </vue-particles>
+
+
+              <!-- <parallax-container
+                class="image-container"
+                :animationDuration="duration"
+                :easing="easing"
+              >
+                <parallax-element :type="type" :parallaxStrength="-20" tag="img" src="@/assets/ExperiencePics/TDLabLogo.jpg" />
+                <parallax-element :type="type" :parallaxStrength="-20" tag="img"
+                  ><img src="@/assets/logo.png"
+                /></parallax-element>
+                <parallax-element
+                  :type="type"
+                  :parallaxStrength="10"
+                  tag="img"
+                  src="@/assets/ExperiencePics/TDLabLogo.jpg"
+                />
+                <parallax-element
+                  :type="type"
+                  :parallaxStrength="25"
+                  tag="img"
+                  src="@/assets/ExperiencePics/TDLabLogo.jpg"
+                />
+                <parallax-element tag="p" :type="type" :parallaxStrength="20"
+                  >gravity</parallax-element
+                >
+                <parallax-element
+                  :type="type"
+                  :parallaxStrength="30"
+                  tag="img"
+                  src="@/assets/ExperiencePics/TDLabLogo.jpg"
+                />
+                <parallax-element
+                  :type="type"
+                  :parallaxStrength="15"
+                  tag="img"
+                  src="@/assets/logo.png@/assets/ExperiencePics/TDLabLogo.jpg"
+                />
+              </parallax-container>
+              <parallax-container>
+                <parallax-element
+                  :parallaxStrength="10"
+                  type="translation"
+                  tag="div"
+                >
+                  <h2>Put your content here</h2>
+                </parallax-element>
+              </parallax-container> -->
+
               <h1>Hi!</h1>
               <h1>I am Andrew Drury.</h1>
               <h6>Full Stack Developer</h6>
@@ -136,6 +204,12 @@
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
 import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
+// import {ParallaxContainer, ParallaxElement} from "vue-mouse-parallax";
+// const ParallaxContainer = require("vue-mouse-parallax");
+// const ParallaxElement = require("vue-mouse-parallax");
+
+// Vue.component("parallax-container", ParallaxContainer);
+// Vue.component("parallax-element", ParallaxElement);
 
 @Component({
   components: {

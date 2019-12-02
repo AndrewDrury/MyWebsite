@@ -7,7 +7,10 @@ import "@/assets/variableOveride.scss";
 import "@/assets/main.scss";
 import VueScrollTo from "vue-scrollto";
 import VueScrollProgress from "vue-scroll-progress";
+// const VueScrollProgress = require("vue-scroll-progress");
+import VueParticles from 'vue-particles';
 
+Vue.use(VueParticles);
 Vue.use(BootstrapVue);
 Vue.use(VueScrollTo);
 Vue.use(VueScrollProgress);

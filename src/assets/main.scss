@@ -132,6 +132,9 @@ h2 {
         height: 170px;
         margin-top: -10px;
         margin-bottom: 20px;
+
+        -webkit-clip-path: circle(60.0% at 50% 10%);
+        clip-path: circle(50.0% at 50% 50%);
       }
     }
 
@@ -176,7 +179,6 @@ h2 {
 }
 
 .projectRow {
-
   @media (min-width: $screen-md) {
     .content-left {
       margin-right:20%;
@@ -194,6 +196,20 @@ h2 {
   }
 }
 
+.rotate {
+  transform: rotate(-90deg);
+
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+  /* IE */
+  -ms-transform: rotate(-90deg);
+  /* Opera */
+  -o-transform: rotate(-90deg);
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
 
 // .jarallax {
 //   position: relative;

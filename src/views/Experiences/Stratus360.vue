@@ -103,10 +103,10 @@
 </style>
 
 <script lang="ts">
-  // import Parallax from 'vue-parallaxy'
-  // export default {
-  //   components: {
-  //     Parallax
-  //   }
-  // }
+// import Parallax from 'vue-parallaxy'
+// export default {
+//   components: {
+//     Parallax
+//   }
+// }
 </script>

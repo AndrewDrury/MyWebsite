@@ -38,7 +38,7 @@
             developer intern. Get in touch with me at&nbsp;
             <a
               class="link mr-1"
-              href="mailto:andrew.drury@waterloo.com"
+              href="mailto:andrew.drury@uwaterloo.ca"
               target="_blank"
               >andrew.drury@uwaterloo.ca</a
             >!
@@ -85,7 +85,7 @@
             developer intern. Get in touch with me at&nbsp;
             <a
               class="link mr-1"
-              href="mailto:andrew.drury@waterloo.com"
+              href="mailto:andrew.drury@uwaterloo.ca"
               target="_blank"
               >andrew.drury@uwaterloo.ca</a
             >!

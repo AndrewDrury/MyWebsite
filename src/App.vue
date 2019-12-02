@@ -8,7 +8,7 @@
     <!-- Navbar -->
     <b-navbar toggleable="md" class="fixed-top navbar-dark" id="navbar">
       <div class="mobile">
-        <b-navbar-brand :to="{ name: 'home', hash: '' }">
+        <b-navbar-brand class='nav-link draw meet' :to="{ name: 'home', hash: '' }">
           <img src="@/assets/logo.png" style="width: 50px" />
         </b-navbar-brand>
       </div>
@@ -22,7 +22,7 @@
             >Projects</b-nav-item
           >
           <b-nav-item
-            class="tab desktop-router"
+            class="tab desktop-router draw meet"
             :to="{ name: 'home', hash: '' }"
             ><img src="@/assets/logo.png" style="width: 50px"
           /></b-nav-item>
@@ -57,7 +57,6 @@
       <Contact />
     </div>
 
-
     <div class="desktop1" id="bottom-links">
       <ul class="list-unstyled social text-center">
         <li>
@@ -71,7 +70,7 @@
           </a>
         </li>
         <li>
-          <a href="mailto:andrew.drury@waterloo.com" target="_blank">
+          <a href="mailto:andrew.drury@uwaterloo.ca" target="_blank">
             <i class="fa fa-envelope"></i>
           </a>
         </li>
@@ -81,7 +80,13 @@
           </a>
         </li>
       </ul>
-      <div class="vertical-line" style="height:50px"></div>
+      <div class="vertical-line"></div>
+    </div>
+    <div class="desktop1" id="bottom-right-line">
+      <a href="mailto:andrew.drury@uwaterloo.ca" target="_blank">
+        <p class='rotate'>andrew.drury@uwaterloo.ca</p>
+      </a>
+      <div class="vertical-line"></div>
     </div>
 
     <!-- Footer -->
@@ -112,7 +117,7 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="mailto:andrew.drury@waterloo.ca" target="_blank">
+                <a href="mailto:andrew.drury@uwaterloo.ca" target="_blank">
                   <i class="fa fa-envelope"></i>
                   <!-- <img
                     srcset="
@@ -241,17 +246,20 @@
   text-align: center;
   margin-bottom: -5px;
 
+  .fa-github {
+    font-size: 21px !important;
+  }
+
   ul {
     margin-bottom: 10px;
   }
-
   ul.social li a i {
     margin-top: 8px;
     font-size: 18px;
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
     transition: 0.5s all ease;
-    color: $primary;
+    color: white;
   }
   ul.social li a img {
     margin-top: 8px;
@@ -259,30 +267,60 @@
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
     transition: 0.5s all ease;
-    color: $primary;
-  }
-
-  .fa-github {
-    font-size: 21px !important;
+    color: white;
   }
 
   ul.social li:hover a i {
     font-size: 24px !important;
     margin-top: 5px;
-    color: white;
+    color: $primary;
   }
-
   ul.social li:hover a img {
     font-size: 24px !important;
     margin-top: 5px;
-    color: white;
+    color: $primary;
   }
 
   .vertical-line {
     width: 1px;
+    height: 50px !important;
     background-color: $primary;
     height: 100%;
     display: inline-block;
+  }
+}
+
+#bottom-right-line {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+  width: 9.86%;
+  text-align: center;
+  margin-bottom: -5px;
+
+  .vertical-line {
+    width: 1px;
+    height: 50px !important;
+    background-color: $primary;
+    height: 100%;
+    display: inline-block;
+  }
+
+  p {
+    margin-bottom: 63px;
+    font-size: 16px !important;
+
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+  }
+
+  a:hover {
+    p {
+      color: $primary;
+      font-size: 16.5px !important;
+    }
   }
 }
 
@@ -301,13 +339,31 @@
   }
   /* change the color of active or hovered links */
   .nav-link:hover {
-    color: darken($primary, 17%);
+    // color: darken($primary, 17%);
+    color: white;
+    transform: translateY(-2px);
+    -webkit-transform: translateY(-2px);
+
+    img {
+      transform: translateY(-2px);
+      -webkit-transform: translateY(-2px);
+    }
   }
   .nav-link:active {
     color: white;
   }
 
   .nav-link {
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+
+    img {
+      -webkit-transition: 0.5s all ease;
+      -moz-transition: 0.5s all ease;
+      transition: 0.5s all ease;
+    }
+
     @media (max-width: $screen-sm) {
       margin: 0 auto;
     }
@@ -406,7 +462,9 @@ section {
 import Vue from "vue";
 import Experiences from "./views/Experiences.vue";
 import Projects from "./views/Projects.vue";
-import Contact from "./views/Contact.vue";
+// import Contact from "./views/Contact.vue";
+const Contact = require("./views/Contact.vue");
+
 // @ is an alias to /src
 
 // add scr: src="jarallax/dist/jarallax.min.js"

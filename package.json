@@ -12,6 +12,7 @@
     "jarallax": "^1.12.0",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
+    "vue-mouse-parallax": "^1.2.2",
     "vue-property-decorator": "^8.1.0",
     "vue-router": "^3.0.3",
     "vue-scroll-progress": "^1.1.2",
@@ -31,6 +32,7 @@
     "prettier": "^1.18.2",
     "sass-loader": "^8.0.0",
     "typescript": "^3.4.3",
+    "vue-particles": "^1.0.9",
     "vue-template-compiler": "^2.6.10"
   }
 }
