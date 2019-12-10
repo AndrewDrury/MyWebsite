@@ -26,7 +26,7 @@
               </vue-particles>
 
               <div class='intro'>
-                <div class="deconstructed" style='margin-top: 20vh'>
+                <div class="deconstructed" style='margin-top: 14vh'>
                   Hi!
                   <div>Hi!</div>
                   <div>Hi!</div>
@@ -40,11 +40,10 @@
                   <div>I am Andrew Drury.</div>
                   <div>I am Andrew Drury.</div>
                 </div>
-                <!-- <h6>I am a Full Stack Developer.</h6> -->
-                <h5 style='margin-top:80px'>I am a Full Stack Developer.</h5>
+                <h5 class='text-shadow' style='margin-top:60px'>I am a Full Stack Developer.</h5>
                 <div class='view-more'>
                   <!-- <router-link :to="{ name: 'home', hash: '#experiences' }">View My Experience</router-link> -->
-                  <a href="#experiences"><span></span>View My Experiences</a>
+                  <a href="#experiences"><span></span><h6>View My Experiences</h6></a>
                 </div>
 
               </div>
@@ -161,7 +160,7 @@
 
   .view-more {
       color: #FFF;
-      margin-top: 100px;
+      margin-top: 70px;
     }
 }
 
@@ -359,7 +358,8 @@
 
 // RGB EFFECT
 h6 {
-    animation: text-shadow 1.5s ease-in-out infinite;
+    animation: text-shadow 3s ease-in-out infinite;
+    animation-delay: 4s;
     font-size: 5em;
     font-weight: 900;
     line-height: 1;
@@ -387,7 +387,7 @@ a:hover {
             0 0 0 #fefc4b;
     }
 
-    20% {  
+    10% {  
         transform: translateY(-1em);
         text-shadow: 
             0 0.125em 0 #0c2ffb, 
@@ -396,7 +396,7 @@ a:hover {
             0 -0.25em 0 #fefc4b;
     }
 
-    40% {  
+    20% {  
         transform: translateY(0.5em);
         text-shadow: 
             0 -0.0625em 0 #0c2ffb, 
@@ -405,7 +405,7 @@ a:hover {
             0 0.125em 0 #fefc4b;
     }
     
-   60% {
+   30% {
         transform: translateY(-0.25em);
         text-shadow: 
             0 0.03125em 0 #0c2ffb, 
@@ -414,7 +414,7 @@ a:hover {
             0 -0.0625em 0 #fefc4b;
     }
 
-    80% {  
+    40% {  
         transform: translateY(0);
         text-shadow: 
             0 0 0 #0c2ffb, 
