@@ -42,8 +42,7 @@
                 </div>
                 <h5 class='text-shadow' style='margin-top:60px'>I am a Full Stack Developer.</h5>
                 <div class='view-more'>
-                  <!-- <router-link :to="{ name: 'home', hash: '#experiences' }">View My Experience</router-link> -->
-                  <a href="#experiences"><span></span><h6>View My Experiences</h6></a>
+                  <router-link :to="{ name: 'home', hash: '#experiences' }"><span></span><h6>View My Experience</h6></router-link>
                 </div>
 
               </div>

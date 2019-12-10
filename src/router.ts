@@ -7,7 +7,7 @@ import Contact from "./views/Contact.vue";
 Vue.use(Router);
 
 export default new Router({
-  // mode: "history", //If commented out, use hash mode
+  mode: "history", //If commented out, use hash mode
   base: process.env.BASE_URL,
   routes: [
     {
