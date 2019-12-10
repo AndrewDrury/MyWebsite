@@ -4,19 +4,19 @@
       <b-row>
         <b-col>
           <b-row class="top-space">
-            <b-col align="left">
+            <b-col class="container" align="center">
               <!-- https://vue-particles.netlify.com/ to customize -->
               <vue-particles
-                color=$primary
+                color="#FFCF31"
                 :particleOpacity="0.9"
-                :particlesNumber="120"
-                shapeType="edge"
-                :particleSize="6"
-                linesColor=$primary
+                :particlesNumber="150"
+                shapeType="circle"
+                :particleSize="5"
+                linesColor="#FFFFFF"
                 :linesWidth="1"
                 :lineLinked="true"
                 :lineOpacity="0.4"
-                :linesDistance="100"
+                :linesDistance="150"
                 :moveSpeed="6"
                 :hoverEffect="true"
                 hoverMode="grab"
@@ -25,73 +25,25 @@
               >
               </vue-particles>
 
-
-              <!-- <parallax-container
-                class="image-container"
-                :animationDuration="duration"
-                :easing="easing"
-              >
-                <parallax-element :type="type" :parallaxStrength="-20" tag="img" src="@/assets/ExperiencePics/TDLabLogo.jpg" />
-                <parallax-element :type="type" :parallaxStrength="-20" tag="img"
-                  ><img src="@/assets/logo.png"
-                /></parallax-element>
-                <parallax-element
-                  :type="type"
-                  :parallaxStrength="10"
-                  tag="img"
-                  src="@/assets/ExperiencePics/TDLabLogo.jpg"
-                />
-                <parallax-element
-                  :type="type"
-                  :parallaxStrength="25"
-                  tag="img"
-                  src="@/assets/ExperiencePics/TDLabLogo.jpg"
-                />
-                <parallax-element tag="p" :type="type" :parallaxStrength="20"
-                  >gravity</parallax-element
-                >
-                <parallax-element
-                  :type="type"
-                  :parallaxStrength="30"
-                  tag="img"
-                  src="@/assets/ExperiencePics/TDLabLogo.jpg"
-                />
-                <parallax-element
-                  :type="type"
-                  :parallaxStrength="15"
-                  tag="img"
-                  src="@/assets/logo.png@/assets/ExperiencePics/TDLabLogo.jpg"
-                />
-              </parallax-container>
-              <parallax-container>
-                <parallax-element
-                  :parallaxStrength="10"
-                  type="translation"
-                  tag="div"
-                >
-                  <h2>Put your content here</h2>
-                </parallax-element>
-              </parallax-container> -->
-
-              <h1>Hi!</h1>
-              <h1>I am Andrew Drury.</h1>
-              <h6>Full Stack Developer</h6>
-              <h6>based in Toronto</h6>
-
-              <p>
-                planning sections: Home, Experience, Projects, About, Contact,
-                Resume
-              </p>
-              <p>Option B: Experience, Projects, Home(logo), Resume, Contact</p>
-
-              <!-- 
-                Sections:
-                  1. Home
-                  2. Experience
-                  3. Projects
-                  4. Contact(and about)
-                  5. Resume
-               -->
+              <div class='intro'>
+                <div class="deconstructed">
+                  Hi!
+                  <div>Hi!</div>
+                  <div>Hi!</div>
+                  <div>Hi!</div>
+                  <div>Hi!</div>
+                </div>
+                <div class="deconstructed">
+                  I am Andrew Drury.
+                  <div>I am Andrew Drury.</div>
+                  <div>I am Andrew Drury.</div>
+                  <div>I am Andrew Drury.</div>
+                  <div>I am Andrew Drury.</div>
+                </div>
+                <!-- <h6>I am a Full Stack Developer.</h6> -->
+                <h5>I am a Full Stack Developer.</h5>
+                <router-link :to="{ name: 'home', hash: '#experiences' }">View My Experience</router-link>
+              </div>
 
               <!--
     Website ideas
@@ -184,20 +136,210 @@
 <style lang="scss">
 @import "../assets/variables.scss";
 .home {
-  //Apply bottom margin to all columns in mobile
-  @media all and (max-width: 767px) {
-    [class^="col-sm-"] {
-      margin-bottom: 20px;
-    }
-  }
 
   .top-space {
-    margin-top: 275px;
+    margin-top: 80px;
     @media (max-width: $screen-sm) {
-      margin-top: 100px;
+      margin-top: 80px;
     }
-    margin-bottom: 150px;
+    margin-bottom: 30px;
   }
+
+  .container {
+    position: relative;
+  }
+  .intro {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
+
+// DECONSTRUCTED TEXT
+.deconstructed {
+  position: relative;
+  margin: auto;
+  color: transparent;
+  font-size: 54px;
+  letter-spacing: -0.02em;
+  line-height: 1.3em;
+}
+
+.deconstructed > div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #FFF;
+  pointer-events: none;
+  font-size: 54px;
+  padding-top: 20px;
+  text-shadow: 3px 5px 2px $blue;
+}
+
+.deconstructed > div:nth-child(1) {
+  -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
+  mask-image: linear-gradient(black 25%, transparent 25%);
+  animation: deconstructed1 5s infinite;
+}
+
+.deconstructed > div:nth-child(2) {
+  -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+  mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
+  animation: deconstructed2 5s infinite;
+}
+
+.deconstructed > div:nth-child(3) {
+   -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+  mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
+  animation: deconstructed3 5s infinite;
+}
+
+.deconstructed > div:nth-child(4) {
+   -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
+  mask-image: linear-gradient(transparent 75%, black 75%);
+  animation: deconstructed4 5s infinite;
+}
+
+@keyframes deconstructed1 {
+  0% {
+    transform: translateX(100%);
+  }
+  26% {
+    transform: translateX(0%);
+  }
+  83% {
+    transform: translateX(-0.1%);
+  }
+  100% {
+    transform: translateX(-120%);
+  }
+}
+
+@keyframes deconstructed2 {
+  0% {
+    transform: translateX(100%);
+  }
+  24% {
+    transform: translateX(0.5%);
+  }
+  82% {
+    transform: translateX(-0.2%);
+  }
+  100% {
+    transform: translateX(-125%);
+  }
+}
+
+@keyframes deconstructed3 {
+  0% {
+    transform: translateX(100%);
+  }
+  22% {
+    transform: translateX(0%);
+  }
+  81% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-130%);
+  }
+}
+
+@keyframes deconstructed4 {
+  0% {
+    transform: translateX(100%);
+  }
+  20% {
+    transform: translateX(0%);
+  }
+  80% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-135%);
+  }
+}
+
+// VIEW EXPERIENCES
+
+
+
+// RGB EFFECT
+h6 {
+    animation: text-shadow 1.5s ease-in-out infinite;
+    font-size: 5em;
+    font-weight: 900;
+    line-height: 1;
+}
+
+h6:hover {
+    animation-play-state: paused;
+}
+
+a {
+    color: #024794;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+@keyframes text-shadow {
+    0% {  
+        transform: translateY(0);
+        text-shadow: 
+            0 0 0 #0c2ffb, 
+            0 0 0 #2cfcfd, 
+            0 0 0 #fb203b, 
+            0 0 0 #fefc4b;
+    }
+
+    20% {  
+        transform: translateY(-1em);
+        text-shadow: 
+            0 0.125em 0 #0c2ffb, 
+            0 0.25em 0 #2cfcfd, 
+            0 -0.125em 0 #fb203b, 
+            0 -0.25em 0 #fefc4b;
+    }
+
+    40% {  
+        transform: translateY(0.5em);
+        text-shadow: 
+            0 -0.0625em 0 #0c2ffb, 
+            0 -0.125em 0 #2cfcfd, 
+            0 0.0625em 0 #fb203b, 
+            0 0.125em 0 #fefc4b;
+    }
+    
+   60% {
+        transform: translateY(-0.25em);
+        text-shadow: 
+            0 0.03125em 0 #0c2ffb, 
+            0 0.0625em 0 #2cfcfd, 
+            0 -0.03125em 0 #fb203b, 
+            0 -0.0625em 0 #fefc4b;
+    }
+
+    80% {  
+        transform: translateY(0);
+        text-shadow: 
+            0 0 0 #0c2ffb, 
+            0 0 0 #2cfcfd, 
+            0 0 0 #fb203b, 
+            0 0 0 #fefc4b;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+      animation: none !important;
+      transition: none !important;
+    }
 }
 </style>
 

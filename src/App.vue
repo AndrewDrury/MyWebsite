@@ -39,13 +39,14 @@
       </b-collapse>
     </b-navbar>
 
+    <div id="main">
+      <!-- Dynamic Content -->
+      <transition name="fade">
+        <router-view></router-view>
+      </transition>
+    </div>
+
     <div id="margin-wrap">
-      <div id="main">
-        <!-- Dynamic Content -->
-        <transition name="fade">
-          <router-view></router-view>
-        </transition>
-      </div>
       <Experiences />
       <Projects />
       <!-- <div class="jarallax">
@@ -83,7 +84,7 @@
       <div class="vertical-line"></div>
     </div>
     <div class="desktop1" id="bottom-right-line">
-      <a href="mailto:andrew.drury@uwaterloo.ca" target="_blank">
+      <a href="mailto:andrew.drury@uwaterloo.ca" target="_blank" align='left'>
         <p class='rotate'>andrew.drury@uwaterloo.ca</p>
       </a>
       <div class="vertical-line"></div>
@@ -169,6 +170,7 @@
   background-color: $grey;
 
   #margin-wrap {
+    margin-top: 60px;
     @media (min-width: $screen-md) {
       margin-left: 9.86%;
       margin-right: 9.86%;
@@ -308,7 +310,10 @@
   }
 
   p {
-    margin-bottom: 63px;
+    position: relative;
+    bottom: 60px;
+    right: 0px;
+    margin-bottom: 0px;
     font-size: 16px !important;
 
     -webkit-transition: 0.5s all ease;
