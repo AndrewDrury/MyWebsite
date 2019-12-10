@@ -26,7 +26,7 @@
               </vue-particles>
 
               <div class='intro'>
-                <div class="deconstructed">
+                <div class="deconstructed" style='margin-top: 20vh'>
                   Hi!
                   <div>Hi!</div>
                   <div>Hi!</div>
@@ -41,8 +41,12 @@
                   <div>I am Andrew Drury.</div>
                 </div>
                 <!-- <h6>I am a Full Stack Developer.</h6> -->
-                <h5>I am a Full Stack Developer.</h5>
-                <router-link :to="{ name: 'home', hash: '#experiences' }">View My Experience</router-link>
+                <h5 style='margin-top:80px'>I am a Full Stack Developer.</h5>
+                <div class='view-more'>
+                  <!-- <router-link :to="{ name: 'home', hash: '#experiences' }">View My Experience</router-link> -->
+                  <a href="#experiences"><span></span>View My Experiences</a>
+                </div>
+
               </div>
 
               <!--
@@ -136,7 +140,6 @@
 <style lang="scss">
 @import "../assets/variables.scss";
 .home {
-
   .top-space {
     margin-top: 80px;
     @media (max-width: $screen-sm) {
@@ -149,12 +152,17 @@
     position: relative;
   }
   .intro {
+    height: 100vh;
+    width: 100vw;
+    top:0px;
     position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align: center;
   }
+
+  .view-more {
+      color: #FFF;
+      margin-top: 100px;
+    }
 }
 
 // DECONSTRUCTED TEXT
@@ -265,7 +273,88 @@
 }
 
 // VIEW EXPERIENCES
+.view-more a {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  transition: opacity .3s;
 
+  span {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    width: 46px;
+    height: 46px;
+    margin-left: -23px;
+    border: 1px solid $primary;
+    border-radius: 100%;
+    box-sizing: border-box;
+    background-color: rgba(255,255,255,.1);
+  }
+  span::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin: -12px 0 0 -8px;
+    border-left: 1px solid $primary;
+    border-bottom: 1px solid $primary;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+  }
+  span::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    content: '';
+    width: 44px;
+    height: 44px;
+    box-shadow: 0 0 0 0 rgba(255,255,255,.1);
+    border-radius: 100%;
+    opacity: 0;
+    -webkit-animation: sdb03 3s infinite;
+    animation: sdb03 3s infinite;
+    box-sizing: border-box;
+  }
+}
+.view-more a:hover {
+  opacity: .5;
+}
+@-webkit-keyframes sdb03 {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb03 {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 
 
 // RGB EFFECT

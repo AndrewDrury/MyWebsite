@@ -48,14 +48,15 @@
 
     <div id="margin-wrap">
       <Experiences />
+      <Contact />
       <Projects />
+      <Contact />
       <!-- <div class="jarallax">
         <img
           class="jarallax-img"
           src="@/assets/ExperiencePics/TDLabPic.png"
         />
       </div> -->
-      <Contact />
     </div>
 
     <div class="desktop1" id="bottom-links">
