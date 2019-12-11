@@ -42,7 +42,7 @@
                 </div>
                 <h5 class='text-shadow' style='margin-top:60px'>I am a Full Stack Developer.</h5>
                 <div class='view-more'>
-                  <router-link :to="{ name: 'home', hash: '#experiences' }"><span></span><h6>View My Experience</h6></router-link>
+                  <router-link :to="{ name: 'home', hash: '#experiences' }"><span></span><h6>View My Experiences</h6></router-link>
                 </div>
 
               </div>
@@ -155,11 +155,13 @@
     top:0px;
     position: absolute;
     text-align: center;
+    pointer-events: none;
   }
 
   .view-more {
       color: #FFF;
       margin-top: 70px;
+      pointer-events: auto;
     }
 }
 
@@ -183,7 +185,7 @@
   pointer-events: none;
   font-size: 54px;
   padding-top: 20px;
-  text-shadow: 3px 5px 2px $blue;
+  text-shadow: 3px 3px 2px $blue;
 }
 
 .deconstructed > div:nth-child(1) {
