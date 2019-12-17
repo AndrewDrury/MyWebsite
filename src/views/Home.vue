@@ -42,11 +42,13 @@
                 </div>
                 <h5 class='text-shadow' style='margin-top:60px'>I am a
                     <div class="slidingHorizontal">
-                      <span>creative thinker.</span>
-                      <span>excited innovator.</span>
-                      <span>engineering student.</span>
-                      <span>passionate creator.</span>
-                      <span>Full Stack Developer.</span>
+                      <span>&nbsp;creative thinker.</span>
+                      <span>n engineering student.</span>
+                      <span>&nbsp;passionate creator.</span>
+                      <span>n excited innovator.</span>
+                  </div>
+                  <div class="lastSlide">
+                      <span>&nbsp;Full Stack Developer.</span>
                   </div>
                 </h5>
                 <div class='view-more'>
@@ -443,12 +445,11 @@ a:hover {
 /*Horizontal Sliding*/
 .slidingHorizontal{
 	display: inline;
-  text-indent: 0.5em;
 }
 .slidingHorizontal span{
-	animation: leftToRight 12.5s linear infinite 0s;
-	-ms-animation: leftToRight 12.5s linear infinite 0s;
-	-webkit-animation: leftToRight 12.5s linear infinite 0s;
+	animation: rightToLeft 4.88s linear 0s;
+	-ms-animation: rightToLeft 4.88s linear 0s;
+	-webkit-animation: rightToLeft 4.88s linear 0s;
 	opacity: 0;
 	overflow: hidden;
   position: absolute;
@@ -456,28 +457,23 @@ a:hover {
   height: 1em;
 }
 .slidingHorizontal span:nth-child(2){
-	animation-delay: 2.5s;
-	-ms-animation-delay: 2.5s;
-	-webkit-animation-delay: 2.5s;
+	animation-delay: 1.22s;
+	-ms-animation-delay: 1.22s;
+	-webkit-animation-delay: 1.22s;
 }
 .slidingHorizontal span:nth-child(3){
-	animation-delay: 5s;
-	-ms-animation-delay: 5s;
-	-webkit-animation-delay: 5s;
+	animation-delay: 2.44s;
+	-ms-animation-delay: 2.44s;
+	-webkit-animation-delay: 2.44s;
 }
 .slidingHorizontal span:nth-child(4){
-	animation-delay: 7.5s;
-	-ms-animation-delay: 7.5s;
-	-webkit-animation-delay: 7.5s;
-}
-.slidingHorizontal span:nth-child(5){
-	animation-delay: 10s;
-	-ms-animation-delay: 10s;
-	-webkit-animation-delay: 10s;
+	animation-delay: 3.66s;
+	-ms-animation-delay: 3.66s;
+	-webkit-animation-delay: 3.66s;
 }
 
-/*leftToRight Animation*/
-@-moz-keyframes leftToRight{
+/*rightToLeft Animation*/
+@-moz-keyframes rightToLeft{
 	0% { opacity: 0; }
 	5% { opacity: 0; -moz-transform: translateX(50px); }
 	10% { opacity: 1; -moz-transform: translateX(0px); }
@@ -486,7 +482,7 @@ a:hover {
 	80% { opacity: 0; }
 	100% { opacity: 0; }
 }
-@-webkit-keyframes leftToRight{
+@-webkit-keyframes rightToLeft{
 	0% { opacity: 0; }
 	5% { opacity: 0; -webkit-transform: translateX(50px); }
 	10% { opacity: 1; -webkit-transform: translateX(0px); }
@@ -495,7 +491,7 @@ a:hover {
 	80% { opacity: 0; }
 	100% { opacity: 0; }
 }
-@-ms-keyframes leftToRight{
+@-ms-keyframes rightToLeft{
 	0% { opacity: 0; }
 	5% { opacity: 0; -ms-transform: translateX(50px); }
 	10% { opacity: 1; -ms-transform: translateX(0px); }
@@ -503,6 +499,42 @@ a:hover {
 	30% { opacity: 0; -ms-transform: translateX(-50px); }
 	80% { opacity: 0; }
 	100% { opacity: 0; }
+}
+
+
+// Last slide in text (stays on screen)
+.lastSlide{
+	display: inline;
+}
+.lastSlide span{
+	animation: rightToLeftLast 5s linear 4.88s;
+	-ms-animation: rightToLeftLast 5s linear 4.88s;
+	-webkit-animation: rightToLeftLast 5s linear 4.88s;
+	opacity: 1;
+	overflow: hidden;
+  position: absolute;
+  padding-top: 5px;
+  height: 1em;
+}
+
+/*rightToLeftLast Animation*/
+@-moz-keyframes rightToLeftLast{
+  0% { opacity: 0; }
+  98% { opacity: 0; }
+	99% { opacity: 0; -moz-transform: translateX(50px); }
+	100% { opacity: 1; -moz-transform: translateX(0px); }
+}
+@-webkit-keyframes rightToLeftLast{
+	0% { opacity: 0; }
+  98% { opacity: 0; }
+	99% { opacity: 0; -moz-transform: translateX(50px); }
+	100% { opacity: 1; -moz-transform: translateX(0px); }
+}
+@-ms-keyframes rightToLeftLast{
+	0% { opacity: 0; }
+  98% { opacity: 0; }
+	99% { opacity: 0; -moz-transform: translateX(50px); }
+	100% { opacity: 1; -moz-transform: translateX(0px); }
 }
 
 @media (prefers-reduced-motion: reduce) {
