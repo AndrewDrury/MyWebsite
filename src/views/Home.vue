@@ -7,16 +7,16 @@
             <b-col class="container" align="center">
               <!-- https://vue-particles.netlify.com/ to customize -->
               <vue-particles
-                color="#FFCF31"
-                :particleOpacity="0.9"
+                color="#31e0ff"
+                :particleOpacity="1"
                 :particlesNumber="150"
                 shapeType="circle"
-                :particleSize="5"
+                :particleSize="4"
                 linesColor="#FFFFFF"
                 :linesWidth="1"
                 :lineLinked="true"
                 :lineOpacity="0.4"
-                :linesDistance="150"
+                :linesDistance="120"
                 :moveSpeed="6"
                 :hoverEffect="true"
                 hoverMode="grab"
@@ -26,13 +26,13 @@
               </vue-particles>
 
               <div class='intro'>
-                <div class="deconstructed" style='margin-top: 14vh'>
+                <!-- <div class="deconstructed" style='margin-top: 14vh'>
                   Hi!
                   <div>Hi!</div>
                   <div>Hi!</div>
                   <div>Hi!</div>
                   <div>Hi!</div>
-                </div>
+                </div> -->
                 <div class="deconstructed">
                   I am Andrew Drury.
                   <div>I am Andrew Drury.</div>
@@ -40,9 +40,18 @@
                   <div>I am Andrew Drury.</div>
                   <div>I am Andrew Drury.</div>
                 </div>
-                <h5 class='text-shadow' style='margin-top:60px'>I am a Full Stack Developer.</h5>
+                <h5 class='text-shadow' style='margin-top:60px'>I am a
+                    <div class="slidingHorizontal">
+                      <span>creative thinker.</span>
+                      <span>excited innovator.</span>
+                      <span>engineering student.</span>
+                      <span>passionate creator.</span>
+                      <span>Full Stack Developer.</span>
+                  </div>
+                </h5>
                 <div class='view-more'>
-                  <router-link :to="{ name: 'home', hash: '#experiences' }"><span></span><h6>View My Experiences</h6></router-link>
+                  <!-- <router-link :to="{ name: 'home', hash: '#experiences' }"><span></span><h6>View My Experiences</h6></router-link> -->
+                  <router-link :to="{ name: 'home', hash: '#experiences' }"><span></span></router-link>
                 </div>
 
               </div>
@@ -139,36 +148,49 @@
 @import "../assets/variables.scss";
 .home {
   .top-space {
-    margin-top: 80px;
-    @media (max-width: $screen-sm) {
-      margin-top: 80px;
-    }
+    // margin-top: 80px;
+    // @media (max-width: $screen-sm) {
+    //   margin-top: 80px;
+    // }
     margin-bottom: 30px;
   }
-
   .container {
     position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    .particles-js-canvas-el {
+      border-bottom: 1px solid $primary;
+    }
   }
   .intro {
-    height: 100vh;
+    margin-top: 10vh;
     width: 100vw;
     top:0px;
     position: absolute;
     text-align: center;
     pointer-events: none;
   }
-
   .view-more {
       color: #FFF;
       margin-top: 70px;
       pointer-events: auto;
+    }
+
+    h5 {
+      font-size: 30px !important;
+
+      span {
+        font-size: 30px !important;
+        font-weight: 500 !important;
+      }
     }
 }
 
 // DECONSTRUCTED TEXT
 .deconstructed {
   position: relative;
-  margin: auto;
+  margin-top: 180px;
   color: transparent;
   font-size: 54px;
   letter-spacing: -0.02em;
@@ -191,36 +213,36 @@
 .deconstructed > div:nth-child(1) {
   -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
   mask-image: linear-gradient(black 25%, transparent 25%);
-  animation: deconstructed1 5s infinite;
+  animation: deconstructed1 10s infinite;
 }
 
 .deconstructed > div:nth-child(2) {
   -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
   mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
-  animation: deconstructed2 5s infinite;
+  animation: deconstructed2 10s infinite;
 }
 
 .deconstructed > div:nth-child(3) {
    -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
   mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
-  animation: deconstructed3 5s infinite;
+  animation: deconstructed3 10s infinite;
 }
 
 .deconstructed > div:nth-child(4) {
    -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
   mask-image: linear-gradient(transparent 75%, black 75%);
-  animation: deconstructed4 5s infinite;
+  animation: deconstructed4 10s infinite;
 }
 
 @keyframes deconstructed1 {
   0% {
     transform: translateX(100%);
   }
-  26% {
+  16% {
     transform: translateX(0%);
   }
-  83% {
-    transform: translateX(-0.1%);
+  93% {
+    transform: translateX(0%);
   }
   100% {
     transform: translateX(-120%);
@@ -231,11 +253,14 @@
   0% {
     transform: translateX(100%);
   }
-  24% {
+  14% {
     transform: translateX(0.5%);
   }
-  82% {
-    transform: translateX(-0.2%);
+  50% {
+    transform: translateX(0%);
+  }
+  92% {
+    transform: translateX(0%);
   }
   100% {
     transform: translateX(-125%);
@@ -246,10 +271,10 @@
   0% {
     transform: translateX(100%);
   }
-  22% {
+  12% {
     transform: translateX(0%);
   }
-  81% {
+  91% {
     transform: translateX(0%);
   }
   100% {
@@ -261,10 +286,10 @@
   0% {
     transform: translateX(100%);
   }
-  20% {
+  10% {
     transform: translateX(0%);
   }
-  80% {
+  90% {
     transform: translateX(0%);
   }
   100% {
@@ -290,6 +315,8 @@
     border: 1px solid $primary;
     border-radius: 100%;
     box-sizing: border-box;
+    -webkit-animation: sdb03 8s infinite;
+    animation: sdb03 8s infinite;
     background-color: rgba(255,255,255,.1);
   }
   span::after {
@@ -314,11 +341,11 @@
     content: '';
     width: 44px;
     height: 44px;
-    box-shadow: 0 0 0 0 rgba(255,255,255,.1);
+    // box-shadow: 0 0 0 0 rgba(255,255,255,.1);
     border-radius: 100%;
     opacity: 0;
-    -webkit-animation: sdb03 3s infinite;
-    animation: sdb03 3s infinite;
+    // -webkit-animation: sdb03 3s infinite;
+    // animation: sdb03 3s infinite;
     box-sizing: border-box;
   }
 }
@@ -327,32 +354,24 @@
 }
 @-webkit-keyframes sdb03 {
   0% {
-    opacity: 0;
+    box-shadow: 0 0 0 0px rgba(255,255,255,.05);
   }
-  30% {
-    opacity: 1;
-  }
-  60% {
-    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
-    opacity: 0;
+  23% {
+    box-shadow: 0 0 0 30px rgba(255,255,255,.1);
   }
   100% {
-    opacity: 0;
+    box-shadow: 0 0 0 0px rgba(255,255,255,.05);
   }
 }
 @keyframes sdb03 {
   0% {
-    opacity: 0;
+    box-shadow: 0 0 0 0px rgba(255,255,255,.05);
   }
-  30% {
-    opacity: 1;
-  }
-  60% {
-    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
-    opacity: 0;
+  23% {
+    box-shadow: 0 0 0 30px rgba(255,255,255,.1);
   }
   100% {
-    opacity: 0;
+    box-shadow: 0 0 0 0px rgba(255,255,255,.05);
   }
 }
 
@@ -368,10 +387,6 @@ h6 {
 
 h6:hover {
     animation-play-state: paused;
-}
-
-a {
-    color: #024794;
 }
 
 a:hover {
@@ -423,6 +438,71 @@ a:hover {
             0 0 0 #fb203b, 
             0 0 0 #fefc4b;
     }
+}
+
+/*Horizontal Sliding*/
+.slidingHorizontal{
+	display: inline;
+  text-indent: 0.5em;
+}
+.slidingHorizontal span{
+	animation: leftToRight 12.5s linear infinite 0s;
+	-ms-animation: leftToRight 12.5s linear infinite 0s;
+	-webkit-animation: leftToRight 12.5s linear infinite 0s;
+	opacity: 0;
+	overflow: hidden;
+  position: absolute;
+  padding-top: 5px;
+  height: 1em;
+}
+.slidingHorizontal span:nth-child(2){
+	animation-delay: 2.5s;
+	-ms-animation-delay: 2.5s;
+	-webkit-animation-delay: 2.5s;
+}
+.slidingHorizontal span:nth-child(3){
+	animation-delay: 5s;
+	-ms-animation-delay: 5s;
+	-webkit-animation-delay: 5s;
+}
+.slidingHorizontal span:nth-child(4){
+	animation-delay: 7.5s;
+	-ms-animation-delay: 7.5s;
+	-webkit-animation-delay: 7.5s;
+}
+.slidingHorizontal span:nth-child(5){
+	animation-delay: 10s;
+	-ms-animation-delay: 10s;
+	-webkit-animation-delay: 10s;
+}
+
+/*leftToRight Animation*/
+@-moz-keyframes leftToRight{
+	0% { opacity: 0; }
+	5% { opacity: 0; -moz-transform: translateX(50px); }
+	10% { opacity: 1; -moz-transform: translateX(0px); }
+	25% { opacity: 1; -moz-transform: translateX(0px); }
+	30% { opacity: 0; -moz-transform: translateX(-50px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-webkit-keyframes leftToRight{
+	0% { opacity: 0; }
+	5% { opacity: 0; -webkit-transform: translateX(50px); }
+	10% { opacity: 1; -webkit-transform: translateX(0px); }
+	25% { opacity: 1; -webkit-transform: translateX(0px); }
+	30% { opacity: 0; -webkit-transform: translateX(-50px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes leftToRight{
+	0% { opacity: 0; }
+	5% { opacity: 0; -ms-transform: translateX(50px); }
+	10% { opacity: 1; -ms-transform: translateX(0px); }
+	25% { opacity: 1; -ms-transform: translateX(0px); }
+	30% { opacity: 0; -ms-transform: translateX(-50px); }
+	80% { opacity: 0; }
+	100% { opacity: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {

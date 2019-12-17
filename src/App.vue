@@ -77,19 +77,19 @@
           </a>
         </li>
         <li>
-          <a href="https://github.com/AndrewDrury/grow" target="_blank">
+          <a href="https://github.com/AndrewDrury" target="_blank">
             <i class="fa fa-github"></i>
           </a>
         </li>
       </ul>
       <div class="vertical-line"></div>
     </div>
-    <div class="desktop1" id="bottom-right-line">
+    <!-- <div class="desktop1" id="bottom-right-line">
       <a href="mailto:andrew.drury@uwaterloo.ca" target="_blank" align='left'>
         <p class='rotate'>andrew.drury@uwaterloo.ca</p>
       </a>
       <div class="vertical-line"></div>
-    </div>
+    </div> -->
 
     <!-- Footer -->
     <section id="footer">
@@ -169,9 +169,9 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   background-color: $grey;
+  overflow-x: hidden;
 
   #margin-wrap {
-    margin-top: 60px;
     @media (min-width: $screen-md) {
       margin-left: 9.86%;
       margin-right: 9.86%;
@@ -188,10 +188,10 @@
   /* background */
   background-color: transparent !important;
   top: 0px !important;
-  width: 78% !important;
+  // width: 78% !important;
 
   @media (max-width: $screen-md) {
-    width: 61% !important;
+    // width: 61% !important;
   }
 }
 #progress-el {
@@ -248,6 +248,7 @@
   width: 9.86%;
   text-align: center;
   margin-bottom: -5px;
+  animation: popup 5s;
 
   .fa-github {
     font-size: 21px !important;
@@ -293,6 +294,19 @@
   }
 }
 
+@keyframes popup {
+  0% {
+    transform: translateY(100%);
+  }
+  14% {
+    transform: translateY(10%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+
 #bottom-right-line {
   position: fixed;
   bottom: 0px;
@@ -333,6 +347,7 @@
 // Navbar
 #navbar {
   background-color: $grey-opac;
+
   @media (min-width: $screen-md) {
     background-color: $grey;
     height: 80px;
@@ -340,13 +355,14 @@
 
   /* change the link color */
   .navbar-nav .nav-link {
-    color: $primary;
+    color: white;
+    // text-decoration: underline overline $primary;
     width: 140px;
   }
   /* change the color of active or hovered links */
   .nav-link:hover {
     // color: darken($primary, 17%);
-    color: white;
+    color: $primary;
     transform: translateY(-2px);
     -webkit-transform: translateY(-2px);
 
@@ -356,7 +372,7 @@
     }
   }
   .nav-link:active {
-    color: white;
+    color: $primary;
   }
 
   .nav-link {
@@ -399,6 +415,11 @@
   .navbar-collapse {
     text-align: center;
   }
+}
+
+.navbar-dark .navbar-toggler {
+  color: white !important;
+  border-color: white !important;
 }
 
 // Footer
@@ -451,10 +472,6 @@ section {
 //   font-size: 22px;
 // }
 
-.navbar-dark .navbar-toggler {
-  color: white !important;
-  border-color: white !important;
-}
 
 .desktop-router a {
   display: inline;
