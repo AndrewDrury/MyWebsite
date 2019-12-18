@@ -446,6 +446,7 @@ a:hover {
 .slidingHorizontal{
 	display: inline;
 }
+
 .slidingHorizontal span{
 	animation: rightToLeft 4.88s linear 0s;
 	-ms-animation: rightToLeft 4.88s linear 0s;
@@ -455,7 +456,12 @@ a:hover {
   position: absolute;
   padding-top: 5px;
   height: 1em;
+  index: 99 !important;
 }
+.slidingHorizontal span:hover{
+	animation-play-state: running;
+}
+
 .slidingHorizontal span:nth-child(2){
 	animation-delay: 1.22s;
 	-ms-animation-delay: 1.22s;
@@ -507,33 +513,38 @@ a:hover {
 	display: inline;
 }
 .lastSlide span{
-	animation: rightToLeftLast 5s linear 4.88s;
-	-ms-animation: rightToLeftLast 5s linear 4.88s;
-	-webkit-animation: rightToLeftLast 5s linear 4.88s;
+	animation: rightToLeftLast 5s linear 0s;
+	-ms-animation: rightToLeftLast 5s linear 0s;
+	-webkit-animation: rightToLeftLast 5s linear 0s;
 	opacity: 1;
 	overflow: hidden;
   position: absolute;
   padding-top: 5px;
   height: 1em;
+  index: 99 !important;
+}
+
+.lastSlide span:hover{
+	animation-play-state: running;
 }
 
 /*rightToLeftLast Animation*/
 @-moz-keyframes rightToLeftLast{
   0% { opacity: 0; }
-  98% { opacity: 0; }
-	99% { opacity: 0; -moz-transform: translateX(50px); }
+  96% { opacity: 0; }
+	98% { opacity: 0; -moz-transform: translateX(50px); }
 	100% { opacity: 1; -moz-transform: translateX(0px); }
 }
 @-webkit-keyframes rightToLeftLast{
 	0% { opacity: 0; }
-  98% { opacity: 0; }
-	99% { opacity: 0; -moz-transform: translateX(50px); }
+  96% { opacity: 0; }
+	98% { opacity: 0; -moz-transform: translateX(50px); }
 	100% { opacity: 1; -moz-transform: translateX(0px); }
 }
 @-ms-keyframes rightToLeftLast{
 	0% { opacity: 0; }
-  98% { opacity: 0; }
-	99% { opacity: 0; -moz-transform: translateX(50px); }
+  96% { opacity: 0; }
+	98% { opacity: 0; -moz-transform: translateX(50px); }
 	100% { opacity: 1; -moz-transform: translateX(0px); }
 }
 
