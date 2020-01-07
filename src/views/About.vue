@@ -1,17 +1,17 @@
 <template>
-  <div class="contact section" id="contact" name="contact">
+  <div class="about section" id="about" name="about">
     <b-container fluid>
       <b-row>
         <b-col>
           <b-row>
             <b-col>
-              <h2>Contact</h2>
+              <h2>About</h2>
             </b-col>
           </b-row>
         </b-col>
       </b-row>
 
-      <b-row class="contactRow">
+      <b-row class="aboutRow">
         <b-col class="desktop content-left" lg="6" align="left">
           <div class="description">
             Hi! My name is Andrew Drury. I am in my third year of study at the

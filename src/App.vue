@@ -26,8 +26,8 @@
             :to="{ name: 'home', hash: '' }"
             ><img src="@/assets/logo.png" style="width: 50px"
           /></b-nav-item>
-          <b-nav-item class="tab" :to="{ name: 'home', hash: '#contact' }"
-            >Contact</b-nav-item
+          <b-nav-item class="tab" :to="{ name: 'home', hash: '#about' }"
+            >About</b-nav-item
           >
           <b-nav-item
             class="tab"
@@ -48,9 +48,8 @@
 
     <div id="margin-wrap">
       <Experiences />
-      <Contact />
       <Projects />
-      <Contact />
+      <About />
       <!-- <div class="jarallax">
         <img
           class="jarallax-img"
@@ -462,7 +461,7 @@ section {
 }
 #footer h3 {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 700;
 }
 #footer .endtag {
   margin-bottom: 0px;
@@ -485,8 +484,7 @@ section {
 import Vue from "vue";
 import Experiences from "./views/Experiences.vue";
 import Projects from "./views/Projects.vue";
-// import Contact from "./views/Contact.vue";
-const Contact = require("./views/Contact.vue");
+import About from "./views/About.vue";
 
 // @ is an alias to /src
 
@@ -504,7 +502,7 @@ export default Vue.extend({
   components: {
     Experiences,
     Projects,
-    Contact
+    About
     // parallax: require("vue-parallax")
   }
 });

@@ -40,8 +40,8 @@
                   <div>I am Andrew Drury.</div>
                   <div>I am Andrew Drury.</div>
                 </div>
-                <h5 class='text-shadow' style='margin-top:60px'>I am a
-                    <div class="slidingHorizontal">
+                <h5 style='margin-top:60px'>I am a Full Stack Developer.
+                    <!-- <div class="slidingHorizontal">
                       <span>&nbsp;creative thinker.</span>
                       <span>n engineering student.</span>
                       <span>&nbsp;passionate creator.</span>
@@ -49,95 +49,13 @@
                   </div>
                   <div class="lastSlide">
                       <span>&nbsp;Full Stack Developer.</span>
-                  </div>
+                  </div> -->
                 </h5>
                 <div class='view-more'>
                   <!-- <router-link :to="{ name: 'home', hash: '#experiences' }"><span></span><h6>View My Experiences</h6></router-link> -->
                   <router-link :to="{ name: 'home', hash: '#experiences' }"><span></span></router-link>
                 </div>
-
               </div>
-
-              <!--
-    Website ideas
-
-
-
-    Establish vision and message
-    Pick colours (accents: yellow, orange, red, blue)
-    Pick fonts
-    Design logo
-
-
-    Vision
-
-    Full-stack or backend at a medium to large company in Cali
-    Min pay: 
-    Get more specific with position
-    Looking to learn more and be able to contribute to the company, not just do 'coop' projects
-
-
-
-
-    Sections:
-
-    Home
-    Experience
-    Projects
-    Contact(and about)
-    Resume
-
-
-
-
-    Ideas:
-
-    have github, LinkedIn, email, and resume (PDF symbol) at bottom left at all times
-
-
-
-    Home page or about have Toronto pic of me
-
-
-
-    Home page:
-
-    Large text in background
-    Graph line mountains
-    Trace logo
-    Write out 'Hi! I am Andrew Drury" really coolly
-
-
-    Experience
-
-    company name
-    Position
-    Location
-    Date
-    Languages and tools, keywords
-    Summary of company
-    Summary of what I did
-
-
-    Project section
-
-    Project name
-    Date
-    Location
-    Awards
-    Languages and technologies
-    One sentence description
-    Some way to hide and show more details, like bullet point list of things done or my contributions
-    Github link or project submission link
-
-
-
-
-
-
-    Content scroll fast,
-
-    Pic Scroll Slow -->
             </b-col>
           </b-row>
         </b-col>
@@ -184,7 +102,6 @@
 
       span {
         font-size: 30px !important;
-        font-weight: 500 !important;
       }
     }
 }
@@ -209,7 +126,7 @@
   pointer-events: none;
   font-size: 54px;
   padding-top: 20px;
-  text-shadow: 3px 3px 2px $blue;
+  // text-shadow: 3px 3px 2px $blue;
 }
 
 .deconstructed > div:nth-child(1) {

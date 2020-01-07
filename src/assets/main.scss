@@ -1,5 +1,35 @@
 @import "./variables.scss";
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap');
+// @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap');
+
+$font_path: '~@/assets/fonts/';
+
+@font-face {
+  font-family: 'Manrope';
+  src: local('Manrope'), local('Manrope-Regular'),
+    url($font_path+'Manrope-Regular.woff2') format('woff2'),
+    url($font_path+'Manrope-Regular.otf') format('otf'),
+    url($font_path+'Manrope-Regular.ttf') format('ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Manrope';
+  src: local('Manrope Bold'), local('Manrope-Bold'),
+    url($font_path+'Manrope-Bold.woff2') format('woff2'),
+    url($font_path+'Manrope-Bold.otf') format('otf'),
+    url($font_path+'Manrope-Bold.ttf') format('ttf');
+  font-style: normal;
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Manrope';
+  src: local('Manrope Light'), local('Manrope-Light'),
+    url($font_path+'Manrope-Light.woff2') format('woff2'),
+    url($font_path+'Manrope-Light.otf') format('otf'),
+    url($font_path+'Manrope-Light.ttf') format('ttf');
+  font-style: normal;
+  font-weight: 300;
+}
 
 // .fade-enter-active,
 // .fade-leave-active {
@@ -14,7 +44,7 @@
 
 * {
   color: white;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Manrope', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
@@ -41,6 +71,10 @@
 
 .section {
   padding-top: 80px;
+  text-align: left;
+  @media (max-width: $screen-sm) {
+    text-align: center;
+  }
 }
 
 .desktop {
@@ -75,7 +109,11 @@
 }
 
 h2 {
+  font-weight: 700;
+  text-decoration: underline $primary;
   margin-bottom: 50px;
+  text-transform: uppercase;
+  font-size: 75px;
 }
 
 .experiences {
@@ -85,8 +123,8 @@ h2 {
   }
 }
 
-.experience, .contact, .project {
-  .experienceRow, .contactRow, .projectRow {
+.experience, .about, .project {
+  .experienceRow, .aboutRow, .projectRow {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,19 +182,17 @@ h2 {
 
     h3 {
       font-size: 28px;
-      font-weight: 500;
+      font-weight: 700;
     }
     h4 {
       color: $primary;
       font-size: 22px;
-      font-weight: 500;
       padding-bottom: 15px;
     }
     .description {
       font-size: 22px;
     }
     .skill-title {
-      font-weight: 500;
       font-size: 19px;
       color: white;
       margin-top: 64px;
@@ -169,7 +205,6 @@ h2 {
       align: left;
       display: inline-block;
       font-size: 17px;
-      font-weight: 500;
       color: white;
       @media (max-width: $screen-sm) {
         width: 100%;

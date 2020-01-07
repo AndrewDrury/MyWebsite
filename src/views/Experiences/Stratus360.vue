@@ -2,6 +2,12 @@
   <div class="experience" id="Stratus360" name="Stratus360">
     <b-container fluid>
       <b-row class="experienceRow">
+        <b-col>
+          
+        </b-col>
+      </b-row>
+
+      <b-row class="experienceRow">
         <b-col class="desktop content-left" lg="6" align="left">
           <b-row>
             <b-col class="logo" align="center">
