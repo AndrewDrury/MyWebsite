@@ -123,8 +123,91 @@ h2 {
   }
 }
 
-.experience, .about, .project {
-  .experienceRow, .aboutRow, .projectRow {
+.experience {
+  .experienceRow {
+    width:100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    h3 {
+      font-size: 60px;
+      font-weight: 700;
+      margin-bottom: 0px;
+    }
+    h4 {
+      font-size: 26px;
+      font-weight: 400;
+    }
+    .position {
+      font-size: 33px;
+      font-weight: 700;
+    }
+    .time {
+      font-size: 25px;
+      font-weight: 400;
+      padding-top:5px;
+      padding-bottom:20px;
+    }
+    p {
+      font-size: 20px;
+    }
+
+    .company-link{
+      width: 50%;
+      @media (max-width: $screen-md) {
+        width:100%;
+      }
+
+      .logo{
+        float: left;
+        width: 170px;
+        img {
+          border-radius: 35px;
+          width: 100%;
+        }
+        @media (max-width: $screen-md) {
+          float: center;
+        }
+      }
+  
+      .company-info{
+        float: left;
+  
+        @media (max-width: $screen-md) {
+          float: center;
+        }
+      }
+    }
+
+
+    .mobile {
+      margin-top: 15px;
+    }
+  }
+}
+
+#Stratus360 {
+  background: rgb(16,85,82);
+  background: linear-gradient(107deg, rgba(16,85,82,1) 0%, rgba(8,26,44,1) 100%);
+}
+.experience-hover {
+  display:block;
+}
+.experience-hover:hover {
+  background: white !important;
+  h3,h4,.position,.time,p {
+    color:black;
+  }
+}
+
+.about, .project {
+  .aboutRow, .projectRow {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,30 +232,6 @@ h2 {
     .content-right {
       @media (min-width: $screen-md) {
         padding-left:45px;
-      }
-    }
-
-    .logo{
-      img {
-        -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-        height: 150px;
-        margin-bottom: 30px;
-
-        -webkit-transition: 0.5s all ease;
-        -moz-transition: 0.5s all ease;
-        transition: 0.5s all ease;
-      }
-
-      a:hover img {
-        top: 2px;
-        left:2px;
-        height: 170px;
-        margin-top: -10px;
-        margin-bottom: 20px;
-
-        -webkit-clip-path: circle(60.0% at 50% 10%);
-        clip-path: circle(50.0% at 50% 50%);
       }
     }
 
@@ -253,6 +312,18 @@ h2 {
 
 .text-shadow {
   text-shadow: 3px 3px 2px $blue;
+}
+
+.margin-wrap {
+  @media (min-width: $screen-md) {
+    margin-left: 9.86%;
+    margin-right: 9.86%;
+  }
+
+  @media (max-width: $screen-md) {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
 }
 
 // .jarallax {

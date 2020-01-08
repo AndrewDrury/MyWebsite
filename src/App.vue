@@ -46,7 +46,7 @@
       </transition>
     </div>
 
-    <div id="margin-wrap">
+    <div>
       <Experiences />
       <Projects />
       <About />
@@ -170,17 +170,6 @@
   background-color: $grey;
   overflow-x: hidden;
 
-  #margin-wrap {
-    @media (min-width: $screen-md) {
-      margin-left: 9.86%;
-      margin-right: 9.86%;
-    }
-
-    @media (max-width: $screen-md) {
-      margin-left: 1%;
-      margin-right: 1%;
-    }
-  }
 }
 
 #progress-container-el {

@@ -3,7 +3,7 @@
     <b-container fluid>
       <b-row>
         <b-col>
-          <b-row>
+          <b-row class="margin-wrap">
             <b-col>
               <h2>Projects</h2>
             </b-col>

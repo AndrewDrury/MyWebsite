@@ -2,8 +2,8 @@
   <div class="experiences section" id="experiences" name="experiences">
     <b-container fluid>
       <b-row>
-        <b-col>
-          <b-row>
+        <b-col style="padding-right:0px;padding-left:0px">
+          <b-row class="margin-wrap">
             <b-col>
               <h2>Experiences</h2>
             </b-col>
