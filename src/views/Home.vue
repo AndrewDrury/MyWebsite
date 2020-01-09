@@ -132,39 +132,36 @@
 .deconstructed > div:nth-child(1) {
   -webkit-mask-image: linear-gradient(black 25%, transparent 25%);
   mask-image: linear-gradient(black 25%, transparent 25%);
-  animation: deconstructed1 10s infinite;
+  animation: deconstructed1 5s 1;
 }
 
 .deconstructed > div:nth-child(2) {
   -webkit-mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
   mask-image: linear-gradient(transparent 25%, black 25%, black 50%, transparent 50%);
-  animation: deconstructed2 10s infinite;
+  animation: deconstructed2 5s 1;
 }
 
 .deconstructed > div:nth-child(3) {
    -webkit-mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
   mask-image: linear-gradient(transparent 50%, black 50%, black 75%, transparent 75%);
-  animation: deconstructed3 10s infinite;
+  animation: deconstructed3 5s 1;
 }
 
 .deconstructed > div:nth-child(4) {
    -webkit-mask-image: linear-gradient(transparent 75%, black 75%);
   mask-image: linear-gradient(transparent 75%, black 75%);
-  animation: deconstructed4 10s infinite;
+  animation: deconstructed4 5s 1;
 }
 
 @keyframes deconstructed1 {
   0% {
     transform: translateX(100%);
   }
-  16% {
-    transform: translateX(0%);
-  }
-  93% {
+  32% {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-120%);
+    transform: translateX(0%);
   }
 }
 
@@ -172,17 +169,11 @@
   0% {
     transform: translateX(100%);
   }
-  14% {
+  28% {
     transform: translateX(0.5%);
   }
-  50% {
-    transform: translateX(0%);
-  }
-  92% {
-    transform: translateX(0%);
-  }
   100% {
-    transform: translateX(-125%);
+    transform: translateX(0%);
   }
 }
 
@@ -190,14 +181,11 @@
   0% {
     transform: translateX(100%);
   }
-  12% {
-    transform: translateX(0%);
-  }
-  91% {
+  24% {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-130%);
+    transform: translateX(0%);
   }
 }
 
@@ -234,8 +222,8 @@
     border: 1px solid $primary;
     border-radius: 100%;
     box-sizing: border-box;
-    -webkit-animation: sdb03 8s infinite;
-    animation: sdb03 8s infinite;
+    -webkit-animation: sdb03 4s infinite;
+    animation: sdb03 4s infinite;
     background-color: rgba(255,255,255,.1);
   }
   span::after {

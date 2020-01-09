@@ -7,14 +7,14 @@
             <b-col>
               <h2>Projects</h2>
             </b-col>
-          </b-row>
 
-          <!-- PROJECTS -->
-          <grow />
-          <TableStory />
-          <FlySafe />
-          <sliai />
-          <ePaid />
+            <!-- PROJECTS -->
+            <grow />
+            <TableStory />
+            <FlySafe />
+            <sliai />
+            <ePaid />
+          </b-row>
         </b-col>
       </b-row>
     </b-container>

@@ -132,18 +132,21 @@ h2 {
     justify-content: center;
     align-items: center;
 
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
-    h3 {
-      font-size: 60px;
-      font-weight: 700;
-      margin-bottom: 0px;
+    .position-info {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
+      
+      text-align: left;
+      @media (max-width: $screen-md) {
+        padding-top: 30px;
+      }
     }
-    h4 {
-      font-size: 26px;
-      font-weight: 400;
-    }
+
     .position {
       font-size: 33px;
       font-weight: 700;
@@ -158,30 +161,69 @@ h2 {
       font-size: 20px;
     }
 
+
     .company-link{
+      display: flex;
+
       width: 50%;
       @media (max-width: $screen-md) {
         width:100%;
+        display: block;
       }
 
       .logo{
         float: left;
-        width: 170px;
+        min-width: 170px;
+        max-width: 170px;
+        margin-right: 10px;
+
         img {
-          border-radius: 35px;
+          border-radius: 20px;
           width: 100%;
         }
         @media (max-width: $screen-md) {
+          text-align: center;
           float: center;
+          min-width: 100%;
+          img{
+            width: 170px;
+          }
         }
       }
   
       .company-info{
         float: left;
-  
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+        
+
         @media (max-width: $screen-md) {
-          float: center;
+          margin-top: 10px;
+          text-align: center;
         }
+
+        h3 {
+          font-size: 50px;
+          font-weight: 700;
+          margin-bottom: -5px;
+          display: inline-block;
+        }
+        h4 {
+          font-size: 20px;
+          font-weight: 400;
+          display: inline-block;
+          margin-bottom: -5.4px;
+        }
+      }
+    }
+
+    .company-link:hover {
+      h4 {
+        text-decoration: none;
+        border-bottom: 5.45px solid $primary;
       }
     }
 
@@ -193,9 +235,22 @@ h2 {
 }
 
 #Stratus360 {
-  background: rgb(16,85,82);
+  background: clear;
   background: linear-gradient(107deg, rgba(16,85,82,1) 0%, rgba(8,26,44,1) 100%);
 }
+#TDLab {
+  background: clear;
+  background: linear-gradient(107deg, rgba(84,207,49,1) 0%, rgba(8,81,0,1) 100%);
+}
+#ZurApps {
+  background: clear;
+  background: linear-gradient(107deg, rgba(255,162,50,1) 0%, rgba(255,92,22,1) 100%);
+
+  h3 {
+    line-height: 40px;
+  }
+}
+
 .experience-hover {
   display:block;
 }
@@ -206,8 +261,8 @@ h2 {
   }
 }
 
-.about, .project {
-  .aboutRow, .projectRow {
+.project {
+.projectRow {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,75 +272,19 @@ h2 {
     @media (max-width: $screen-sm) {
       padding-bottom: 80px;
     }
-
-    .position {
-      min-width:55%;
-    }
-
-    .time {
-      min-width: 45%;
-    }
-
-    .content-left {
-      padding-right:45px;
-    }
-    .content-right {
-      @media (min-width: $screen-md) {
-        padding-left:45px;
-      }
-    }
-
-    .mobile {
-      margin-top: 15px;
-    }
-
-    h3 {
-      font-size: 28px;
-      font-weight: 700;
-    }
-    h4 {
-      color: $primary;
-      font-size: 22px;
-      padding-bottom: 15px;
-    }
-    .description {
-      font-size: 22px;
-    }
-    .skill-title {
-      font-size: 19px;
-      color: white;
-      margin-top: 64px;
-      @media (max-width: $screen-sm) {
-        margin-top: 34px;
-      }
-    }
-    .skill {
-      padding-right: 32px;
-      align: left;
-      display: inline-block;
-      font-size: 17px;
-      color: white;
-      @media (max-width: $screen-sm) {
-        width: 100%;
-      }
-    }
   }
 }
 
-.projectRow {
-  @media (min-width: $screen-md) {
-    .content-left {
-      margin-right:20%;
-    }
-    .content-right {
-      padding-left:10% !important;
-    }
-  
-    .pic-left {
-      padding-right:70px;
-    }
-    .pic-right {
-      padding-left:70px;
+.about {
+  .aboutRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 100px;
+
+    @media (max-width: $screen-sm) {
+      padding-bottom: 80px;
     }
   }
 }

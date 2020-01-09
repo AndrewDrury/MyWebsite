@@ -2,46 +2,30 @@
   <div class="project" id="grow" name="grow">
     <b-container fluid>
       <b-row class="projectRow">
-        <b-col class="pic-left" lg="4" align="left">
-          <a href="https://github.com/AndrewDrury/grow" target="_blank">
-            <img class="square-pic" src="@/assets/iPhone.png" />
-          </a>
-        </b-col>
-
-        <b-col class="content-right" lg="8" align="left">
-          <b-row>
-            <b-col col="8">
-              <a href="https://github.com/AndrewDrury/grow" target="_blank">
-                <h3>grow</h3>
-              </a>
+        <b-col class='project-pic' md=4>pic</b-col>
+        <b-col m=8>
+          <b-row class="top-content">
+            <b-col>
+              <h2>grow</h2>
             </b-col>
-            <b-col col="6" align="right">
-              <h3>Hack the North 2019</h3>
+            <b-col><h3>ARKit, Core ML</h3></b-col>
+          </b-row>
+          <b-row class='bot-content'>
+            <b-col>
+              <h4>1st Place</h4>
+            </b-col>
+            <b-col><h4>Hack Lassonde, 2019</h4></b-col>
+          </b-row>
+          <b-row class='details'>
+            <b-col>
+              <p>Grow recognizes company logos using a custom Core ML model and displays their eco-friendliness in AR with Apple’s ARKit.</p>
             </b-col>
           </b-row>
-          <!-- <b-row>
-            <b-col class="position">
-              <h4>Software Developer</h4>
-            </b-col>
-            <b-col class="time" align="right">
-              <h4>Sept 2019</h4>
-            </b-col>
-          </b-row> -->
-          <p class="description">
-            Lorem ipsum dolor amet readymade direct trade biodiesel vinyl
-            try-hard hell of pok pok, hexagon shaman jianbing franzen. Literally
-            art party hot chicken try-hard 8-bit, bicycle rights kombucha seitan
-            cornhole pour-over.
-          </p>
-          <!-- <h6 class="skill-title">Stuff</h6>
-          <b-row align="left">
+          <b-row class='view-more'>
             <b-col>
-              <div class="skill">Stuff</div>
-              <div class="skill">Stuff</div>
-              <div class="skill">Stuff</div>
-              <div class="skill">Stuff</div>
+              <p>View More -></p>
             </b-col>
-          </b-row> -->
+          </b-row>
         </b-col>
       </b-row>
     </b-container>
