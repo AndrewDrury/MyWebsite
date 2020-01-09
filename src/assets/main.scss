@@ -272,6 +272,73 @@ h2 {
     @media (max-width: $screen-sm) {
       padding-bottom: 80px;
     }
+
+    .project-pic {
+      img {
+        width: 100%;
+        padding-right: 50px;
+      }
+    }
+    .top-content {
+      hr {
+        display: block;
+        color: $primary;
+        width: 100%;
+        border-top: 5.45px solid $primary;
+        margin-top: -13px;
+      }
+
+      .title {
+        padding-left: 0px;
+        h1 {
+          font-size: 50px;
+          font-weight: 700;
+        }
+      }
+
+      .tech {
+        h3{
+          font-size: 33px;
+          font-weight: 700;
+          position: absolute;
+          bottom: 0;
+          right:0;
+
+          @media (max-width: $screen-md) {
+            left:0;
+          }
+        }
+      }
+    }
+    .bot-content {
+      margin-top: -16px;
+      .award {
+        padding-left: 0px;
+      }
+      h4 {
+        font-size: 25px;
+      }
+      .hackathon {
+        padding-right: 0px;
+        h4 {
+          text-align: right;
+          right:0;
+          @media (max-width: $screen-md) {
+            left:0;
+          }
+        }
+      }
+    }
+    .details {
+      padding-right: 0px;
+      padding-left: 0px;
+      p{
+
+      }
+    }
+    .view-more {
+      padding-left: 0px;
+    }
   }
 }
 
