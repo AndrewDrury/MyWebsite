@@ -269,7 +269,7 @@ h2 {
 
     padding-bottom: 100px;
 
-    @media (max-width: $screen-sm) {
+    @media (max-width: $screen-md) {
       padding-bottom: 80px;
     }
 
@@ -277,6 +277,13 @@ h2 {
       img {
         width: 100%;
         padding-right: 50px;
+
+      }
+      @media (max-width: $screen-md) {
+        img {
+          padding-right: 15%;
+          padding-left: 15%;
+        }
       }
     }
     .top-content {
@@ -286,6 +293,10 @@ h2 {
         width: 100%;
         border-top: 5.45px solid $primary;
         margin-top: -13px;
+
+        @media (max-width: $screen-md) {
+          display: none;
+        }
       }
 
       .title {
@@ -293,6 +304,12 @@ h2 {
         h1 {
           font-size: 50px;
           font-weight: 700;
+        }
+        @media (max-width: $screen-md) {
+          margin-top: 15px;
+          padding-left: 15px;
+          text-align: left;
+          text-decoration: underline $primary;
         }
       }
 
@@ -306,6 +323,8 @@ h2 {
 
           @media (max-width: $screen-md) {
             left:0;
+            position: relative;
+            text-align: left;
           }
         }
       }
@@ -314,6 +333,11 @@ h2 {
       margin-top: -16px;
       .award {
         padding-left: 0px;
+        @media (max-width: $screen-md) {
+          padding-left: 15px;
+          text-align: left;
+          width: 100%;
+        }
       }
       h4 {
         font-size: 25px;
@@ -324,7 +348,7 @@ h2 {
           text-align: right;
           right:0;
           @media (max-width: $screen-md) {
-            left:0;
+            text-align:left;
           }
         }
       }
@@ -332,8 +356,10 @@ h2 {
     .details {
       padding-right: 0px;
       padding-left: 0px;
-      p{
-
+      @media (max-width: $screen-md) {
+        text-align:left;
+        padding-right: 15px;
+        padding-left: 15px;
       }
     }
     .view-more {
@@ -350,8 +376,31 @@ h2 {
 
     padding-bottom: 100px;
 
-    @media (max-width: $screen-sm) {
+    @media (max-width: $screen-md) {
       padding-bottom: 80px;
+    }
+
+    .pic {
+      img {
+        padding-left: 20%;
+        width: 100%;
+      }
+      @media (max-width: $screen-md) {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        img {
+          padding-left: 0px;
+        }
+      }
+    }
+
+    .description {
+      @media (max-width: $screen-sm) {
+        margin-top: 30px;
+        padding-right: 15px;
+        padding-left: 15px;
+      }
     }
   }
 }

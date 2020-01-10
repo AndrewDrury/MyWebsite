@@ -9,7 +9,7 @@
         </b-col>
         <b-col m=8>
           <b-row class="top-content">
-            <b-col class='title'>
+            <b-col class='title' md=12>
               <a href="https://github.com/AndrewDrury/grow" target="_blank">
                 <h1>grow</h1>
               </a>
@@ -18,10 +18,10 @@
             <hr>
           </b-row>
           <b-row class='bot-content'>
-            <b-col class='award'>
+            <b-col class='award' md=12>
               <h4>1st Place</h4>
             </b-col>
-            <b-col class='hackathon'><h4>Hack Lassonde, 2019</h4></b-col>
+            <b-col class='hackathon' md=12><h4>Hack Lassonde, 2019</h4></b-col>
           </b-row>
           <b-row>
             <b-col class='details'>

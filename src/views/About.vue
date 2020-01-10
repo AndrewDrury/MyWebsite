@@ -1,5 +1,5 @@
 <template>
-  <div class="about section" id="about" name="about">
+  <div class="about section margin-wrap" id="about" name="about">
     <b-container fluid>
       <b-row>
         <b-col>
@@ -29,10 +29,8 @@
           </div>
         </b-col>
 
-        <b-col lg="6" align="right">
-          <a href="https://www.stratus360.com/" target="_blank">
-            <img class="square-pic" src="@/assets/AboutPic.png" />
-          </a>
+        <b-col class="pic" lg="6" align="right">
+            <img src="@/assets/AboutPic.png" />
         </b-col>
         <b-col class="mobile" align="left">
           <div class="description">
