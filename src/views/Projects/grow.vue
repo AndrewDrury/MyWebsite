@@ -4,7 +4,12 @@
       <b-row class="projectRow">
         <b-col class='project-pic' md=4>
           <a href="https://github.com/AndrewDrury/grow" target="_blank">
-            <img src="@/assets/iPhone.png" />
+            <img
+              srcset="
+              @/assets/ProjectPics/grow.jpg,
+              @/assets/ProjectPics/grow@2x.jpg 2x
+              "
+            />
           </a>
         </b-col>
         <b-col m=8>
@@ -18,10 +23,10 @@
             <hr>
           </b-row>
           <b-row class='bot-content'>
-            <b-col class='award' md=12>
+            <b-col class='award' md=12 lg=6>
               <h4>1st Place</h4>
             </b-col>
-            <b-col class='hackathon' md=12><h4>Hack Lassonde, 2019</h4></b-col>
+            <b-col class='hackathon' md=12 lg=6><h4>Hack Lassonde, 2019</h4></b-col>
           </b-row>
           <b-row>
             <b-col class='details'>
@@ -31,7 +36,7 @@
           <b-row>
             <b-col class='view-more'>
               <a href="https://github.com/AndrewDrury/grow" target="_blank">
-                <p>View More -></p>
+                <p><i class="fa fa-github"></i>&nbsp;View More -></p>
               </a>
             </b-col>
           </b-row>
