@@ -30,7 +30,7 @@
         </b-col>
 
         <b-col class="pic" lg="6" align="right">
-            <img src="@/assets/AboutPic.png" />
+          <img src="@/assets/AboutPic.png" />
         </b-col>
         <b-col class="mobile" align="left">
           <div class="description">

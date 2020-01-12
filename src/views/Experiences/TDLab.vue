@@ -10,7 +10,7 @@
               </b-col>
               <b-col class="company-info">
                 <h3>TD Lab</h3>
-                <div style='white-space:nowrap'>
+                <div style="white-space:nowrap">
                   <h4>TD Bank Innovation Lab</h4>
                 </div>
               </b-col>
@@ -24,7 +24,12 @@
               </b-row>
               <b-row>
                 <b-col>
-                  <p>I worked on the Frontend and Backend of Salesforce applications for a variety of projects for clients such as TMX (Toronto Stock Exchange), Cadillac-Fairview, Rogers, Globe and Mail, and Dover Food Retail.</p>
+                  <p>
+                    I worked on the Frontend and Backend of Salesforce
+                    applications for a variety of projects for clients such as
+                    TMX (Toronto Stock Exchange), Cadillac-Fairview, Rogers,
+                    Globe and Mail, and Dover Food Retail.
+                  </p>
                 </b-col>
               </b-row>
             </b-col>

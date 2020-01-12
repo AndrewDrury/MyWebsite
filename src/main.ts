@@ -8,7 +8,7 @@ import "@/assets/main.scss";
 import VueScrollTo from "vue-scrollto";
 import VueScrollProgress from "vue-scroll-progress";
 // const VueScrollProgress = require("vue-scroll-progress");
-import VueParticles from 'vue-particles';
+import VueParticles from "vue-particles";
 
 Vue.use(VueParticles);
 Vue.use(BootstrapVue);

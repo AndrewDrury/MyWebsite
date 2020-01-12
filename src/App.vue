@@ -8,7 +8,10 @@
     <!-- Navbar -->
     <b-navbar toggleable="md" class="fixed-top navbar-dark" id="navbar">
       <div class="mobile">
-        <b-navbar-brand class='nav-link draw meet' :to="{ name: 'home', hash: '' }">
+        <b-navbar-brand
+          class="nav-link draw meet"
+          :to="{ name: 'home', hash: '' }"
+        >
           <img src="@/assets/logo.png" style="width: 50px" />
         </b-navbar-brand>
       </div>
@@ -169,7 +172,6 @@
   text-align: center;
   background-color: $grey;
   overflow-x: hidden;
-
 }
 
 #progress-container-el {
@@ -293,7 +295,6 @@
     transform: translateY(0%);
   }
 }
-
 
 #bottom-right-line {
   position: fixed;
@@ -459,7 +460,6 @@ section {
 //   color: $primary;
 //   font-size: 22px;
 // }
-
 
 .desktop-router a {
   display: inline;
