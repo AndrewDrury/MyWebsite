@@ -48,4 +48,11 @@
 @import "@/assets/variables.scss";
 </style>
 
-<script lang="ts"></script>
+<script lang="ts">
+export default {
+    name: 'Stratus360',
+    data () {
+      return {}
+    }
+}
+</script>
