@@ -132,7 +132,6 @@
   }
 }
 
-
 // DECONSTRUCTED TEXT
 .deconstructed {
   position: relative;

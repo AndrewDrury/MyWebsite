@@ -3,7 +3,10 @@
     <b-container fluid>
       <b-row class="projectRow">
         <b-col class="project-pic" md="4">
-          <a href="https://github.com/AndrewDrury/FlySafe-BlockchainEndpoint" target="_blank">
+          <a
+            href="https://github.com/AndrewDrury/FlySafe-BlockchainEndpoint"
+            target="_blank"
+          >
             <img
               srcset="
                 @/assets/ProjectPics/grow.jpg,
@@ -15,7 +18,10 @@
         <b-col m="8">
           <b-row class="top-content">
             <b-col class="title" md="12">
-              <a href="https://github.com/AndrewDrury/FlySafe-BlockchainEndpoint" target="_blank">
+              <a
+                href="https://github.com/AndrewDrury/FlySafe-BlockchainEndpoint"
+                target="_blank"
+              >
                 <h1>FlySafe</h1>
               </a>
             </b-col>
@@ -33,13 +39,18 @@
           <b-row>
             <b-col class="details">
               <p>
-                FlySafe scans and secures important data such as IDs, cards andtickets with Blockmason LINK, a blockchain microservice. Data is accessible via Face ID using Microsoft Azure.
+                FlySafe scans and secures important data such as IDs, cards
+                andtickets with Blockmason LINK, a blockchain microservice. Data
+                is accessible via Face ID using Microsoft Azure.
               </p>
             </b-col>
           </b-row>
           <b-row>
             <b-col class="view-more">
-              <a href="https://github.com/AndrewDrury/FlySafe-BlockchainEndpoint" target="_blank">
+              <a
+                href="https://github.com/AndrewDrury/FlySafe-BlockchainEndpoint"
+                target="_blank"
+              >
                 <p><i class="fa fa-github"></i>&nbsp;View More -></p>
               </a>
             </b-col>

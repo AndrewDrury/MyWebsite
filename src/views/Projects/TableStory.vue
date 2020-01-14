@@ -15,7 +15,10 @@
         <b-col md="8">
           <b-row class="top-content">
             <b-col class="title" md="12">
-              <a href="https://github.com/AndrewDrury/TableStory" target="_blank">
+              <a
+                href="https://github.com/AndrewDrury/TableStory"
+                target="_blank"
+              >
                 <h1>Table Story</h1>
               </a>
             </b-col>
@@ -33,13 +36,18 @@
           <b-row>
             <b-col class="details">
               <p>
-                A web app that creates a social community of food enthusiasts. A Tensorflow model was trained to recognize food items in a picture in order to create a user’s food identity.
+                A web app that creates a social community of food enthusiasts. A
+                Tensorflow model was trained to recognize food items in a
+                picture in order to create a user’s food identity.
               </p>
             </b-col>
           </b-row>
           <b-row>
             <b-col class="view-more">
-              <a href="https://github.com/AndrewDrury/TableStory" target="_blank">
+              <a
+                href="https://github.com/AndrewDrury/TableStory"
+                target="_blank"
+              >
                 <p><i class="fa fa-github"></i>&nbsp;View More -></p>
               </a>
             </b-col>
