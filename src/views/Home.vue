@@ -4,7 +4,7 @@
       <b-row>
         <b-col>
           <b-row class="top-space">
-            <b-col class="container" align="center">
+            <b-col class="container desktop" align="center">
               <!-- https://vue-particles.netlify.com/ to customize -->
               <vue-particles
                 color="#31e0ff"
@@ -60,6 +60,25 @@
                 </div>
               </div>
             </b-col>
+            <b-col class="container mobile" align="left">
+              <div class="intro">
+                <div class="deconstructed">
+                  I am Andrew Drury.
+                  <div>I am Andrew Drury.</div>
+                  <div>I am Andrew Drury.</div>
+                  <div>I am Andrew Drury.</div>
+                  <div>I am Andrew Drury.</div>
+                </div>
+                <h5 style="margin-top:60px">
+                  I am a Full Stack Developer.
+                </h5>
+                <div class="view-more">
+                  <router-link :to="{ name: 'home', hash: '#experiences' }"
+                    ><span></span
+                  ></router-link>
+                </div>
+              </div>
+            </b-col>
           </b-row>
         </b-col>
       </b-row>
@@ -107,7 +126,12 @@
       font-size: 30px !important;
     }
   }
+  .mobile {
+    height: 500px;
+    margin-bottom: 100px;
+  }
 }
+
 
 // DECONSTRUCTED TEXT
 .deconstructed {

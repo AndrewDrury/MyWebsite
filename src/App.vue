@@ -134,7 +134,7 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://github.com/AndrewDrury/grow" target="_blank">
+                <a href="https://github.com/AndrewDrury" target="_blank">
                   <i class="fa fa-github"></i>
                   <!-- <img
                     srcset="
@@ -178,10 +178,11 @@
   /* background */
   background-color: transparent !important;
   top: 0px !important;
-  // width: 78% !important;
+
+  // width: 68% !important;
 
   @media (max-width: $screen-md) {
-    // width: 61% !important;
+    // width: 41% !important;
   }
 }
 #progress-el {

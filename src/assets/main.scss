@@ -114,6 +114,10 @@ h2 {
   margin-bottom: 50px;
   text-transform: uppercase;
   font-size: 75px;
+
+  @media (max-width: $screen-md) {
+    font-size: 50px;
+  }
 }
 
 .experiences {
@@ -286,6 +290,20 @@ h2 {
         }
       }
     }
+    .desktop {
+      img {
+        width: 100%;
+        padding-left: 50px;
+        padding-right: 0px;
+
+      }
+      @media (max-width: $screen-md) {
+        img {
+          padding-right: 15%;
+          padding-left: 15%;
+        }
+      }
+    }
     .top-content {
       hr {
         display: block;
@@ -304,12 +322,16 @@ h2 {
         h1 {
           font-size: 50px;
           font-weight: 700;
+          margin-bottom: 8px;
         }
         @media (max-width: $screen-md) {
           margin-top: 15px;
           padding-left: 15px;
           text-align: left;
           text-decoration: underline $primary;
+        }
+        a:hover {
+          text-decoration: none;
         }
       }
 
@@ -320,6 +342,7 @@ h2 {
           position: absolute;
           bottom: 0;
           right:0;
+          padding-bottom: 2px;
 
           @media (max-width: $screen-md) {
             left:0;
@@ -364,6 +387,12 @@ h2 {
     }
     .view-more {
       padding-left: 0px;
+      @media (max-width: $screen-md) {
+        padding-left: 15px;
+      }
+      a:hover {
+        text-decoration: none;
+      }
     }
   }
 }

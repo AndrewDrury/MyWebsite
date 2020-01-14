@@ -2,46 +2,58 @@
   <div class="project" id="TableStory" name="TableStory">
     <b-container fluid>
       <b-row class="projectRow">
-        <b-col class="pic-left" lg="4" align="left">
-          <a href="https://github.com/AndrewDrury/grow" target="_blank">
-            <img class="square-pic" src="@/assets/iPhone.png" />
+        <b-col class="project-pic mobile" md="4">
+          <a href="https://github.com/AndrewDrury/TableStory" target="_blank">
+            <img
+              srcset="
+                @/assets/ProjectPics/grow.jpg,
+                @/assets/ProjectPics/grow@2x.jpg 2x
+              "
+            />
           </a>
         </b-col>
-
-        <b-col class="content-right" lg="8" align="left">
-          <b-row>
-            <b-col col="8">
-              <a href="https://github.com/AndrewDrury/grow" target="_blank">
-                <h3>grow</h3>
+        <b-col md="8">
+          <b-row class="top-content">
+            <b-col class="title" md="12">
+              <a href="https://github.com/AndrewDrury/TableStory" target="_blank">
+                <h1>Table Story</h1>
               </a>
             </b-col>
-            <b-col col="6" align="right">
-              <h3>Hack the North 2019</h3>
+            <b-col class="tech"><h3>Vue.js, Tensorflow</h3></b-col>
+            <hr />
+          </b-row>
+          <b-row class="bot-content">
+            <b-col class="award" md="12" lg="6">
+              <h4>Best UI/UX Hack</h4>
+            </b-col>
+            <b-col class="hackathon" md="12" lg="6"
+              ><h4>Hack the Valley lll, 2019</h4></b-col
+            >
+          </b-row>
+          <b-row>
+            <b-col class="details">
+              <p>
+                A web app that creates a social community of food enthusiasts. A Tensorflow model was trained to recognize food items in a picture in order to create a user’s food identity.
+              </p>
             </b-col>
           </b-row>
-          <!-- <b-row>
-            <b-col class="position">
-              <h4>Software Developer</h4>
+          <b-row>
+            <b-col class="view-more">
+              <a href="https://github.com/AndrewDrury/TableStory" target="_blank">
+                <p><i class="fa fa-github"></i>&nbsp;View More -></p>
+              </a>
             </b-col>
-            <b-col class="time" align="right">
-              <h4>Sept 2019</h4>
-            </b-col>
-          </b-row> -->
-          <p class="description">
-            Lorem ipsum dolor amet readymade direct trade biodiesel vinyl
-            try-hard hell of pok pok, hexagon shaman jianbing franzen. Literally
-            art party hot chicken try-hard 8-bit, bicycle rights kombucha seitan
-            cornhole pour-over.
-          </p>
-          <!-- <h6 class="skill-title">Stuff</h6>
-          <b-row align="left">
-            <b-col>
-              <div class="skill">Stuff</div>
-              <div class="skill">Stuff</div>
-              <div class="skill">Stuff</div>
-              <div class="skill">Stuff</div>
-            </b-col>
-          </b-row> -->
+          </b-row>
+        </b-col>
+        <b-col class="project-pic desktop" md="4">
+          <a href="https://github.com/AndrewDrury/TableStory" target="_blank">
+            <img
+              srcset="
+                @/assets/ProjectPics/grow.jpg,
+                @/assets/ProjectPics/grow@2x.jpg 2x
+              "
+            />
+          </a>
         </b-col>
       </b-row>
     </b-container>
