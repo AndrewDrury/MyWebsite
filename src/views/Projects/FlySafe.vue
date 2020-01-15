@@ -9,8 +9,8 @@
           >
             <img
               srcset="
-                @/assets/ProjectPics/grow.jpg,
-                @/assets/ProjectPics/grow@2x.jpg 2x
+                @/assets/ProjectPics/FlySafe.jpg,
+                @/assets/ProjectPics/FlySafe@2x.jpg 2x
               "
             />
           </a>
@@ -25,7 +25,7 @@
                 <h1>FlySafe</h1>
               </a>
             </b-col>
-            <b-col class="tech"><h3>Microsoft Azure, Blockchain</h3></b-col>
+            <b-col class="tech"><h3>Azure, Blockchain</h3></b-col>
             <hr />
           </b-row>
           <b-row class="bot-content">
@@ -33,7 +33,7 @@
               <!-- <h4>1st Place</h4> -->
             </b-col>
             <b-col class="hackathon" md="12" lg="6"
-              ><h4>Hack the North, 2019</h4></b-col
+              ><h4><i class="fa fa-location-arrow"></i>&nbsp;&nbsp;Hack the North, 2019</h4></b-col
             >
           </b-row>
           <b-row>
@@ -51,7 +51,7 @@
                 href="https://github.com/AndrewDrury/FlySafe-BlockchainEndpoint"
                 target="_blank"
               >
-                <p><i class="fa fa-github"></i>&nbsp;View More -></p>
+                <p><i class="fa fa-github"></i>&nbsp;&nbsp;View More -></p>
               </a>
             </b-col>
           </b-row>

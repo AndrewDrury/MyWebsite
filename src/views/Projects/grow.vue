@@ -24,10 +24,10 @@
           </b-row>
           <b-row class="bot-content">
             <b-col class="award" md="12" lg="6">
-              <h4>1st Place</h4>
+              <h4><i class="fa fa-trophy"></i>&nbsp;&nbsp;1st Place</h4>
             </b-col>
             <b-col class="hackathon" md="12" lg="6"
-              ><h4>Hack Lassonde, 2019</h4></b-col
+              ><h4><i class="fa fa-location-arrow"></i>&nbsp;&nbsp;Hack Lassonde, 2019</h4></b-col
             >
           </b-row>
           <b-row>
@@ -41,7 +41,7 @@
           <b-row>
             <b-col class="view-more">
               <a href="https://github.com/AndrewDrury/grow" target="_blank">
-                <p><i class="fa fa-github"></i>&nbsp;View More -></p>
+                <p><i class="fa fa-github"></i>&nbsp;&nbsp;View More -></p>
               </a>
             </b-col>
           </b-row>

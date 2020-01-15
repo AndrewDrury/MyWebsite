@@ -12,7 +12,7 @@
       </b-row>
 
       <b-row class="aboutRow">
-        <b-col class="desktop content-left" lg="6" align="left">
+        <b-col class="desktop1 content-left" lg="6" align="left">
           <div class="description">
             Hi! My name is Andrew Drury. I am in my third year of study at the
             University of Waterloo for Mechatronics Engineering.
@@ -32,7 +32,7 @@
         <b-col class="pic" lg="6" align="right">
           <img src="@/assets/AboutPic.png" />
         </b-col>
-        <b-col class="mobile" align="left">
+        <b-col class="mobile1" align="left">
           <div class="description">
             Hi! My name is Andrew Drury. I am in my third year of study at the
             University of Waterloo for Mechatronics Engineering.

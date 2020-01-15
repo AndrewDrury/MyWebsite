@@ -12,9 +12,8 @@
             <grow />
             <TableStory />
             <FlySafe />
-            <!--
             <sliai />
-            <ePaid /> -->
+            <ePaid />
           </b-row>
         </b-col>
       </b-row>

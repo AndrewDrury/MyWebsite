@@ -6,8 +6,8 @@
           <a href="https://github.com/AndrewDrury/TableStory" target="_blank">
             <img
               srcset="
-                @/assets/ProjectPics/grow.jpg,
-                @/assets/ProjectPics/grow@2x.jpg 2x
+                @/assets/ProjectPics/TableStory.jpg,
+                @/assets/ProjectPics/TableStory@2x.jpg 2x
               "
             />
           </a>
@@ -27,10 +27,10 @@
           </b-row>
           <b-row class="bot-content">
             <b-col class="award" md="12" lg="6">
-              <h4>Best UI/UX Hack</h4>
+              <h4><i class="fa fa-trophy"></i>&nbsp;&nbsp;Best UI/UX Hack</h4>
             </b-col>
             <b-col class="hackathon" md="12" lg="6"
-              ><h4>Hack the Valley lll, 2019</h4></b-col
+              ><h4><i class="fa fa-location-arrow"></i>&nbsp;&nbsp;Hack the Valley lll, 2019</h4></b-col
             >
           </b-row>
           <b-row>
@@ -48,7 +48,7 @@
                 href="https://github.com/AndrewDrury/TableStory"
                 target="_blank"
               >
-                <p><i class="fa fa-github"></i>&nbsp;View More -></p>
+                <p><i class="fa fa-github"></i>&nbsp;&nbsp;View More -></p>
               </a>
             </b-col>
           </b-row>
@@ -57,8 +57,8 @@
           <a href="https://github.com/AndrewDrury/TableStory" target="_blank">
             <img
               srcset="
-                @/assets/ProjectPics/grow.jpg,
-                @/assets/ProjectPics/grow@2x.jpg 2x
+                @/assets/ProjectPics/TableStory.jpg,
+                @/assets/ProjectPics/TableStory@2x.jpg 2x
               "
             />
           </a>

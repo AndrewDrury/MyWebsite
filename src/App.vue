@@ -34,7 +34,7 @@
           >
           <b-nav-item
             class="tab"
-            href="./Resume_AndrewDrury.pdf"
+            href="https://www.dropbox.com/s/h76sf5be2366ikb/Resume_AndrewDrury.pdf?dl=0"
             target="_blank"
             >Resume</b-nav-item
           >
@@ -64,7 +64,7 @@
     <div class="desktop1" id="bottom-links">
       <ul class="list-unstyled social text-center">
         <li>
-          <a href="./Resume_AndrewDrury.pdf" target="_blank">
+          <a href="https://www.dropbox.com/s/h76sf5be2366ikb/Resume_AndrewDrury.pdf?dl=0" target="_blank">
             <i class="fa fa-file-pdf-o"></i>
           </a>
         </li>
@@ -162,7 +162,8 @@
 </template>
 
 <style lang="scss">
-@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+// @import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
 @import "/assets/variables.scss";
 
 #app {
