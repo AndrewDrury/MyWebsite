@@ -29,10 +29,9 @@
               <b-row>
                 <b-col>
                   <p>
-                    I worked on the Frontend and Backend of Salesforce
-                    applications for a variety of projects for clients such as
-                    TMX (Toronto Stock Exchange), Cadillac-Fairview, Rogers,
-                    Globe and Mail, and Dover Food Retail.
+                    I developed CRM software within the Salesforce platform for
+                    clients such as TMX (Toronto Stock Exchange), Cadillac
+                    Fairview, Rogers, and Globe and Mail.
                   </p>
                 </b-col>
               </b-row>

@@ -25,10 +25,10 @@
               <b-row>
                 <b-col>
                   <p>
-                    I worked on the Frontend and Backend of Salesforce
-                    applications for a variety of projects for clients such as
-                    TMX (Toronto Stock Exchange), Cadillac-Fairview, Rogers,
-                    Globe and Mail, and Dover Food Retail.
+                    I worked on a POC which rethinks the manner in which
+                    customers are matched with financial advisors. I created
+                    matching algorithms within a responsive website using
+                    Vue.js, Bootstrap, and SCSS.
                   </p>
                 </b-col>
               </b-row>

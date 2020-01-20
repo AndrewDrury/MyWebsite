@@ -30,15 +30,18 @@
               <h4><i class="fa fa-trophy"></i>&nbsp;&nbsp;Best UI/UX Hack</h4>
             </b-col>
             <b-col class="hackathon" md="12" lg="6"
-              ><h4><i class="fa fa-location-arrow"></i>&nbsp;&nbsp;Hack the Valley lll, 2019</h4></b-col
+              ><h4>
+                <i class="fa fa-location-arrow"></i>&nbsp;&nbsp;Hack the Valley
+                lll, 2019
+              </h4></b-col
             >
           </b-row>
           <b-row>
             <b-col class="details">
               <p>
-                A web app that creates a social community of food enthusiasts. A
-                Tensorflow model was trained to recognize food items in a
-                picture in order to create a user’s food identity.
+                Table Story is a web app that creates a social community of food
+                enthusiasts. A Tensorflow model was trained to recognize food
+                items in a picture in order to create a user’s food identity.
               </p>
             </b-col>
           </b-row>

@@ -33,7 +33,10 @@
               <!-- <h4>1st Place</h4> -->
             </b-col>
             <b-col class="hackathon" md="12" lg="6"
-              ><h4><i class="fa fa-location-arrow"></i>&nbsp;&nbsp;Hack the North, 2019</h4></b-col
+              ><h4>
+                <i class="fa fa-location-arrow"></i>&nbsp;&nbsp;Hack the North,
+                2019
+              </h4></b-col
             >
           </b-row>
           <b-row>

@@ -28,10 +28,13 @@
               <b-row>
                 <b-col>
                   <p>
-                    I worked on the Frontend and Backend of Salesforce
-                    applications for a variety of projects for clients such as
-                    TMX (Toronto Stock Exchange), Cadillac-Fairview, Rogers,
-                    Globe and Mail, and Dover Food Retail.
+                    I managed 21 iOS &amp; macOS apps independantly while
+                    developing
+                    <a
+                      href="http://zurapps.com/all/index.php/math/mathpad/"
+                      target="_blank"
+                      >MathPad</a
+                    >, an iOS app allowing easy mathematical document creation.
                   </p>
                 </b-col>
               </b-row>

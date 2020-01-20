@@ -64,7 +64,10 @@
     <div class="desktop1" id="bottom-links">
       <ul class="list-unstyled social text-center">
         <li>
-          <a href="https://www.dropbox.com/s/h76sf5be2366ikb/Resume_AndrewDrury.pdf?dl=0" target="_blank">
+          <a
+            href="https://www.dropbox.com/s/h76sf5be2366ikb/Resume_AndrewDrury.pdf?dl=0"
+            target="_blank"
+          >
             <i class="fa fa-file-pdf-o"></i>
           </a>
         </li>
@@ -110,40 +113,16 @@
                   target="_blank"
                 >
                   <i class="fa fa-linkedin"></i>
-                  <!-- <img
-                    srcset="
-                    @/assets/homepage/linkedin-logo.png,
-                    @/assets/homepage/linkedin-logo@2x.png 2x,
-                    @/assets/homepage/linkedin-logo@3x.png 3x
-                    "
-                    style="width:1em"
-                  /> -->
                 </a>
               </li>
               <li class="list-inline-item">
                 <a href="mailto:andrew.drury@uwaterloo.ca" target="_blank">
                   <i class="fa fa-envelope"></i>
-                  <!-- <img
-                    srcset="
-                    @/assets/homepage/envelope.png,
-                    @/assets/homepage/envelope@2x.png 2x,
-                    @/assets/homepage/envelope@3x.png 3x
-                    "
-                    style="width:1.25em"
-                  /> -->
                 </a>
               </li>
               <li class="list-inline-item">
                 <a href="https://github.com/AndrewDrury" target="_blank">
                   <i class="fa fa-github"></i>
-                  <!-- <img
-                    srcset="
-                    @/assets/homepage/medium/Shape.png,
-                    @/assets/homepage/medium/Shape@2x.png 2x,
-                    @/assets/homepage/medium/Shape@3x.png 3x
-                    "
-                    style="width:1.25em"
-                  /> -->
                 </a>
               </li>
             </ul>

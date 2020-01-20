@@ -257,11 +257,17 @@ h2 {
 
 .experience-hover {
   display:block;
+  a {
+    color: white;
+  }
 }
 .experience-hover:hover {
   background: white !important;
   h3,h4,.position,.time,p {
     color:black;
+  }
+  a {
+    color: black;
   }
 }
 

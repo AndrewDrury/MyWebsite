@@ -18,8 +18,13 @@
             University of Waterloo for Mechatronics Engineering.
             <br />
             <br />
-            I am currently seeking internship opportunities for Summer 2020 as a
-            developer intern. Get in touch with me at&nbsp;
+            I have a passion for solving people's problems with code. When I am
+            taking a break from the screen, you can find me producing music,
+            playing hockey, and exploring nature.
+            <br />
+            <br />
+            I am currently seeking internship opportunities for Summer 2020 in a
+            developer role. Get in touch with me at&nbsp;
             <a
               class="link mr-1"
               href="mailto:andrew.drury@uwaterloo.ca"
@@ -36,6 +41,11 @@
           <div class="description">
             Hi! My name is Andrew Drury. I am in my third year of study at the
             University of Waterloo for Mechatronics Engineering.
+            <br />
+            <br />
+            I have a passion for solving people's problems with code. When I am
+            taking a break from the screen, you can find me producing music,
+            playing hockey, and exploring nature.
             <br />
             <br />
             I am currently seeking internship opportunities for Summer 2020 as a
