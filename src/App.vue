@@ -156,7 +156,7 @@
 
 #progress-container-el {
   /* background */
-  display:none;
+  display: none;
   background-color: transparent !important;
   top: 0px !important;
 

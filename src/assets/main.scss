@@ -269,6 +269,9 @@ h2 {
   a {
     color: black;
   }
+  a:hover {
+    text-decoration: underline $primary;
+  }
 }
 
 .project {
