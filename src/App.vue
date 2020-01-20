@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="app">
     <!-- Scroll progress bar -->
-    <VueScrollProgress></VueScrollProgress>
+    <!-- <VueScrollProgress></VueScrollProgress> -->
 
     <div class="mobile1 navbar-background"></div>
 
@@ -156,6 +156,7 @@
 
 #progress-container-el {
   /* background */
+  display:none;
   background-color: transparent !important;
   top: 0px !important;
 
