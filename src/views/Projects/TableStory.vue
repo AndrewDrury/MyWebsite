@@ -22,7 +22,11 @@
                 <h1>Table Story</h1>
               </a>
             </b-col>
-            <b-col class="tech"><h3>Vue.js, Tensorflow</h3></b-col>
+            <b-col class="tech"
+              ><h3>
+                <i class="fa fa-tag"></i>&nbsp;&nbsp;Vue.js, Tensorflow
+              </h3></b-col
+            >
             <hr />
           </b-row>
           <b-row class="bot-content">

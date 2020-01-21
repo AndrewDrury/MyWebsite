@@ -363,6 +363,17 @@ h2 {
             left:0;
             position: relative;
             text-align: left;
+            font-size:23px;
+            font-weight: 400;
+            padding-bottom: 0px;
+            margin-bottom: 2px;
+            margin-top: 18px;
+          }
+        }
+        i {
+          font-size: 25px;
+          @media (max-width: $screen-md) {
+            font-size: 23px;
           }
         }
       }
@@ -375,10 +386,16 @@ h2 {
           padding-left: 15px;
           text-align: left;
           width: 100%;
+          h4 {
+            margin-bottom: 2px;
+          }
         }
       }
       h4 {
         font-size: 25px;
+        @media (max-width: $screen-md) {
+          font-size: 23px;
+        }
       }
       .hackathon {
         padding-right: 0px;
@@ -387,8 +404,12 @@ h2 {
           right:0;
           @media (max-width: $screen-md) {
             text-align:left;
+            margin-bottom: 20px;
           }
         }
+      }
+      @media (max-width: $screen-md) {
+        margin-top: 0px;
       }
     }
     .details {
@@ -404,6 +425,7 @@ h2 {
       padding-left: 0px;
       @media (max-width: $screen-md) {
         padding-left: 15px;
+        text-align: left;
       }
       a:hover {
         text-decoration: none;

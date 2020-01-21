@@ -4,7 +4,7 @@
       <b-row>
         <b-col>
           <b-row class="top-space">
-            <b-col class="container desktop" align="center">
+            <b-col class="container" align="center">
               <!-- https://vue-particles.netlify.com/ to customize -->
               <vue-particles
                 color="#31e0ff"
@@ -33,13 +33,14 @@
                   <div>Hi!</div>
                   <div>Hi!</div>
                 </div> -->
-                <div class="deconstructed">
+                <div class="deconstructed desktop">
                   I am Andrew Drury.
                   <div>I am Andrew Drury.</div>
                   <div>I am Andrew Drury.</div>
                   <div>I am Andrew Drury.</div>
                   <div>I am Andrew Drury.</div>
                 </div>
+                <div class="name mobile">I am<br />Andrew Drury.</div>
                 <h5 style="margin-top:60px">
                   I am a Full Stack Developer.
                   <!-- <div class="slidingHorizontal">
@@ -60,7 +61,7 @@
                 </div>
               </div>
             </b-col>
-            <b-col class="container mobile" align="left">
+            <!-- <b-col class="container mobile" align="left">
               <div class="intro">
                 <div class="deconstructed">
                   I am Andrew Drury.
@@ -78,7 +79,7 @@
                   ></router-link>
                 </div>
               </div>
-            </b-col>
+            </b-col> -->
           </b-row>
         </b-col>
       </b-row>
@@ -88,49 +89,6 @@
 
 <style lang="scss">
 @import "../assets/variables.scss";
-.home {
-  .top-space {
-    // margin-top: 80px;
-    // @media (max-width: $screen-sm) {
-    //   margin-top: 80px;
-    // }
-    margin-bottom: 30px;
-  }
-  .container {
-    position: relative;
-    padding-left: 0px;
-    padding-right: 0px;
-
-    .particles-js-canvas-el {
-      border-bottom: 1px solid $primary;
-    }
-  }
-  .intro {
-    margin-top: 10vh;
-    width: 100vw;
-    top: 0px;
-    position: absolute;
-    text-align: center;
-    pointer-events: none;
-  }
-  .view-more {
-    color: #fff;
-    margin-top: 70px;
-    pointer-events: auto;
-  }
-
-  h5 {
-    font-size: 30px !important;
-
-    span {
-      font-size: 30px !important;
-    }
-  }
-  .mobile {
-    height: 500px;
-    margin-bottom: 100px;
-  }
-}
 
 // DECONSTRUCTED TEXT
 .deconstructed {
@@ -568,6 +526,84 @@ a:hover {
   * {
     animation: none !important;
     transition: none !important;
+  }
+}
+
+.home {
+  .top-space {
+    margin-top: 200px;
+    @media (max-width: $screen-sm) {
+      margin-top: 0px;
+    }
+    margin-bottom: 30px;
+  }
+  .container {
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    .particles-js-canvas-el {
+      border-bottom: 1px solid $primary;
+    }
+  }
+  .intro {
+    margin-top: 10vh;
+    width: 100vw;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    pointer-events: none;
+  }
+  .view-more {
+    color: #fff;
+    margin-top: 70px;
+    pointer-events: auto;
+    @media (max-width: $screen-sm) {
+      margin-top: 40px;
+    }
+  }
+
+  h5 {
+    font-size: 30px !important;
+
+    span {
+      font-size: 30px !important;
+    }
+  }
+  // .mobile {
+  //   height: 500px;
+  //   margin-bottom: 100px;
+  // }
+
+  @media (max-width: $screen-md) {
+    .container {
+      height: 460px;
+      margin-bottom: 40px;
+    }
+    .particles-js-canvas-el {
+      display: none;
+    }
+    .name {
+      margin-top: 60px;
+      font-weight: 400;
+      font-size: 48px;
+      letter-spacing: -0.02em;
+      line-height: 1.3em;
+      text-align: left;
+      float: left;
+      width: 100%;
+      padding-left: 20px;
+      padding-right: 20px;
+      margin-bottom: 90px;
+    }
+  }
+  @media (max-width: $screen-sm) {
+    h5 {
+      text-align: left;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 25px !important;
+    }
   }
 }
 </style>

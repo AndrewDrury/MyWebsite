@@ -19,7 +19,11 @@
                 <h1>grow</h1>
               </a>
             </b-col>
-            <b-col class="tech"><h3>ARKit, Core ML</h3></b-col>
+            <b-col class="tech"
+              ><h3>
+                <i class="fa fa-tag"></i>&nbsp;&nbsp;ARKit, Core ML
+              </h3></b-col
+            >
             <hr />
           </b-row>
           <b-row class="bot-content">

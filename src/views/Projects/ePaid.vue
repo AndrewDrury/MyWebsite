@@ -19,7 +19,11 @@
                 <h1>ePaid</h1>
               </a>
             </b-col>
-            <b-col class="tech"><h3>Interact e-Transfer API</h3></b-col>
+            <b-col class="tech"
+              ><h3>
+                <i class="fa fa-tag"></i>&nbsp;&nbsp;Interact e-Transfer API
+              </h3></b-col
+            >
             <hr />
           </b-row>
           <b-row class="bot-content">
