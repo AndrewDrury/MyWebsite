@@ -41,18 +41,23 @@
                   <div>I am Andrew Drury.</div>
                 </div>
                 <div class="name mobile">I am<br />Andrew Drury.</div>
-                <h5 style="margin-top:60px">
-                  I am a Full Stack Developer.
-                  <!-- <div class="slidingHorizontal">
-                      <span>&nbsp;creative thinker.</span>
-                      <span>n engineering student.</span>
-                      <span>&nbsp;passionate creator.</span>
-                      <span>n excited innovator.</span>
+                <h5 style="margin-top: 0px;">
+                  <div class="desktop1">
+                    Mechatronics Engineering @
+                    <a href="https://uwaterloo.ca/" target="_blank"
+                      >University of Waterloo</a
+                    >
                   </div>
-                  <div class="lastSlide">
-                      <span>&nbsp;Full Stack Developer.</span>
-                  </div> -->
+                  <div class="mobile1">
+                    Mechatronics Engineering<br />@
+                    <a
+                      href="https://uwaterloo.ca/future-students/programs/mechatronics-engineering"
+                      target="_blank"
+                      >University of Waterloo</a
+                    >
+                  </div>
                 </h5>
+                <h5 class="tagline">I love to code.</h5>
                 <div class="view-more">
                   <!-- <router-link :to="{ name: 'home', hash: '#experiences' }"><span></span><h6>View My Experiences</h6></router-link> -->
                   <router-link :to="{ name: 'home', hash: '#experiences' }"
@@ -95,9 +100,10 @@
   position: relative;
   margin-top: 180px;
   color: transparent;
-  font-size: 54px;
+  font-size: 72px;
   letter-spacing: -0.02em;
   line-height: 1.3em;
+  pointer-events: auto;
 }
 
 .deconstructed > div {
@@ -108,7 +114,7 @@
   bottom: 0;
   color: #fff;
   pointer-events: none;
-  font-size: 54px;
+  font-size: 72px;
   padding-top: 20px;
   // text-shadow: 3px 3px 2px $blue;
 }
@@ -197,14 +203,14 @@
   0% {
     transform: translateX(100%);
   }
-  10% {
+  26% {
     transform: translateX(0%);
   }
   90% {
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-135%);
+    transform: translateX(0%);
   }
 }
 
@@ -218,7 +224,7 @@
 
   span {
     position: absolute;
-    top: 40px;
+    top: 0px;
     left: 50%;
     width: 46px;
     height: 46px;
@@ -531,7 +537,7 @@ a:hover {
 
 .home {
   .top-space {
-    margin-top: 200px;
+    margin-top: 80px;
     @media (max-width: $screen-sm) {
       margin-top: 0px;
     }
@@ -547,7 +553,7 @@ a:hover {
     }
   }
   .intro {
-    margin-top: 10vh;
+    margin-top: 20vh;
     width: 100vw;
     top: 0px;
     position: absolute;
@@ -556,18 +562,29 @@ a:hover {
   }
   .view-more {
     color: #fff;
-    margin-top: 70px;
+    margin-top: 15px;
     pointer-events: auto;
     @media (max-width: $screen-sm) {
-      margin-top: 40px;
+      margin-top: 15px;
     }
   }
 
   h5 {
-    font-size: 30px !important;
+    div {
+      font-size: 24.3px !important;
+      pointer-events: auto;
 
-    span {
-      font-size: 30px !important;
+      span {
+        font-size: 24.3px !important;
+      }
+
+      a {
+        font-size: 24.3px !important;
+        color: white;
+      }
+      a:hover {
+        text-decoration: underline $primary;
+      }
     }
   }
   // .mobile {
@@ -575,9 +592,19 @@ a:hover {
   //   margin-bottom: 100px;
   // }
 
+  .tagline {
+    margin-top: 115px;
+    margin-bottom: 30px;
+    @media (max-width: $screen-md) {
+      margin-top: 100px;
+      text-align: center;
+      margin-bottom: 0px;
+    }
+  }
+
   @media (max-width: $screen-md) {
     .container {
-      height: 460px;
+      height: 500px;
       margin-bottom: 40px;
     }
     .particles-js-canvas-el {
@@ -595,6 +622,12 @@ a:hover {
       padding-left: 20px;
       padding-right: 20px;
       margin-bottom: 90px;
+      pointer-events: none;
+      @media (max-width: $screen-sm) {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        line-height: 1em;
+      }
     }
   }
   @media (max-width: $screen-sm) {

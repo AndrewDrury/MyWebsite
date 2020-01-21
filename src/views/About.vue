@@ -19,7 +19,7 @@
             <br />
             <br />
             I have a passion for solving people's problems with code. When I am
-            taking a break from the screen, you can find me producing music,
+            not developing my latest ideas, you can find me producing music,
             playing hockey, and exploring nature.
             <br />
             <br />
@@ -44,7 +44,7 @@
             <br />
             <br />
             I have a passion for solving people's problems with code. When I am
-            taking a break from the screen, you can find me producing music,
+            not developing my latest ideas, you can find me producing music,
             playing hockey, and exploring nature.
             <br />
             <br />
