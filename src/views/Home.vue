@@ -9,7 +9,7 @@
               <vue-particles
                 color="#31e0ff"
                 :particleOpacity="1"
-                :particlesNumber="100"
+                :particlesNumber="120"
                 shapeType="circle"
                 :particleSize="4"
                 linesColor="#FFFFFF"
@@ -26,28 +26,21 @@
               </vue-particles>
 
               <div class="intro">
-                <div class="deconstructed desktop">
+                <div class="deconstructed desktop1">
                   I am Andrew Drury.
                   <div>I am Andrew Drury.</div>
                   <div>I am Andrew Drury.</div>
                   <div>I am Andrew Drury.</div>
                   <div>I am Andrew Drury.</div>
                 </div>
-                <div class="name mobile hidden">I am<br />Andrew Drury.</div>
+                <div class="name mobile1 hidden">I am<br />Andrew Drury.</div>
                 <h5 style="margin-top: 0px;">
-                  <div class="desktop1 hidden">
-                    Mechatronics Engineering @
-                    <a href="https://uwaterloo.ca/" target="_blank"
-                      >University of Waterloo</a
-                    >
+                  <div class="desktop hidden">
+                    Mechatronics Engineering @ University of Waterloo
                   </div>
                   <div class="mobile1 hidden">
-                    Mechatronics Engineering<br />@
-                    <a
-                      href="https://uwaterloo.ca/future-students/programs/mechatronics-engineering"
-                      target="_blank"
-                      >University of Waterloo</a
-                    >
+                    Mechatronics Engineering<br />
+                    @ University of Waterloo
                   </div>
                 </h5>
                 <h5 class="tagline hidden">I love to code.</h5>
@@ -241,6 +234,7 @@
 }
 .view-more a:hover {
   opacity: 0.5;
+  text-decoration: underline $primary;
 }
 @-webkit-keyframes sdb03 {
   0% {
@@ -509,6 +503,9 @@ a:hover {
 }
 
 .home {
+  @media (min-width: $screen-md) {
+    min-height: 650px;
+  }
   .top-space {
     margin-top: 80px;
     @media (max-width: $screen-sm) {
@@ -532,18 +529,14 @@ a:hover {
     position: absolute;
     text-align: center;
     pointer-events: none;
-    @media (max-width: $screen-sm) {
-      margin-left: 15px;
-      margin-right: 15px;
+    @media (max-width: $screen-md) {
+      padding-right: 0px;
     }
   }
   .view-more {
     color: #fff;
     margin-top: 15px;
     pointer-events: auto;
-    @media (max-width: $screen-sm) {
-      margin-top: 15px;
-    }
   }
 
   h5 {
@@ -564,10 +557,6 @@ a:hover {
       }
     }
   }
-  // .mobile {
-  //   height: 500px;
-  //   margin-bottom: 100px;
-  // }
 
   .tagline {
     margin-top: 115px;
@@ -607,7 +596,7 @@ a:hover {
       }
     }
   }
-  @media (max-width: $screen-sm) {
+  @media (max-width: $screen-md) {
     h5 {
       text-align: left;
       padding-left: 20px;

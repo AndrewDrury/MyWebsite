@@ -1,6 +1,4 @@
 @import "./variables.scss";
-// @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap');
-
 $font_path: '~@/assets/fonts/';
 
 @font-face {
@@ -60,7 +58,8 @@ $font_path: '~@/assets/fonts/';
 }
 
 .link {
-  color:$primary;
+  color: white;
+  text-decoration: underline $primary;
 }
 
 .vert-center {
@@ -72,7 +71,7 @@ $font_path: '~@/assets/fonts/';
 .section {
   padding-top: 80px;
   text-align: left;
-  @media (max-width: $screen-sm) {
+  @media (max-width: $screen-md) {
     text-align: center;
   }
 }
@@ -84,27 +83,25 @@ $font_path: '~@/assets/fonts/';
 
 .desktop {
   display: inline;
-  @media (max-width: $screen-sm) {
+  @media (max-width: $screen-md) {
     display: none;
   }
 }
 .mobile {
   display: none;
-  @media (max-width: $screen-sm) {
+  @media (max-width: $screen-md) {
     display: inline;
   }
 }
-
 .desktop1 {
   display: inline;
-  @media (max-width: $screen-md) {
+  @media (max-width: $screen-sm) {
     display: none;
   }
 }
-
 .mobile1 {
   display: none;
-  @media (max-width: $screen-md) {
+  @media (max-width: $screen-sm) {
     display: inline;
   }
 }
@@ -153,8 +150,6 @@ h2 {
       text-align: left;
       @media (max-width: $screen-md) {
         padding-top: 30px;
-        margin-left: 15px;
-        margin-right: 15px;
       }
     }
 
@@ -278,11 +273,14 @@ h2 {
   }
   a:hover {
     text-decoration: underline $primary;
+    h3 {
+      text-decoration: underline $primary;
+    }
   }
 }
 
 .project {
-.projectRow {
+  .projectRow {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -304,11 +302,15 @@ h2 {
           padding-right: 15%;
           padding-left: 15%;
         }
-        .webscreen {
-          img {
-            padding-right: 0px;
-            padding-left: 0px;
-          }
+      }
+    }
+    .webscreen {
+      @media (max-width: $screen-md) {
+        padding-right: 0px;
+        padding-left: 0px;
+        img {
+          padding-right: 0px;
+          padding-left: 0px;
         }
       }
     }
@@ -419,6 +421,14 @@ h2 {
         margin-top: 0px;
       }
     }
+
+    @media (max-width: $screen-md) {
+      i {
+        width: 22px;
+      }
+    }
+
+
     .details {
       padding-right: 0px;
       padding-left: 0px;
@@ -458,20 +468,20 @@ h2 {
         padding-left: 20%;
         width: 100%;
       }
-      @media (max-width: $screen-sm) {
+      @media (max-width: $screen-md) {
         align: center;
         width: 100%;
-        // padding-left: 15px;
-        // padding-right: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
         img {
-          padding-left: 15px;
-          padding-right: 15px;
+          padding-left: 0px;
+          padding-right: 0px;
         }
       }
     }
 
     .description {
-      @media (max-width: $screen-sm) {
+      @media (max-width: $screen-md) {
         margin-top: 30px;
         padding-right: 15px;
         padding-left: 15px;
@@ -500,20 +510,16 @@ h2 {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
-.text-shadow {
-  text-shadow: 3px 3px 2px $blue;
-}
-
 .margin-wrap {
   @media (min-width: $screen-md) {
     margin-left: 9.86%;
     margin-right: 9.86%;
   }
+}
 
-  @media (max-width: $screen-md) {
-    margin-left: 1%;
-    margin-right: 1%;
-  }
+.wrap-mobile {
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 //Animate elements when scrolled into view

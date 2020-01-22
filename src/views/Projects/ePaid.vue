@@ -2,7 +2,7 @@
   <div class="project" id="ePaid" name="ePaid">
     <b-container fluid>
       <b-row class="projectRow">
-        <b-col class="project-pic hidden" md="4">
+        <b-col class="project-pic hidden" lg="4">
           <a href="https://tdlab.io/project/ePaid" target="_blank">
             <img
               srcset="
@@ -12,7 +12,7 @@
             />
           </a>
         </b-col>
-        <b-col m="8">
+        <b-col lg="8">
           <b-row class="top-content">
             <b-col class="title hidden" md="12">
               <a href="https://tdlab.io/project/ePaid" target="_blank">
@@ -21,19 +21,18 @@
             </b-col>
             <b-col class="tech hidden"
               ><h3>
-                <i class="fa fa-tag"></i>&nbsp;&nbsp;Interact e-Transfer API
+                <i class="fa fa-tag"></i>&nbsp;Interact e-Transfer API
               </h3></b-col
             >
             <hr />
           </b-row>
           <b-row class="bot-content">
             <b-col class="award hidden" md="12" lg="6">
-              <h4><i class="fa fa-trophy"></i>&nbsp;&nbsp;1st Place</h4>
+              <h4><i class="fa fa-trophy"></i>&nbsp;1st Place</h4>
             </b-col>
             <b-col class="hackathon hidden" md="12" lg="6"
               ><h4>
-                <i class="fa fa-location-arrow"></i>&nbsp;&nbsp;TD Midterm Hack,
-                2019
+                <i class="fa fa-location-arrow"></i>&nbsp;TD Midterm Hack, 2019
               </h4></b-col
             >
           </b-row>
@@ -49,9 +48,7 @@
           <b-row>
             <b-col class="view-more hidden">
               <a href="https://tdlab.io/project/ePaid" target="_blank">
-                <p>
-                  <i class="fa fa-external-link"></i>&nbsp;&nbsp;View More ->
-                </p>
+                <p><i class="fa fa-external-link"></i>&nbsp;View More -></p>
               </a>
             </b-col>
           </b-row>

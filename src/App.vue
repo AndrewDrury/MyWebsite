@@ -7,7 +7,7 @@
 
     <!-- Navbar -->
     <b-navbar toggleable="md" class="fixed-top navbar-dark" id="navbar">
-      <div class="mobile">
+      <div class="mobile1">
         <b-navbar-brand
           class="nav-link draw meet"
           :to="{ name: 'home', hash: '' }"
@@ -17,7 +17,7 @@
       </div>
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
       <b-collapse is-nav id="nav_collapse">
-        <b-navbar-nav class="ml-auto top-nav hidden">
+        <b-navbar-nav class="ml-auto top-nav">
           <b-nav-item class="tab" :to="{ name: 'home', hash: '#experiences' }"
             >Experiences</b-nav-item
           >
@@ -25,7 +25,7 @@
             >Projects</b-nav-item
           >
           <b-nav-item
-            class="tab desktop-router draw meet"
+            class="tab desktop-router draw meet hidden"
             :to="{ name: 'home', hash: '' }"
             ><img src="@/assets/logo.png" style="width: 50px"
           /></b-nav-item>
@@ -61,7 +61,7 @@
       </div> -->
     </div>
 
-    <div class="desktop1 hidden" id="bottom-links">
+    <div class="desktop hidden" id="bottom-links">
       <ul class="list-unstyled social text-center">
         <li>
           <a
@@ -89,7 +89,7 @@
       </ul>
       <div class="vertical-line"></div>
     </div>
-    <!-- <div class="desktop1" id="bottom-right-line">
+    <!-- <div class="desktop" id="bottom-right-line">
       <a href="mailto:andrew.drury@uwaterloo.ca" target="_blank" align='left'>
         <p class='rotate'>andrew.drury@uwaterloo.ca</p>
       </a>
@@ -310,6 +310,10 @@
     background-color: $grey;
     height: 80px;
   }
+  @media (max-width: $screen-md) {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
 
   /* change the link color */
   .navbar-nav .nav-link {
@@ -346,6 +350,7 @@
 
     @media (max-width: $screen-sm) {
       margin: 0 auto;
+      padding-left: 0px;
     }
   }
 
@@ -378,7 +383,6 @@
 .navbar-dark .navbar-toggler {
   color: white !important;
   border-color: white !important;
-  margin-right: 15px;
 }
 
 // Footer
@@ -386,7 +390,6 @@ section {
   padding: 30px 0;
 }
 #footer {
-  // background: $dark-grey !important;
   background: white;
   z-index: 99;
   position: absolute;

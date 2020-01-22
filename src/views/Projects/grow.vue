@@ -2,7 +2,7 @@
   <div class="project" id="grow" name="grow">
     <b-container fluid>
       <b-row class="projectRow">
-        <b-col class="project-pic hidden" md="4">
+        <b-col class="project-pic hidden" lg="4">
           <a href="https://github.com/AndrewDrury/grow" target="_blank">
             <img
               srcset="
@@ -12,7 +12,7 @@
             />
           </a>
         </b-col>
-        <b-col m="8">
+        <b-col lg="8">
           <b-row class="top-content">
             <b-col class="title hidden" md="12">
               <a href="https://github.com/AndrewDrury/grow" target="_blank">
@@ -20,35 +20,33 @@
               </a>
             </b-col>
             <b-col class="tech hidden"
-              ><h3>
-                <i class="fa fa-tag"></i>&nbsp;&nbsp;ARKit, Core ML
-              </h3></b-col
+              ><h3><i class="fa fa-tag"></i>&nbsp;ARKit, Core ML</h3></b-col
             >
             <hr />
           </b-row>
           <b-row class="bot-content">
             <b-col class="award hidden" md="12" lg="6">
-              <h4><i class="fa fa-trophy"></i>&nbsp;&nbsp;1st Place</h4>
+              <h4><i class="fa fa-trophy"></i>&nbsp;1st Place</h4>
             </b-col>
             <b-col class="hackathon hidden" md="12" lg="6"
               ><h4>
-                <i class="fa fa-location-arrow"></i>&nbsp;&nbsp;Hack Lassonde,
-                2019
+                <i class="fa fa-location-arrow"></i>&nbsp;Hack Lassonde, 2019
               </h4></b-col
             >
           </b-row>
           <b-row>
             <b-col class="details hidden">
               <p>
-                Grow recognizes company logos using a custom Core ML model and
-                displays their eco-friendliness in AR with Apple’s ARKit.
+                Grow displays the eco-friendliness of brands in augmented
+                reality. Users can improve their environmental footprint by
+                discovering more sustainable products.
               </p>
             </b-col>
           </b-row>
           <b-row>
             <b-col class="view-more hidden">
               <a href="https://github.com/AndrewDrury/grow" target="_blank">
-                <p><i class="fa fa-github"></i>&nbsp;&nbsp;View More -></p>
+                <p><i class="fa fa-github"></i>&nbsp;View More -></p>
               </a>
             </b-col>
           </b-row>

@@ -2,7 +2,7 @@
   <div class="project" id="TableStory" name="TableStory">
     <b-container fluid>
       <b-row class="projectRow">
-        <b-col class="project-pic mobile hidden" md="4">
+        <b-col class="project-pic mobile hidden" lg="4">
           <a href="https://github.com/AndrewDrury/TableStory" target="_blank">
             <img
               srcset="
@@ -12,7 +12,7 @@
             />
           </a>
         </b-col>
-        <b-col md="8">
+        <b-col lg="8">
           <b-row class="top-content ">
             <b-col class="title hidden" md="12">
               <a
@@ -23,29 +23,28 @@
               </a>
             </b-col>
             <b-col class="tech hidden"
-              ><h3>
-                <i class="fa fa-tag"></i>&nbsp;&nbsp;Vue.js, Tensorflow
-              </h3></b-col
+              ><h3><i class="fa fa-tag"></i>&nbsp;Vue.js, Tensorflow</h3></b-col
             >
             <hr />
           </b-row>
           <b-row class="bot-content">
             <b-col class="award hidden" md="12" lg="6">
-              <h4><i class="fa fa-trophy"></i>&nbsp;&nbsp;Best UI/UX Hack</h4>
+              <h4><i class="fa fa-trophy"></i>&nbsp;Best UI/UX Hack</h4>
             </b-col>
             <b-col class="hackathon hidden" md="12" lg="6"
               ><h4>
-                <i class="fa fa-location-arrow"></i>&nbsp;&nbsp;Hack the Valley
-                lll, 2019
+                <i class="fa fa-location-arrow"></i>&nbsp;Hack the Valley lll,
+                2019
               </h4></b-col
             >
           </b-row>
           <b-row>
             <b-col class="details hidden">
               <p>
-                Table Story is a web app that creates a social community of food
-                enthusiasts. A Tensorflow model was trained to recognize food
-                items in a picture in order to create a user’s food identity.
+                Table Story is a social community of foodies sharing their
+                favourite dishes. Restaurant and food recommendations are
+                generated based off the food recognized in pictures using a
+                Tensorflow model.
               </p>
             </b-col>
           </b-row>
@@ -55,7 +54,7 @@
                 href="https://github.com/AndrewDrury/TableStory"
                 target="_blank"
               >
-                <p><i class="fa fa-github"></i>&nbsp;&nbsp;View More -></p>
+                <p><i class="fa fa-github"></i>&nbsp;View More -></p>
               </a>
             </b-col>
           </b-row>

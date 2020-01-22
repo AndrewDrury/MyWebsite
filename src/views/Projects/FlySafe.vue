@@ -2,7 +2,7 @@
   <div class="project" id="FlySafe" name="FlySafe">
     <b-container fluid>
       <b-row class="projectRow hidden">
-        <b-col class="project-pic" md="4">
+        <b-col class="project-pic" lg="4">
           <a
             href="https://github.com/AndrewDrury/FlySafe-BlockchainEndpoint"
             target="_blank"
@@ -15,7 +15,7 @@
             />
           </a>
         </b-col>
-        <b-col m="8">
+        <b-col lg="8">
           <b-row class="top-content">
             <b-col class="title hidden" md="12">
               <a
@@ -26,29 +26,27 @@
               </a>
             </b-col>
             <b-col class="tech hidden"
-              ><h3>
-                <i class="fa fa-tag"></i>&nbsp;&nbsp;Azure, Blockchain
-              </h3></b-col
+              ><h3><i class="fa fa-tag"></i>&nbsp;Azure, Blockchain</h3></b-col
             >
             <hr />
           </b-row>
           <b-row class="bot-content">
-            <b-col class="award" md="12" lg="6">
-              <!-- <h4>1st Place</h4> -->
+            <b-col class="award hidden" md="12" lg="6">
+              <h4><i class="fa fa-map-marker"></i>&nbsp;Waterloo, ON</h4>
             </b-col>
             <b-col class="hackathon hidden" md="12" lg="6"
               ><h4>
-                <i class="fa fa-location-arrow"></i>&nbsp;&nbsp;Hack the North,
-                2019
+                <i class="fa fa-location-arrow"></i>&nbsp;Hack the North, 2019
               </h4></b-col
             >
           </b-row>
           <b-row>
             <b-col class="details hidden">
               <p>
-                FlySafe scans and secures important data such as IDs, cards
-                andtickets with Blockmason LINK, a blockchain microservice. Data
-                is accessible via Face ID using Microsoft Azure.
+                FlySafe scans and secures important data such as IDs, payment
+                cards and plane tickets with Blockmason LINK, a blockchain
+                microservice. All cards and documents can be accessed with a
+                facial recognition scan using Microsoft Azure.
               </p>
             </b-col>
           </b-row>
@@ -58,7 +56,7 @@
                 href="https://github.com/AndrewDrury/FlySafe-BlockchainEndpoint"
                 target="_blank"
               >
-                <p><i class="fa fa-github"></i>&nbsp;&nbsp;View More -></p>
+                <p><i class="fa fa-github"></i>&nbsp;View More -></p>
               </a>
             </b-col>
           </b-row>
