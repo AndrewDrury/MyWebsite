@@ -48,7 +48,7 @@
           <b-row>
             <b-col class="view-more hidden">
               <a href="https://tdlab.io/project/ePaid" target="_blank">
-                <p><i class="fa fa-external-link"></i>&nbsp;View More -></p>
+                <p><i class="fa fa-external-link"></i>View More -></p>
               </a>
             </b-col>
           </b-row>

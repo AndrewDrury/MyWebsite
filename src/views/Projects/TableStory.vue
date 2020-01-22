@@ -54,7 +54,7 @@
                 href="https://github.com/AndrewDrury/TableStory"
                 target="_blank"
               >
-                <p><i class="fa fa-github"></i>&nbsp;View More -></p>
+                <p><i class="fa fa-github"></i>View More -></p>
               </a>
             </b-col>
           </b-row>

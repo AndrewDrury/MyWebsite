@@ -44,7 +44,7 @@
                   </div>
                 </h5>
                 <h5 class="tagline hidden">I love to code.</h5>
-                <div class="view-more hidden">
+                <div class="scroll-down hidden">
                   <router-link :to="{ name: 'home', hash: '#experiences' }"
                     ><span></span
                   ></router-link>
@@ -181,7 +181,7 @@
 }
 
 // VIEW EXPERIENCES
-.view-more a {
+.scroll-down a {
   position: relative;
   display: inline-block;
   color: #fff;
@@ -232,9 +232,8 @@
     box-sizing: border-box;
   }
 }
-.view-more a:hover {
+.scroll-down a:hover {
   opacity: 0.5;
-  text-decoration: underline $primary;
 }
 @-webkit-keyframes sdb03 {
   0% {
@@ -533,7 +532,7 @@ a:hover {
       padding-right: 0px;
     }
   }
-  .view-more {
+  .scroll-down {
     color: #fff;
     margin-top: 15px;
     pointer-events: auto;

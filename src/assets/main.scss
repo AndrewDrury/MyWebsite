@@ -445,7 +445,10 @@ h2 {
         text-align: left;
       }
       a:hover {
-        text-decoration: none;
+        text-decoration: underline $primary;
+      }
+      i {
+        padding-right: 0.4em;
       }
     }
   }
