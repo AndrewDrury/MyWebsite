@@ -1,5 +1,5 @@
 <template>
-  <div class="experience" id="Stratus360" name="Stratus360">
+  <div class="experience hidden" id="Stratus360" name="Stratus360">
     <a class="experience-hover">
       <b-container fluid style="padding-right:0px;padding-left:0px">
         <div class="margin-wrap">

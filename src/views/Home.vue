@@ -9,14 +9,14 @@
               <vue-particles
                 color="#31e0ff"
                 :particleOpacity="1"
-                :particlesNumber="150"
+                :particlesNumber="100"
                 shapeType="circle"
                 :particleSize="4"
                 linesColor="#FFFFFF"
                 :linesWidth="1"
                 :lineLinked="true"
                 :lineOpacity="0.4"
-                :linesDistance="120"
+                :linesDistance="150"
                 :moveSpeed="6"
                 :hoverEffect="true"
                 hoverMode="grab"
@@ -26,13 +26,6 @@
               </vue-particles>
 
               <div class="intro">
-                <!-- <div class="deconstructed" style='margin-top: 14vh'>
-                  Hi!
-                  <div>Hi!</div>
-                  <div>Hi!</div>
-                  <div>Hi!</div>
-                  <div>Hi!</div>
-                </div> -->
                 <div class="deconstructed desktop">
                   I am Andrew Drury.
                   <div>I am Andrew Drury.</div>
@@ -40,15 +33,15 @@
                   <div>I am Andrew Drury.</div>
                   <div>I am Andrew Drury.</div>
                 </div>
-                <div class="name mobile">I am<br />Andrew Drury.</div>
+                <div class="name mobile hidden">I am<br />Andrew Drury.</div>
                 <h5 style="margin-top: 0px;">
-                  <div class="desktop1">
+                  <div class="desktop1 hidden">
                     Mechatronics Engineering @
                     <a href="https://uwaterloo.ca/" target="_blank"
                       >University of Waterloo</a
                     >
                   </div>
-                  <div class="mobile1">
+                  <div class="mobile1 hidden">
                     Mechatronics Engineering<br />@
                     <a
                       href="https://uwaterloo.ca/future-students/programs/mechatronics-engineering"
@@ -57,34 +50,14 @@
                     >
                   </div>
                 </h5>
-                <h5 class="tagline">I love to code.</h5>
-                <div class="view-more">
-                  <!-- <router-link :to="{ name: 'home', hash: '#experiences' }"><span></span><h6>View My Experiences</h6></router-link> -->
+                <h5 class="tagline hidden">I love to code.</h5>
+                <div class="view-more hidden">
                   <router-link :to="{ name: 'home', hash: '#experiences' }"
                     ><span></span
                   ></router-link>
                 </div>
               </div>
             </b-col>
-            <!-- <b-col class="container mobile" align="left">
-              <div class="intro">
-                <div class="deconstructed">
-                  I am Andrew Drury.
-                  <div>I am Andrew Drury.</div>
-                  <div>I am Andrew Drury.</div>
-                  <div>I am Andrew Drury.</div>
-                  <div>I am Andrew Drury.</div>
-                </div>
-                <h5 style="margin-top:60px">
-                  I am a Full Stack Developer.
-                </h5>
-                <div class="view-more">
-                  <router-link :to="{ name: 'home', hash: '#experiences' }"
-                    ><span></span
-                  ></router-link>
-                </div>
-              </div>
-            </b-col> -->
           </b-row>
         </b-col>
       </b-row>
@@ -554,11 +527,15 @@ a:hover {
   }
   .intro {
     margin-top: 20vh;
-    width: 100vw;
+    width: 100%;
     top: 0px;
     position: absolute;
     text-align: center;
     pointer-events: none;
+    @media (max-width: $screen-sm) {
+      margin-left: 15px;
+      margin-right: 15px;
+    }
   }
   .view-more {
     color: #fff;

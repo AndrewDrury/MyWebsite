@@ -5,7 +5,7 @@
         <b-col style="padding-right:0px;padding-left:0px">
           <b-row class="margin-wrap">
             <b-col>
-              <h2>Experiences</h2>
+              <h2 class="hidden">Experiences</h2>
             </b-col>
           </b-row>
           <!-- <b-row>

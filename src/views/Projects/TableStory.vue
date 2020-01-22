@@ -2,7 +2,7 @@
   <div class="project" id="TableStory" name="TableStory">
     <b-container fluid>
       <b-row class="projectRow">
-        <b-col class="project-pic mobile" md="4">
+        <b-col class="project-pic mobile hidden" md="4">
           <a href="https://github.com/AndrewDrury/TableStory" target="_blank">
             <img
               srcset="
@@ -13,8 +13,8 @@
           </a>
         </b-col>
         <b-col md="8">
-          <b-row class="top-content">
-            <b-col class="title" md="12">
+          <b-row class="top-content ">
+            <b-col class="title hidden" md="12">
               <a
                 href="https://github.com/AndrewDrury/TableStory"
                 target="_blank"
@@ -22,7 +22,7 @@
                 <h1>Table Story</h1>
               </a>
             </b-col>
-            <b-col class="tech"
+            <b-col class="tech hidden"
               ><h3>
                 <i class="fa fa-tag"></i>&nbsp;&nbsp;Vue.js, Tensorflow
               </h3></b-col
@@ -30,10 +30,10 @@
             <hr />
           </b-row>
           <b-row class="bot-content">
-            <b-col class="award" md="12" lg="6">
+            <b-col class="award hidden" md="12" lg="6">
               <h4><i class="fa fa-trophy"></i>&nbsp;&nbsp;Best UI/UX Hack</h4>
             </b-col>
-            <b-col class="hackathon" md="12" lg="6"
+            <b-col class="hackathon hidden" md="12" lg="6"
               ><h4>
                 <i class="fa fa-location-arrow"></i>&nbsp;&nbsp;Hack the Valley
                 lll, 2019
@@ -41,7 +41,7 @@
             >
           </b-row>
           <b-row>
-            <b-col class="details">
+            <b-col class="details hidden">
               <p>
                 Table Story is a web app that creates a social community of food
                 enthusiasts. A Tensorflow model was trained to recognize food
@@ -50,7 +50,7 @@
             </b-col>
           </b-row>
           <b-row>
-            <b-col class="view-more">
+            <b-col class="view-more hidden">
               <a
                 href="https://github.com/AndrewDrury/TableStory"
                 target="_blank"
@@ -60,7 +60,7 @@
             </b-col>
           </b-row>
         </b-col>
-        <b-col class="project-pic desktop" md="4">
+        <b-col class="project-pic desktop hidden" md="4">
           <a href="https://github.com/AndrewDrury/TableStory" target="_blank">
             <img
               srcset="

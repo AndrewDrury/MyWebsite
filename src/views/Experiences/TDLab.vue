@@ -1,5 +1,5 @@
 <template>
-  <div class="experience" id="TDLab" name="TDLab">
+  <div class="experience hidden" id="TDLab" name="TDLab">
     <a class="experience-hover">
       <b-container fluid style="padding-right:0px;padding-left:0px">
         <div class="margin-wrap">

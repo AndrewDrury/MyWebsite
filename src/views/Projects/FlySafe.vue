@@ -1,7 +1,7 @@
 <template>
   <div class="project" id="FlySafe" name="FlySafe">
     <b-container fluid>
-      <b-row class="projectRow">
+      <b-row class="projectRow hidden">
         <b-col class="project-pic" md="4">
           <a
             href="https://github.com/AndrewDrury/FlySafe-BlockchainEndpoint"
@@ -17,7 +17,7 @@
         </b-col>
         <b-col m="8">
           <b-row class="top-content">
-            <b-col class="title" md="12">
+            <b-col class="title hidden" md="12">
               <a
                 href="https://github.com/AndrewDrury/FlySafe-BlockchainEndpoint"
                 target="_blank"
@@ -25,7 +25,7 @@
                 <h1>FlySafe</h1>
               </a>
             </b-col>
-            <b-col class="tech"
+            <b-col class="tech hidden"
               ><h3>
                 <i class="fa fa-tag"></i>&nbsp;&nbsp;Azure, Blockchain
               </h3></b-col
@@ -36,7 +36,7 @@
             <b-col class="award" md="12" lg="6">
               <!-- <h4>1st Place</h4> -->
             </b-col>
-            <b-col class="hackathon" md="12" lg="6"
+            <b-col class="hackathon hidden" md="12" lg="6"
               ><h4>
                 <i class="fa fa-location-arrow"></i>&nbsp;&nbsp;Hack the North,
                 2019
@@ -44,7 +44,7 @@
             >
           </b-row>
           <b-row>
-            <b-col class="details">
+            <b-col class="details hidden">
               <p>
                 FlySafe scans and secures important data such as IDs, cards
                 andtickets with Blockmason LINK, a blockchain microservice. Data
@@ -53,7 +53,7 @@
             </b-col>
           </b-row>
           <b-row>
-            <b-col class="view-more">
+            <b-col class="view-more hidden">
               <a
                 href="https://github.com/AndrewDrury/FlySafe-BlockchainEndpoint"
                 target="_blank"

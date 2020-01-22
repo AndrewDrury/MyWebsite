@@ -2,7 +2,7 @@
   <div class="project" id="grow" name="grow">
     <b-container fluid>
       <b-row class="projectRow">
-        <b-col class="project-pic" md="4">
+        <b-col class="project-pic hidden" md="4">
           <a href="https://github.com/AndrewDrury/grow" target="_blank">
             <img
               srcset="
@@ -14,12 +14,12 @@
         </b-col>
         <b-col m="8">
           <b-row class="top-content">
-            <b-col class="title" md="12">
+            <b-col class="title hidden" md="12">
               <a href="https://github.com/AndrewDrury/grow" target="_blank">
                 <h1>grow</h1>
               </a>
             </b-col>
-            <b-col class="tech"
+            <b-col class="tech hidden"
               ><h3>
                 <i class="fa fa-tag"></i>&nbsp;&nbsp;ARKit, Core ML
               </h3></b-col
@@ -27,10 +27,10 @@
             <hr />
           </b-row>
           <b-row class="bot-content">
-            <b-col class="award" md="12" lg="6">
+            <b-col class="award hidden" md="12" lg="6">
               <h4><i class="fa fa-trophy"></i>&nbsp;&nbsp;1st Place</h4>
             </b-col>
-            <b-col class="hackathon" md="12" lg="6"
+            <b-col class="hackathon hidden" md="12" lg="6"
               ><h4>
                 <i class="fa fa-location-arrow"></i>&nbsp;&nbsp;Hack Lassonde,
                 2019
@@ -38,7 +38,7 @@
             >
           </b-row>
           <b-row>
-            <b-col class="details">
+            <b-col class="details hidden">
               <p>
                 Grow recognizes company logos using a custom Core ML model and
                 displays their eco-friendliness in AR with Apple’s ARKit.
@@ -46,7 +46,7 @@
             </b-col>
           </b-row>
           <b-row>
-            <b-col class="view-more">
+            <b-col class="view-more hidden">
               <a href="https://github.com/AndrewDrury/grow" target="_blank">
                 <p><i class="fa fa-github"></i>&nbsp;&nbsp;View More -></p>
               </a>

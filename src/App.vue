@@ -17,7 +17,7 @@
       </div>
       <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
       <b-collapse is-nav id="nav_collapse">
-        <b-navbar-nav class="ml-auto top-nav">
+        <b-navbar-nav class="ml-auto top-nav hidden">
           <b-nav-item class="tab" :to="{ name: 'home', hash: '#experiences' }"
             >Experiences</b-nav-item
           >
@@ -61,7 +61,7 @@
       </div> -->
     </div>
 
-    <div class="desktop1" id="bottom-links">
+    <div class="desktop1 hidden" id="bottom-links">
       <ul class="list-unstyled social text-center">
         <li>
           <a
@@ -98,7 +98,7 @@
 
     <!-- Footer -->
     <section id="footer">
-      <div class="container">
+      <div class="container hidden">
         <b-row class="text-center" style="margin-bottom:24px">
           <b-col>
             <h3>Let's Get In Touch!</h3>
@@ -220,7 +220,6 @@
   width: 9.86%;
   text-align: center;
   margin-bottom: -5px;
-  animation: popup 5s;
 
   .fa-github {
     font-size: 21px !important;
@@ -263,18 +262,6 @@
     background-color: $primary;
     height: 100%;
     display: inline-block;
-  }
-}
-
-@keyframes popup {
-  0% {
-    transform: translateY(100%);
-  }
-  14% {
-    transform: translateY(10%);
-  }
-  100% {
-    transform: translateY(0%);
   }
 }
 
@@ -391,6 +378,7 @@
 .navbar-dark .navbar-toggler {
   color: white !important;
   border-color: white !important;
+  margin-right: 15px;
 }
 
 // Footer
@@ -398,10 +386,13 @@ section {
   padding: 30px 0;
 }
 #footer {
-  background: $dark-grey !important;
+  // background: $dark-grey !important;
+  background: white;
   z-index: 99;
   position: absolute;
   width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 #footer ul.social li a i {
   margin-right: 15px;
@@ -410,12 +401,12 @@ section {
   -webkit-transition: 0.5s all ease;
   -moz-transition: 0.5s all ease;
   transition: 0.5s all ease;
-  color: $primary;
+  color: black;
 }
 #footer ul.social li:hover a i {
   font-size: 30px;
   margin-top: -10px;
-  color: white;
+  color: $primary;
 }
 #footer ul.social li a img {
   margin-right: 15px;
@@ -424,19 +415,21 @@ section {
   -webkit-transition: 0.5s all ease;
   -moz-transition: 0.5s all ease;
   transition: 0.5s all ease;
-  color: $primary;
+  color: black;
 }
 #footer ul.social li:hover a img {
   font-size: 30px;
   margin-top: -10px;
-  color: white;
+  color: $primary;
 }
 #footer h3 {
   font-size: 24px;
   font-weight: 700;
+  color: black;
 }
 #footer .endtag {
   margin-bottom: 0px;
+  color: black;
 }
 // #footer .copyright {
 //   color: $primary;
@@ -475,6 +468,50 @@ export default Vue.extend({
     Projects,
     About
     // parallax: require("vue-parallax")
+  },
+  mounted() {
+    this.animateElements();
+  },
+  methods: {
+    animateElements: function() {
+      var elements;
+      var windowHeight;
+
+      function init() {
+        elements = document.querySelectorAll(".hidden");
+        windowHeight = window.innerHeight;
+        addEventHandlers();
+        checkPosition();
+      }
+
+      function addEventHandlers() {
+        window.addEventListener("scroll", checkPosition);
+        window.addEventListener("resize", init);
+      }
+
+      function checkPosition() {
+        for (var i = 0; i < elements.length; i++) {
+          var element = elements[i];
+          var positionFromTop = elements[i].getBoundingClientRect().top;
+
+          if (positionFromTop - windowHeight <= 0) {
+            element.classList.add("fade-in-element");
+            element.classList.remove("hidden");
+          }
+          if (positionFromTop - windowHeight > 1) {
+            //UNCOMMENT to reanimate
+            // element.classList.add('hidden');
+            // element.classList.remove('fade-in-element');
+          }
+        }
+      }
+
+      window.addEventListener("scroll", checkPosition);
+      window.addEventListener("resize", init);
+
+      init();
+      checkPosition();
+    }
   }
 });
 </script>
