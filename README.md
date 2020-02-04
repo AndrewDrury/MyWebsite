@@ -47,12 +47,3 @@ npm run lint
 6. Run `git commit -m "deploying dist"`
 7. Run `git subtree push --prefix dist origin gh-pages`
 8. Uncomment 'dist' in the `.gitignore` file.
-
-### When there are conflicts with gh-pages branch - delete and set new gh-pages branch
-
-1. git push origin --delete gh-pages
-2. git subtree push --prefix dist origin gh-pages
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
