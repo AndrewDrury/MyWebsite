@@ -17,6 +17,7 @@
           </b-row> -->
 
           <!-- EXPERIENCES -->
+          <Tucows />
           <Stratus360 />
           <TDLab />
           <ZurApps />
@@ -32,6 +33,7 @@
 
 <script lang="ts">
 import Vue from "vue";
+import Tucows from "./Experiences/Tucows.vue";
 import Stratus360 from "./Experiences/Stratus360.vue";
 import TDLab from "./Experiences/TDLab.vue";
 import ZurApps from "./Experiences/ZurApps.vue";
@@ -42,6 +44,7 @@ import ZurApps from "./Experiences/ZurApps.vue";
 export default Vue.extend({
   name: "experiences",
   components: {
+    Tucows,
     Stratus360,
     TDLab,
     ZurApps

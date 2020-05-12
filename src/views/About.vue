@@ -26,8 +26,8 @@
             </div>
             <br />
             <div class="hidden">
-              I am currently seeking internship opportunities for Summer 2020 in
-              a developer role. Get in touch with me at&nbsp;
+              I am currently seeking internship opportunities for Summer 2021 in
+              a software engineering role. Get in touch with me at&nbsp;
               <a
                 class="link mr-1"
                 href="mailto:andrew.drury@uwaterloo.ca"
@@ -55,8 +55,8 @@
             </div>
             <br />
             <div class="hidden">
-              I am currently seeking internship opportunities for Summer 2020 in
-              a developer role. Get in touch with me at&nbsp;
+              I am currently seeking internship opportunities for Summer 2021 in
+              a software engineering role. Get in touch with me at&nbsp;
               <a
                 class="link mr-1"
                 href="mailto:andrew.drury@uwaterloo.ca"
