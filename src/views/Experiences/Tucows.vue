@@ -15,7 +15,7 @@
               <b-col class="company-info">
                 <h3>Tucows</h3>
                 <div style="white-space:nowrap">
-                  <h4>Information Technology &amp; Services</h4>
+                  <h4>Making the Internet better</h4>
                 </div>
               </b-col>
             </a>
