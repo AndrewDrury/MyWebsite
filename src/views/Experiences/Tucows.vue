@@ -24,7 +24,7 @@
                 <b-col class="position">Jr. Software Engineer</b-col>
               </b-row>
               <b-row>
-                <b-col class="time">May 2020 -> Aug 2020</b-col>
+                <b-col class="time">May -> Aug 2020</b-col>
               </b-row>
               <b-row>
                 <b-col>
