@@ -15,19 +15,25 @@
         <b-col class="desktop content-left" lg="6" align="left">
           <div class="description">
             <div class="hidden">
-              Hi! My name is Andrew Drury. I am in my third year of study at the
-              University of Waterloo for Mechatronics Engineering.
+              Hi! My name is Andrew Drury.
+            </div>
+            <br />
+            <div class="hidden">
+              I am a member of the Mechatronics Engineering class of 2022 at the
+              University of Waterloo. I am completing my second semester of
+              third year, and I have completed 4 co-ops in software development.
             </div>
             <br />
             <div class="hidden">
               I have a passion for solving people's problems with code. When I
               am not developing my latest ideas, you can find me producing
-              music, playing hockey, and exploring nature.
+              music, pursuing photography, and exploring nature.
             </div>
             <br />
             <div class="hidden">
-              I am currently seeking internship opportunities for Summer 2021 in
-              a software engineering role. Get in touch with me at&nbsp;
+              I am currently seeking internship opportunities for my 5th co-op
+              during the Winter of 2021 in a software engineering role. Get in
+              touch with me at&nbsp;
               <a
                 class="link mr-1"
                 href="mailto:andrew.drury@uwaterloo.ca"
@@ -39,24 +45,30 @@
         </b-col>
 
         <b-col class="pic" lg="6" align="right">
-          <img src="@/assets/AboutPic.png" />
+          <img src="@/assets/levitation.jpg" />
         </b-col>
         <b-col class="mobile" align="left">
           <div class="description">
             <div class="hidden">
-              Hi! My name is Andrew Drury. I am in my third year of study at the
-              University of Waterloo for Mechatronics Engineering.
+              Hi! My name is Andrew Drury.
+            </div>
+            <br />
+            <div class="hidden">
+              I am a member of the Mechatronics Engineering class of 2022 at the
+              University of Waterloo. I am completing my second semester of
+              third year, and I have completed 4 co-ops in software development.
             </div>
             <br />
             <div class="hidden">
               I have a passion for solving people's problems with code. When I
               am not developing my latest ideas, you can find me producing
-              music, playing hockey, and exploring nature.
+              music, pursuing photography, and exploring nature.
             </div>
             <br />
             <div class="hidden">
-              I am currently seeking internship opportunities for Summer 2021 in
-              a software engineering role. Get in touch with me at&nbsp;
+              I am currently seeking internship opportunities for my 5th co-op
+              during the Winter of 2021 in a software engineering role. Get in
+              touch with me at&nbsp;
               <a
                 class="link mr-1"
                 href="mailto:andrew.drury@uwaterloo.ca"
