@@ -36,10 +36,10 @@
                 <div class="name mobile1 hidden">I am<br />Andrew Drury.</div>
                 <h5 style="margin-top: 0px;">
                   <div class="desktop hidden">
-                    Mechatronics Engineering @ University of Waterloo
+                    3B Mechatronics Engineering @ University of Waterloo
                   </div>
                   <div class="mobile1 hidden">
-                    Mechatronics Engineering<br />
+                    3B Mechatronics Engineering<br />
                     @ University of Waterloo
                   </div>
                 </h5>

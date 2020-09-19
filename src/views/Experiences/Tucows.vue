@@ -29,7 +29,17 @@
               <b-row>
                 <b-col>
                   <p>
-                    Current Internship :)
+                    I created an end-to-end testing framework with python. The
+                    framework models systems such as
+                    <a href="https://opensrs.com/" target="_blank"
+                      >OpenSRS.com</a
+                    >, a domain name reseller, using graphs. I sped up the
+                    runtime of tests by 4x by generating efficient test paths
+                    with the
+                    <a href="https://graphwalker.github.io/" target="_blank"
+                      >GraphWalker</a
+                    >
+                    framework.
                   </p>
                 </b-col>
               </b-row>
