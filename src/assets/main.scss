@@ -124,7 +124,6 @@ h2 {
 
 .experiences {
   h5{
-    color: $primary;
     margin-bottom: 70px;
   }
 }
@@ -240,6 +239,10 @@ h2 {
   }
 }
 
+#Cyclica {
+  background: clear;
+  background: linear-gradient(107deg, rgba(0,140,56,1) 0%, rgba(0,121,181,1) 100%);
+}
 #Tucows {
   background: clear;
   background: linear-gradient(107deg, rgba(99,9,93,1) 0%, rgba(21,74,251,1) 100%);

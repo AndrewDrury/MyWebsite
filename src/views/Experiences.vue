@@ -6,17 +6,15 @@
           <b-row class="margin-wrap">
             <b-col>
               <h2 class="hidden">Experiences</h2>
-            </b-col>
-          </b-row>
-          <!-- <b-row>
-            <b-col>
               <h5>
-                I am currently seeking a developer internship for Summer 2020.
+                I am currently seeking my 6th software engineering internship
+                for the summer of 2021.
               </h5>
             </b-col>
-          </b-row> -->
+          </b-row>
 
           <!-- EXPERIENCES -->
+          <Cyclica />
           <Tucows />
           <Stratus360 />
           <TDLab />
@@ -33,6 +31,7 @@
 
 <script lang="ts">
 import Vue from "vue";
+import Cyclica from "./Experiences/Cyclica.vue";
 import Tucows from "./Experiences/Tucows.vue";
 import Stratus360 from "./Experiences/Stratus360.vue";
 import TDLab from "./Experiences/TDLab.vue";
@@ -44,6 +43,7 @@ import ZurApps from "./Experiences/ZurApps.vue";
 export default Vue.extend({
   name: "experiences",
   components: {
+    Cyclica,
     Tucows,
     Stratus360,
     TDLab,

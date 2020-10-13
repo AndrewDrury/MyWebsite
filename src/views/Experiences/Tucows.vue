@@ -33,9 +33,9 @@
                     framework models systems such as
                     <a href="https://opensrs.com/" target="_blank"
                       >OpenSRS.com</a
-                    >, a domain name reseller, using graphs. I sped up the
-                    runtime of tests by 4x by generating efficient test paths
-                    with the
+                    >, the largest wholesale domain name registrar in the world,
+                    using graphs. I sped up the runtime of tests by 4 times by
+                    generating efficient test paths with the
                     <a href="https://graphwalker.github.io/" target="_blank"
                       >GraphWalker</a
                     >

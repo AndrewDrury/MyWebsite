@@ -10,7 +10,6 @@
           </b-row>
         </b-col>
       </b-row>
-
       <b-row class="aboutRow">
         <b-col class="desktop content-left" lg="6" align="left">
           <div class="description">
@@ -20,8 +19,9 @@
             <br />
             <div class="hidden">
               I am a member of the Mechatronics Engineering class of 2022 at the
-              University of Waterloo. I am completing my second semester of
-              third year, and I have completed 4 co-ops in software development.
+              University of Waterloo. I am completing my 2nd semester of 3rd
+              year, and I will have completed 5 co-ops in software development
+              by the summer of 2021.
             </div>
             <br />
             <div class="hidden">
@@ -31,8 +31,8 @@
             </div>
             <br />
             <div class="hidden">
-              I am currently seeking internship opportunities for my 5th co-op
-              during the Winter of 2021 in a software engineering role. Get in
+              I am currently seeking internship opportunities for my 6th co-op
+              during the summer of 2021 in a software engineering role. Get in
               touch with me at&nbsp;
               <a
                 class="link mr-1"
@@ -55,8 +55,9 @@
             <br />
             <div class="hidden">
               I am a member of the Mechatronics Engineering class of 2022 at the
-              University of Waterloo. I am completing my second semester of
-              third year, and I have completed 4 co-ops in software development.
+              University of Waterloo. I am completing my 2nd semester of 3rd
+              year, and I will have completed 5 co-ops in software development
+              by the summer of 2021.
             </div>
             <br />
             <div class="hidden">
@@ -66,8 +67,8 @@
             </div>
             <br />
             <div class="hidden">
-              I am currently seeking internship opportunities for my 5th co-op
-              during the Winter of 2021 in a software engineering role. Get in
+              I am currently seeking internship opportunities for my 6th co-op
+              during the summer of 2021 in a software engineering role. Get in
               touch with me at&nbsp;
               <a
                 class="link mr-1"
