@@ -11,7 +11,7 @@
               <b-col class="company-info">
                 <h3>TD Lab</h3>
                 <div style="white-space:nowrap">
-                  <h4>TD Bank Innovation Lab</h4>
+                  <h4>TD Bank Incubator Lab</h4>
                 </div>
               </b-col>
             </a>

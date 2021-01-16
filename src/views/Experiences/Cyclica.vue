@@ -29,7 +29,7 @@
               <b-row>
                 <b-col>
                   <p>
-                    Upcoming Internship :)
+                    Current Internship :)
                   </p>
                 </b-col>
               </b-row>

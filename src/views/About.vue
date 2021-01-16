@@ -19,9 +19,9 @@
             <br />
             <div class="hidden">
               I am a member of the Mechatronics Engineering class of 2022 at the
-              University of Waterloo. I am completing my 2nd semester of 3rd
-              year, and I will have completed 5 co-ops in software development
-              by the summer of 2021.
+              University of Waterloo. I have completed my 3rd year of studies. I
+              am currently completing my 5th co-op term in software development
+              with Cyclica.
             </div>
             <br />
             <div class="hidden">
@@ -55,9 +55,9 @@
             <br />
             <div class="hidden">
               I am a member of the Mechatronics Engineering class of 2022 at the
-              University of Waterloo. I am completing my 2nd semester of 3rd
-              year, and I will have completed 5 co-ops in software development
-              by the summer of 2021.
+              University of Waterloo. I have completed my 3rd year of studies. I
+              am currently completing my 5th co-op term in software development
+              with Cyclica.
             </div>
             <br />
             <div class="hidden">
