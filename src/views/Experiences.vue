@@ -7,13 +7,13 @@
             <b-col>
               <h2 class="hidden">Experiences</h2>
               <h5>
-                I am currently seeking my 6th software engineering internship
-                for the summer of 2021.
+                I am currently seeking full-time software engineering opportunities starting May 2022.
               </h5>
             </b-col>
           </b-row>
 
           <!-- EXPERIENCES -->
+          <BitGo />
           <Cyclica />
           <Tucows />
           <Stratus360 />
@@ -31,18 +31,17 @@
 
 <script lang="ts">
 import Vue from "vue";
+import BitGo from "./Experiences/BitGo.vue";
 import Cyclica from "./Experiences/Cyclica.vue";
 import Tucows from "./Experiences/Tucows.vue";
 import Stratus360 from "./Experiences/Stratus360.vue";
 import TDLab from "./Experiences/TDLab.vue";
 import ZurApps from "./Experiences/ZurApps.vue";
-// const Stratus360 = require("./Experiences/Stratus360.vue");
-// const TDLab = require("./Experiences/TDLab.vue");
-// const ZurApps = require("./Experiences/ZurApps.vue");
 
 export default Vue.extend({
   name: "experiences",
   components: {
+    BitGo,
     Cyclica,
     Tucows,
     Stratus360,

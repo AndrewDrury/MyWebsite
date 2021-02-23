@@ -1,7 +1,5 @@
 <template>
   <div id="app" class="app">
-    <!-- Scroll progress bar -->
-    <!-- <VueScrollProgress></VueScrollProgress> -->
 
     <div class="mobile1 navbar-background"></div>
 
@@ -53,12 +51,6 @@
       <Experiences />
       <Projects />
       <About />
-      <!-- <div class="jarallax">
-        <img
-          class="jarallax-img"
-          src="@/assets/ExperiencePics/TDLabPic.png"
-        />
-      </div> -->
     </div>
 
     <div class="desktop hidden" id="bottom-links">
@@ -77,7 +69,7 @@
           </a>
         </li>
         <li>
-          <a href="mailto:andrew.drury@uwaterloo.ca" target="_blank">
+          <a href="mailto:andrewjdrury@gmail.com" target="_blank">
             <i class="fa fa-envelope"></i>
           </a>
         </li>
@@ -89,12 +81,6 @@
       </ul>
       <div class="vertical-line"></div>
     </div>
-    <!-- <div class="desktop" id="bottom-right-line">
-      <a href="mailto:andrew.drury@uwaterloo.ca" target="_blank" align='left'>
-        <p class='rotate'>andrew.drury@uwaterloo.ca</p>
-      </a>
-      <div class="vertical-line"></div>
-    </div> -->
 
     <!-- Footer -->
     <section id="footer">
@@ -116,7 +102,7 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="mailto:andrew.drury@uwaterloo.ca" target="_blank">
+                <a href="mailto:andrewjdrury@gmail.com" target="_blank">
                   <i class="fa fa-envelope"></i>
                 </a>
               </li>
@@ -142,7 +128,6 @@
 
 <style lang="scss">
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
-// @import url("https://use.fontawesome.com/releases/v5.7.2/css/all.css");
 @import "/assets/variables.scss";
 
 #app {
@@ -159,12 +144,6 @@
   display: none;
   background-color: transparent !important;
   top: 0px !important;
-
-  // width: 68% !important;
-
-  @media (max-width: $screen-md) {
-    // width: 41% !important;
-  }
 }
 #progress-el {
   /* progress bar */
@@ -318,12 +297,10 @@
   /* change the link color */
   .navbar-nav .nav-link {
     color: white;
-    // text-decoration: underline overline $primary;
     width: 140px;
   }
   /* change the color of active or hovered links */
   .nav-link:hover {
-    // color: darken($primary, 17%);
     color: $primary;
     transform: translateY(-2px);
     -webkit-transform: translateY(-2px);
@@ -434,10 +411,6 @@ section {
   margin-bottom: 0px;
   color: black;
 }
-// #footer .copyright {
-//   color: $primary;
-//   font-size: 22px;
-// }
 
 .desktop-router a {
   display: inline;
@@ -453,24 +426,12 @@ import Experiences from "./views/Experiences.vue";
 import Projects from "./views/Projects.vue";
 import About from "./views/About.vue";
 
-// @ is an alias to /src
-
-// add scr: src="jarallax/dist/jarallax.min.js"
-// import { jarallax, jarallaxElement, jarallaxVideo } from "jarallax";
-// jarallaxVideo();
-// jarallaxElement();
-
-// jarallax(document.querySelectorAll(".jarallax"), {
-//   speed: 0.2
-// });
-
 export default Vue.extend({
   name: "home",
   components: {
     Experiences,
     Projects,
     About
-    // parallax: require("vue-parallax")
   },
   mounted() {
     this.animateElements();

@@ -1,35 +1,35 @@
 <template>
-  <div class="experience hidden" id="Cyclica" name="Cyclica">
+  <div class="experience hidden" id="BitGo" name="BitGo">
     <a class="experience-hover">
       <b-container fluid style="padding-right:0px;padding-left:0px">
         <div class="margin-wrap">
           <b-row class="experienceRow">
             <a
               class="company-link"
-              href="https://www.cyclicarx.com/"
+              href="https://www.bitgo.com/"
               target="_blank"
             >
               <b-col class="logo">
-                <img src="@/assets/ExperiencePics/CyclicaLogo.jpg" />
+                <img src="@/assets/ExperiencePics/BitGoLogo.png" />
               </b-col>
               <b-col class="company-info">
-                <h3>Cyclica</h3>
+                <h3>BitGo</h3>
                 <div style="white-space:nowrap">
-                  <h4>AI-Augmented Drug Discovery</h4>
+                  <h4>Institutional-Grade<br/>Cryptocurrency</h4>
                 </div>
               </b-col>
             </a>
             <b-col class="position-info">
               <b-row>
-                <b-col class="position">Software Developer</b-col>
+                <b-col class="position">Software Engineering</b-col>
               </b-row>
               <b-row>
-                <b-col class="time">Jan -> Apr 2021</b-col>
+                <b-col class="time">May -> Aug 2021</b-col>
               </b-row>
               <b-row>
                 <b-col>
                   <p>
-                    Current Internship :)
+                    Next Internship &#10165;
                   </p>
                 </b-col>
               </b-row>
@@ -47,7 +47,7 @@
 
 <script lang="ts">
 export default {
-  name: "Cyclica",
+  name: "BitGo",
   data() {
     return {};
   }

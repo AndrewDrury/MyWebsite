@@ -31,14 +31,13 @@
             </div>
             <br />
             <div class="hidden">
-              I am currently seeking internship opportunities for my 6th co-op
-              during the summer of 2021 in a software engineering role. Get in
-              touch with me at&nbsp;
+              I am currently seeking full-time opportunities in a software engineering
+              role starting May 2022. Get in touch with me at&nbsp;
               <a
                 class="link mr-1"
-                href="mailto:andrew.drury@uwaterloo.ca"
+                href="mailto:andrewjdrury@gmail.com"
                 target="_blank"
-                >andrew.drury@uwaterloo.ca</a
+                >andrewjdrury@gmail.com</a
               >!
             </div>
           </div>
@@ -67,14 +66,13 @@
             </div>
             <br />
             <div class="hidden">
-              I am currently seeking internship opportunities for my 6th co-op
-              during the summer of 2021 in a software engineering role. Get in
-              touch with me at&nbsp;
+              I am currently seeking full-time opportunities in a software engineering
+              role starting May 2022. Get in touch with me at&nbsp;
               <a
                 class="link mr-1"
-                href="mailto:andrew.drury@uwaterloo.ca"
+                href="mailto:andrewjdrury@gmail.com"
                 target="_blank"
-                >andrew.drury@uwaterloo.ca</a
+                >andrewjdrury@gmail.com</a
               >!
             </div>
           </div>
