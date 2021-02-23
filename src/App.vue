@@ -1,6 +1,5 @@
 <template>
   <div id="app" class="app">
-
     <div class="mobile1 navbar-background"></div>
 
     <!-- Navbar -->

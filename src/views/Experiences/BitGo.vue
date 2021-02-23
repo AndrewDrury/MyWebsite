@@ -15,7 +15,7 @@
               <b-col class="company-info">
                 <h3>BitGo</h3>
                 <div style="white-space:nowrap">
-                  <h4>Institutional-Grade<br/>Cryptocurrency</h4>
+                  <h4>Institutional-Grade<br />Cryptocurrency</h4>
                 </div>
               </b-col>
             </a>

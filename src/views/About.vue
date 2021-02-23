@@ -31,8 +31,8 @@
             </div>
             <br />
             <div class="hidden">
-              I am currently seeking full-time opportunities in a software engineering
-              role starting May 2022. Get in touch with me at&nbsp;
+              I am currently seeking full-time opportunities in a software
+              engineering role starting May 2022. Get in touch with me at&nbsp;
               <a
                 class="link mr-1"
                 href="mailto:andrewjdrury@gmail.com"
@@ -66,8 +66,8 @@
             </div>
             <br />
             <div class="hidden">
-              I am currently seeking full-time opportunities in a software engineering
-              role starting May 2022. Get in touch with me at&nbsp;
+              I am currently seeking full-time opportunities in a software
+              engineering role starting May 2022. Get in touch with me at&nbsp;
               <a
                 class="link mr-1"
                 href="mailto:andrewjdrury@gmail.com"
