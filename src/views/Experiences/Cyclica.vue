@@ -29,7 +29,12 @@
               <b-row>
                 <b-col>
                   <p>
-                    Current Internship :)
+                    I developed features for the AI-Augmented Drug Discovery
+                    Platform. I overhauled the React UI for the primary platform
+                    page and implemented python commands to ensure the integrity
+                    of the ML protein rankings with the frontend results. I also
+                    created default library &amp; molecule for all clients in
+                    Django.
                   </p>
                 </b-col>
               </b-row>
