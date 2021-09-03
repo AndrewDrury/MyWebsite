@@ -31,9 +31,9 @@
           >
           <b-nav-item
             class="tab"
-            href="https://www.dropbox.com/s/h76sf5be2366ikb/Resume_AndrewDrury.pdf?dl=0"
-            target="_blank"
-            >Resume</b-nav-item
+            :to="{ hash: '#contact' }"
+            style="text-align:left;"
+            >Contact</b-nav-item
           >
         </b-navbar-nav>
       </b-collapse>
@@ -55,20 +55,12 @@
     <div class="desktop hidden" id="bottom-links">
       <ul class="list-unstyled social text-center">
         <li>
-          <a
-            href="https://www.dropbox.com/s/h76sf5be2366ikb/Resume_AndrewDrury.pdf?dl=0"
-            target="_blank"
-          >
-            <i class="fa fa-file-pdf-o"></i>
-          </a>
-        </li>
-        <li>
           <a href="https://www.linkedin.com/in/andrew-drury" target="_blank">
             <i class="fa fa-linkedin"></i>
           </a>
         </li>
         <li>
-          <a href="mailto:andrewjdrury@gmail.com" target="_blank">
+          <a href="mailto:andrewjdrury@gmail.com">
             <i class="fa fa-envelope"></i>
           </a>
         </li>
@@ -82,7 +74,7 @@
     </div>
 
     <!-- Footer -->
-    <section id="footer">
+    <section id="contact">
       <div class="container hidden">
         <b-row class="text-center" style="margin-bottom:24px">
           <b-col>
@@ -101,7 +93,7 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="mailto:andrewjdrury@gmail.com" target="_blank">
+                <a href="mailto:andrewjdrury@gmail.com">
                   <i class="fa fa-envelope"></i>
                 </a>
               </li>
@@ -361,11 +353,11 @@
   border-color: white !important;
 }
 
-// Footer
+// Contact Footer
 section {
   padding: 30px 0;
 }
-#footer {
+#contact {
   background: white;
   z-index: 99;
   position: absolute;
@@ -373,7 +365,7 @@ section {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-#footer ul.social li a i {
+#contact ul.social li a i {
   margin-right: 15px;
   margin-left: 15px;
   font-size: 25px;
@@ -382,12 +374,12 @@ section {
   transition: 0.5s all ease;
   color: black;
 }
-#footer ul.social li:hover a i {
+#contact ul.social li:hover a i {
   font-size: 30px;
   margin-top: -10px;
   color: $primary;
 }
-#footer ul.social li a img {
+#contact ul.social li a img {
   margin-right: 15px;
   margin-left: 15px;
   font-size: 25px;
@@ -396,17 +388,17 @@ section {
   transition: 0.5s all ease;
   color: black;
 }
-#footer ul.social li:hover a img {
+#contact ul.social li:hover a img {
   font-size: 30px;
   margin-top: -10px;
   color: $primary;
 }
-#footer h3 {
+#contact h3 {
   font-size: 24px;
   font-weight: 700;
   color: black;
 }
-#footer .endtag {
+#contact .endtag {
   margin-bottom: 0px;
   color: black;
 }

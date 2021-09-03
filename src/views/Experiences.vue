@@ -8,7 +8,7 @@
               <h2 class="hidden">Experiences</h2>
               <h5>
                 I am currently seeking full-time software engineering
-                opportunities starting May 2022.
+                opportunities as I will graduate in May of 2022.
               </h5>
             </b-col>
           </b-row>

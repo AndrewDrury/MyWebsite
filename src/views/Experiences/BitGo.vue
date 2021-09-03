@@ -21,7 +21,7 @@
             </a>
             <b-col class="position-info">
               <b-row>
-                <b-col class="position">Software Engineering</b-col>
+                <b-col class="position">Software Engineering Intern</b-col>
               </b-row>
               <b-row>
                 <b-col class="time">May -> Aug 2021</b-col>
@@ -29,7 +29,11 @@
               <b-row>
                 <b-col>
                   <p>
-                    Current Internship :)
+                    I architected and lead a DeFi-related project. I also
+                    created scripts to assemble relevant audit information and
+                    conduct audit transactions for WBTC (wrapped bitcoin). I
+                    reallocated large amounts of crypto capital from UTXO
+                    (unspent transaction outputs) in wallets.
                   </p>
                 </b-col>
               </b-row>

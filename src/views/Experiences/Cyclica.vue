@@ -21,7 +21,7 @@
             </a>
             <b-col class="position-info">
               <b-row>
-                <b-col class="position">Software Developer</b-col>
+                <b-col class="position">Software Developer Intern</b-col>
               </b-row>
               <b-row>
                 <b-col class="time">Jan -> Apr 2021</b-col>

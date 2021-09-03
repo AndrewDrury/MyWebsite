@@ -21,7 +21,7 @@
             </a>
             <b-col class="position-info">
               <b-row>
-                <b-col class="position">Full Stack Developer</b-col>
+                <b-col class="position">Full Stack Developer Intern</b-col>
               </b-row>
               <b-row>
                 <b-col class="time">Sep -> Dec 2019</b-col>
