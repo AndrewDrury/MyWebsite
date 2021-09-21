@@ -24,6 +24,9 @@
                 <b-col class="position">Software Developer Intern</b-col>
               </b-row>
               <b-row>
+                <b-col class="team">Platform Team</b-col>
+              </b-row>
+              <b-row>
                 <b-col class="time">Jan -> Apr 2021</b-col>
               </b-row>
               <b-row>

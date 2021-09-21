@@ -19,15 +19,15 @@
             <br />
             <div class="hidden">
               I am a member of the Mechatronics Engineering class of 2022 at the
-              University of Waterloo. I have completed my 3rd year of studies. I
-              am currently completing my 6th co-op term in software engineering
-              with BitGo.
+              University of Waterloo. I am in my 4A study term at Waterloo. I
+              have recently completed my 6th co-op term in a software
+              engineering intern role with BitGo.
             </div>
             <br />
             <div class="hidden">
               I have a passion for solving people's problems with code. When I
-              am not developing my latest ideas, you can find me producing
-              music, pursuing photography, and exploring nature.
+              am not developing my latest ideas, I enjoy creating music,
+              pursuing photography, bouldering, and exploring nature.
             </div>
             <br />
             <div class="hidden">
@@ -35,7 +35,7 @@
               engineering role as I will graduate in May of 2022. Get in touch
               with me at&nbsp;
               <a
-                class="link mr-1"
+                class="link"
                 href="mailto:andrewjdrury@gmail.com"
                 target="_blank"
                 >andrewjdrury@gmail.com</a
@@ -55,15 +55,15 @@
             <br />
             <div class="hidden">
               I am a member of the Mechatronics Engineering class of 2022 at the
-              University of Waterloo. I have completed my 3rd year of studies. I
-              am currently completing my 6th co-op term in software engineering
-              with BitGo.
+              University of Waterloo. I am in my 4A study term at Waterloo. I
+              have recently completed my 6th co-op term in a software
+              engineering intern role with BitGo.
             </div>
             <br />
             <div class="hidden">
               I have a passion for solving people's problems with code. When I
-              am not developing my latest ideas, you can find me producing
-              music, pursuing photography, and exploring nature.
+              am not developing my latest ideas, I enjoy creating music,
+              pursuing photography, bouldering, and exploring nature.
             </div>
             <br />
             <div class="hidden">
@@ -71,7 +71,7 @@
               engineering role as I will graduate in May of 2022. Get in touch
               with me at&nbsp;
               <a
-                class="link mr-1"
+                class="link"
                 href="mailto:andrewjdrury@gmail.com"
                 target="_blank"
                 >andrewjdrury@gmail.com</a

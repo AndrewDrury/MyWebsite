@@ -24,16 +24,19 @@
                 <b-col class="position">Software Engineering Intern</b-col>
               </b-row>
               <b-row>
+                <b-col class="team">Blockchain Team &amp; DeFi Subteam</b-col>
+              </b-row>
+              <b-row>
                 <b-col class="time">May -> Aug 2021</b-col>
               </b-row>
               <b-row>
                 <b-col>
                   <p>
-                    I architected and lead a DeFi-related project. I also
+                    I architected and lead the DeFi Integration project. I also
                     created scripts to assemble relevant audit information and
-                    conduct audit transactions for WBTC (wrapped bitcoin). I
+                    conduct audit transactions for WBTC (Wrapped Bitcoin). I
                     reallocated large amounts of crypto capital from UTXO
-                    (unspent transaction outputs) in wallets.
+                    (unspent transaction outputs) in custodial wallets.
                   </p>
                 </b-col>
               </b-row>

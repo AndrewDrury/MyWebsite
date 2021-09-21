@@ -7,8 +7,8 @@
             <b-col>
               <h2 class="hidden">Experiences</h2>
               <h5>
-                I am currently seeking full-time software engineering
-                opportunities as I will graduate in May of 2022.
+                I am currently seeking new grad software engineering
+                opportunities.
               </h5>
             </b-col>
           </b-row>
