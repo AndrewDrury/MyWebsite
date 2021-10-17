@@ -24,7 +24,16 @@
                 <b-col class="position">Jr. Software Engineer</b-col>
               </b-row>
               <b-row>
-                <b-col class="time">May -> Aug 2020</b-col>
+                <b-col class="location"
+                  ><i class="fa fa-map-marker" aria-hidden="true"></i>Remote -
+                  Toronto, ON</b-col
+                >
+              </b-row>
+              <b-row>
+                <b-col class="time"
+                  ><i class="fa fa-calendar" aria-hidden="true"></i>May -> Aug
+                  2020</b-col
+                >
               </b-row>
               <b-row>
                 <b-col>

@@ -38,8 +38,9 @@
             <b-col class="details hidden">
               <p>
                 Grow displays the eco-friendliness of brands in augmented
-                reality. Users can improve their environmental footprint by
-                discovering more sustainable products.
+                reality. It can recognise brand logos using a Core ML model.
+                Users can improve their environmental footprint by discovering
+                more sustainable products.
               </p>
             </b-col>
           </b-row>

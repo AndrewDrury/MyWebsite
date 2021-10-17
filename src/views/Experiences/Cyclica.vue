@@ -24,10 +24,22 @@
                 <b-col class="position">Software Developer Intern</b-col>
               </b-row>
               <b-row>
-                <b-col class="team">Platform Team</b-col>
+                <b-col class="team"
+                  ><i class="fa fa-users" aria-hidden="true"></i>Platform
+                  Team</b-col
+                >
               </b-row>
               <b-row>
-                <b-col class="time">Jan -> Apr 2021</b-col>
+                <b-col class="location"
+                  ><i class="fa fa-map-marker" aria-hidden="true"></i>Remote -
+                  Toronto, ON</b-col
+                >
+              </b-row>
+              <b-row>
+                <b-col class="time"
+                  ><i class="fa fa-calendar" aria-hidden="true"></i>Jan -> Apr
+                  2021</b-col
+                >
               </b-row>
               <b-row>
                 <b-col>

@@ -42,6 +42,15 @@
                     4A Mechatronics Engineering<br />
                     @ University of Waterloo
                   </div>
+                  <div class="contact-info" style="margin-top:5px">
+                    Get in touch with me at&nbsp;
+                    <a
+                      class="link"
+                      style="font-size:25px;"
+                      href="mailto:hello@andrew-drury.com"
+                      >hello@andrew-drury.com</a
+                    >!
+                  </div>
                 </h5>
                 <h5 class="tagline hidden">I love to code.</h5>
                 <div class="scroll-down hidden">
@@ -558,10 +567,10 @@ a:hover {
   }
 
   .tagline {
-    margin-top: 115px;
+    margin-top: 85px;
     margin-bottom: 30px;
     @media (max-width: $screen-md) {
-      margin-top: 100px;
+      margin-top: 60px;
       text-align: center;
       margin-bottom: 0px;
     }
@@ -593,6 +602,9 @@ a:hover {
         margin-bottom: 15px;
         line-height: 1em;
       }
+    }
+    .contact-info {
+      margin-top: 15px !important;
     }
   }
   @media (max-width: $screen-md) {

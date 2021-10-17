@@ -24,7 +24,16 @@
                 <b-col class="position">Full Stack Developer Intern</b-col>
               </b-row>
               <b-row>
-                <b-col class="time">Sep -> Dec 2019</b-col>
+                <b-col class="location"
+                  ><i class="fa fa-map-marker" aria-hidden="true"></i>Toronto,
+                  ON</b-col
+                >
+              </b-row>
+              <b-row>
+                <b-col class="time"
+                  ><i class="fa fa-calendar" aria-hidden="true"></i>Sep -> Dec
+                  2019</b-col
+                >
               </b-row>
               <b-row>
                 <b-col>

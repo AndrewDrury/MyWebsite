@@ -157,7 +157,7 @@ h2 {
       font-weight: 700;
       padding-bottom: 5px;
     }
-    .team {
+    .team, .location {
       font-size: 20px;
       font-weight: 700;
       padding-top:0px;
@@ -171,6 +171,16 @@ h2 {
     }
     p {
       font-size: 20px;
+    }
+    .fa-users {
+      margin-right: 6px;
+    }
+    .fa-map-marker {
+      margin-left: 4px;
+      margin-right: 12px;
+    }
+    .fa-calendar {
+      margin-right: 9px;
     }
 
 
@@ -283,11 +293,8 @@ h2 {
 }
 .experience-hover:hover {
   background: white !important;
-  h3,h4,.position,.time,.team,p {
+  h3,h4,.position,.time,.team,p,.location,i,a {
     color:black;
-  }
-  a {
-    color: black;
   }
   a:hover {
     text-decoration: underline $primary;

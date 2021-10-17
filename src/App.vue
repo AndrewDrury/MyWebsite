@@ -31,9 +31,11 @@
           >
           <b-nav-item
             class="tab"
-            :to="{ hash: '#contact' }"
             style="text-align:left;"
-            >Contact</b-nav-item
+            href="https://photography.andrew-drury.com"
+            target="_blank"
+          >
+            Photography</b-nav-item
           >
         </b-navbar-nav>
       </b-collapse>
@@ -60,7 +62,7 @@
           </a>
         </li>
         <li>
-          <a href="mailto:andrewjdrury@gmail.com">
+          <a href="mailto:hello@andrew-drury.com">
             <i class="fa fa-envelope"></i>
           </a>
         </li>
@@ -93,7 +95,7 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="mailto:andrewjdrury@gmail.com">
+                <a href="mailto:hello@andrew-drury.com">
                   <i class="fa fa-envelope"></i>
                 </a>
               </li>
@@ -108,7 +110,7 @@
         <b-row>
           <b-col>
             <p class="endtag">
-              Designed &amp; Built by Andrew Drury
+              Designed &amp; Developed by Andrew Drury
             </p>
           </b-col>
         </b-row>

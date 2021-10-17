@@ -20,7 +20,16 @@
                 <b-col class="position">Software Developer Intern</b-col>
               </b-row>
               <b-row>
-                <b-col class="time">Jan -> Apr 2019</b-col>
+                <b-col class="location"
+                  ><i class="fa fa-map-marker" aria-hidden="true"></i>Kitchener,
+                  ON</b-col
+                >
+              </b-row>
+              <b-row>
+                <b-col class="time"
+                  ><i class="fa fa-calendar" aria-hidden="true"></i>Jan -> Apr
+                  2019</b-col
+                >
               </b-row>
               <b-row>
                 <b-col>
