@@ -1,7 +1,7 @@
 <template>
   <div class="experience hidden" id="Cyclica" name="Cyclica">
     <a class="experience-hover">
-      <b-container fluid style="padding-right:0px;padding-left:0px">
+      <b-container fluid style="padding-right: 0px; padding-left: 0px">
         <div class="margin-wrap">
           <b-row class="experienceRow">
             <a
@@ -14,7 +14,7 @@
               </b-col>
               <b-col class="company-info">
                 <h3>Cyclica</h3>
-                <div style="white-space:nowrap">
+                <div style="white-space: nowrap">
                   <h4>AI-Augmented Drug Discovery</h4>
                 </div>
               </b-col>
@@ -70,6 +70,6 @@ export default {
   name: "Cyclica",
   data() {
     return {};
-  }
+  },
 };
 </script>

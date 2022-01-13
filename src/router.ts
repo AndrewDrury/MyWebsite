@@ -13,23 +13,23 @@ export default new Router({
     {
       path: "/",
       name: "home",
-      component: Home
+      component: Home,
     },
     {
       path: "/experiences",
       name: "experiences",
-      component: Experiences
+      component: Experiences,
     },
     {
       path: "/projects",
       name: "projects",
-      component: Projects
+      component: Projects,
     },
     {
       path: "/about",
       name: "about",
-      component: About
-    }
+      component: About,
+    },
   ],
 
   scrollBehavior(to) {
@@ -38,10 +38,10 @@ export default new Router({
       if (element) {
         return window.scrollTo({
           top: element.offsetTop,
-          behavior: "smooth"
+          behavior: "smooth",
         });
       }
     }
     return window.scrollTo({ top: 0, behavior: "smooth" });
-  }
+  },
 });

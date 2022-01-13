@@ -13,13 +13,11 @@
       <b-row class="aboutRow">
         <b-col class="desktop content-left" lg="6" align="left">
           <div class="description">
-            <div class="hidden">
-              Hi! My name is Andrew.
-            </div>
+            <div class="hidden">Hi! My name is Andrew.</div>
             <br />
             <div class="hidden">
               I am a member of the Mechatronics Engineering class of 2022 at the
-              University of Waterloo, and I am in my 4A study term at Waterloo.
+              University of Waterloo, and I am in my 4B study term at Waterloo.
               I have recently completed my 6th co-op term in a software
               engineering intern role with BitGo.
             </div>
@@ -33,8 +31,7 @@
                 href="https://photography.andrew-drury.com/"
                 target="_blank"
                 >photography</a
-              >, bouldering, training Muay Thai and boxing, and exploring
-              nature.
+              >, bouldering, training boxing, and exploring nature.
             </div>
             <br />
             <div class="hidden">
@@ -62,13 +59,11 @@
         </b-col>
         <b-col class="mobile" align="left">
           <div class="description">
-            <div class="hidden">
-              Hi! My name is Andrew Drury.
-            </div>
+            <div class="hidden">Hi! My name is Andrew Drury.</div>
             <br />
             <div class="hidden">
               I am a member of the Mechatronics Engineering class of 2022 at the
-              University of Waterloo, and I am in my 4A study term at Waterloo.
+              University of Waterloo, and I am in my 4B study term at Waterloo.
               I have recently completed my 6th co-op term in a software
               engineering intern role with BitGo.
             </div>
@@ -82,8 +77,7 @@
                 href="https://photography.andrew-drury.com/"
                 target="_blank"
                 >photography</a
-              >, bouldering, training Muay Thai and boxing, and exploring
-              nature.
+              >, bouldering, training boxing, and exploring nature.
             </div>
             <br />
             <div class="hidden">

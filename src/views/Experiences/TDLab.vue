@@ -1,7 +1,7 @@
 <template>
   <div class="experience hidden" id="TDLab" name="TDLab">
     <a class="experience-hover">
-      <b-container fluid style="padding-right:0px;padding-left:0px">
+      <b-container fluid style="padding-right: 0px; padding-left: 0px">
         <div class="margin-wrap">
           <b-row class="experienceRow">
             <a class="company-link" href="https://tdlab.io/" target="_blank">
@@ -10,7 +10,7 @@
               </b-col>
               <b-col class="company-info">
                 <h3>TD Lab</h3>
-                <div style="white-space:nowrap">
+                <div style="white-space: nowrap">
                   <h4>TD Bank Incubator Lab</h4>
                 </div>
               </b-col>

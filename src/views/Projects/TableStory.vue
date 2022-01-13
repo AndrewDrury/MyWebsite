@@ -13,7 +13,7 @@
           </a>
         </b-col>
         <b-col lg="8">
-          <b-row class="top-content ">
+          <b-row class="top-content">
             <b-col class="title hidden" md="12">
               <a
                 href="https://github.com/AndrewDrury/TableStory"
@@ -33,8 +33,7 @@
             </b-col>
             <b-col class="hackathon hidden" md="12" lg="6"
               ><h4>
-                <i class="fa fa-location-arrow"></i>&nbsp;Hack the Valley lll,
-                2019
+                <i class="fa fa-location-arrow"></i>&nbsp;Hack the Valley lll
               </h4></b-col
             >
           </b-row>

@@ -1,7 +1,7 @@
 <template>
   <div class="experience hidden" id="BitGo" name="BitGo">
     <a class="experience-hover">
-      <b-container fluid style="padding-right:0px;padding-left:0px">
+      <b-container fluid style="padding-right: 0px; padding-left: 0px">
         <div class="margin-wrap">
           <b-row class="experienceRow">
             <a
@@ -14,7 +14,7 @@
               </b-col>
               <b-col class="company-info">
                 <h3>BitGo</h3>
-                <div style="white-space:nowrap">
+                <div style="white-space: nowrap">
                   <h4>Institutional-Grade<br />Cryptocurrency</h4>
                 </div>
               </b-col>
@@ -69,6 +69,6 @@ export default {
   name: "BitGo",
   data() {
     return {};
-  }
+  },
 };
 </script>

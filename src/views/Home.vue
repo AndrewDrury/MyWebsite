@@ -34,19 +34,19 @@
                   <div>I am Andrew Drury.</div>
                 </div>
                 <div class="name mobile1 hidden">I am<br />Andrew Drury.</div>
-                <h5 style="margin-top: 0px;">
+                <h5 style="margin-top: 0px">
                   <div class="desktop hidden">
-                    4A Mechatronics Engineering @ University of Waterloo
+                    4B Mechatronics Engineering @ University of Waterloo
                   </div>
                   <div class="mobile1 hidden">
-                    4A Mechatronics Engineering<br />
+                    4B Mechatronics Engineering<br />
                     @ University of Waterloo
                   </div>
-                  <div class="contact-info" style="margin-top:5px">
+                  <div class="contact-info" style="margin-top: 5px">
                     Get in touch with me at&nbsp;
                     <a
                       class="link"
-                      style="font-size:25px;"
+                      style="font-size: 25px"
                       href="mailto:hello@andrew-drury.com"
                       >hello@andrew-drury.com</a
                     >!
@@ -630,8 +630,8 @@ import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
 
 @Component({
   components: {
-    HelloWorld
-  }
+    HelloWorld,
+  },
 })
 export default class Home extends Vue {}
 </script>

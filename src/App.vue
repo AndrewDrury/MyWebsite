@@ -31,7 +31,7 @@
           >
           <b-nav-item
             class="tab"
-            style="text-align:left;"
+            style="text-align: left"
             href="https://photography.andrew-drury.com"
             target="_blank"
           >
@@ -78,7 +78,7 @@
     <!-- Footer -->
     <section id="contact">
       <div class="container hidden">
-        <b-row class="text-center" style="margin-bottom:24px">
+        <b-row class="text-center" style="margin-bottom: 24px">
           <b-col>
             <h3>Let's Get In Touch!</h3>
           </b-col>
@@ -109,9 +109,7 @@
         </b-row>
         <b-row>
           <b-col>
-            <p class="endtag">
-              Designed &amp; Developed by Andrew Drury
-            </p>
+            <p class="endtag">Designed &amp; Developed by Andrew Drury</p>
           </b-col>
         </b-row>
       </div>
@@ -121,7 +119,7 @@
 
 <style lang="scss">
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
-@import "/assets/variables.scss";
+@import "@/assets/variables.scss";
 
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
@@ -424,13 +422,13 @@ export default Vue.extend({
   components: {
     Experiences,
     Projects,
-    About
+    About,
   },
   mounted() {
     this.animateElements();
   },
   methods: {
-    animateElements: function() {
+    animateElements: function () {
       var elements;
       var windowHeight;
 
@@ -468,7 +466,7 @@ export default Vue.extend({
 
       init();
       checkPosition();
-    }
-  }
+    },
+  },
 });
 </script>

@@ -36,7 +36,7 @@
             </b-col>
             <b-col class="hackathon hidden" md="12" lg="6"
               ><h4>
-                <i class="fa fa-location-arrow"></i>&nbsp;Hack the North, 2019
+                <i class="fa fa-location-arrow"></i>&nbsp;Hack the North
               </h4></b-col
             >
           </b-row>

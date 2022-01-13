@@ -9,6 +9,7 @@
             </b-col>
 
             <!-- PROJECTS -->
+            <SearchEngine />
             <grow />
             <TableStory />
             <FlySafe />
@@ -27,20 +28,22 @@
 
 <script lang="ts">
 import Vue from "vue";
-import grow from "./Projects/grow.vue";
-import TableStory from "./Projects/TableStory.vue";
-import FlySafe from "./Projects/FlySafe.vue";
-import sliai from "./Projects/sliai.vue";
 import ePaid from "./Projects/ePaid.vue";
+import FlySafe from "./Projects/FlySafe.vue";
+import grow from "./Projects/grow.vue";
+import SearchEngine from "./Projects/SearchEngine.vue";
+import sliai from "./Projects/sliai.vue";
+import TableStory from "./Projects/TableStory.vue";
 
 export default Vue.extend({
   name: "projects",
   components: {
-    grow,
-    TableStory,
+    ePaid,
     FlySafe,
+    grow,
+    SearchEngine,
     sliai,
-    ePaid
-  }
+    TableStory,
+  },
 });
 </script>
