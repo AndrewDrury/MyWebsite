@@ -54,7 +54,7 @@
             href="https://photography.andrew-drury.com/"
             target="_blank"
           >
-            <img src="@/assets/levitation.jpg" />
+            <img src="@/assets/AndrewHeadshot.jpg" />
           </a>
         </b-col>
         <b-col class="mobile" align="left">

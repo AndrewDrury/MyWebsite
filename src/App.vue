@@ -31,11 +31,9 @@
           >
           <b-nav-item
             class="tab"
-            style="text-align: left"
             href="https://photography.andrew-drury.com"
             target="_blank"
-          >
-            Photography</b-nav-item
+            >Photography</b-nav-item
           >
         </b-navbar-nav>
       </b-collapse>
@@ -401,6 +399,7 @@ section {
 #contact .endtag {
   margin-bottom: 0px;
   color: black;
+  font-size: 18px;
 }
 
 .desktop-router a {
