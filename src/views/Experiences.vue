@@ -6,14 +6,15 @@
           <b-row class="margin-wrap">
             <b-col>
               <h2 class="hidden">Experiences</h2>
-              <h5>
+              <!-- <h5>
                 I am currently seeking new grad software engineering
                 opportunities.
-              </h5>
+              </h5> -->
             </b-col>
           </b-row>
 
           <!-- EXPERIENCES -->
+          <HypotenuseLabs />
           <BitGo />
           <Cyclica />
           <Tucows />
@@ -34,6 +35,7 @@
 import Vue from "vue";
 import BitGo from "./Experiences/BitGo.vue";
 import Cyclica from "./Experiences/Cyclica.vue";
+import HypotenuseLabs from "./Experiences/HypotenuseLabs.vue";
 import Tucows from "./Experiences/Tucows.vue";
 import Stratus360 from "./Experiences/Stratus360.vue";
 import TDLab from "./Experiences/TDLab.vue";
@@ -44,6 +46,7 @@ export default Vue.extend({
   components: {
     BitGo,
     Cyclica,
+    HypotenuseLabs,
     Tucows,
     Stratus360,
     TDLab,

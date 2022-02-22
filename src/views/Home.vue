@@ -561,7 +561,7 @@ a:hover {
         color: white;
       }
       a:hover {
-        text-decoration: underline $primary;
+        // text-decoration: underline $primary;
       }
     }
   }

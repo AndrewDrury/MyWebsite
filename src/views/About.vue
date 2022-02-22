@@ -18,8 +18,7 @@
             <div class="hidden">
               I am a member of the Mechatronics Engineering class of 2022 at the
               University of Waterloo, and I am in my 4B study term at Waterloo.
-              I have recently completed my 6th co-op term in a software
-              engineering intern role with BitGo.
+              I am also an incoming Software Engineer at Hypotenuse Labs!
             </div>
             <br />
             <div class="hidden">
@@ -31,14 +30,14 @@
                 href="https://photography.andrew-drury.com/"
                 target="_blank"
                 >photography</a
-              >, bouldering, training boxing, and exploring nature.
+              >, going to the gym, and training boxing.
             </div>
             <br />
-            <div class="hidden">
+            <!-- <div class="hidden">
               I am currently seeking full-time opportunities in a software
               engineering role as I will graduate in May of 2022.
             </div>
-            <br />
+            <br /> -->
             <div class="hidden">
               Get in touch with me at&nbsp;
               <a class="link" href="mailto:hello@andrew-drury.com"
@@ -64,8 +63,7 @@
             <div class="hidden">
               I am a member of the Mechatronics Engineering class of 2022 at the
               University of Waterloo, and I am in my 4B study term at Waterloo.
-              I have recently completed my 6th co-op term in a software
-              engineering intern role with BitGo.
+              I am also an incoming Software Engineer at Hypotenuse Labs!
             </div>
             <br />
             <div class="hidden">
@@ -77,14 +75,14 @@
                 href="https://photography.andrew-drury.com/"
                 target="_blank"
                 >photography</a
-              >, bouldering, training boxing, and exploring nature.
+              >, going to the gym, and training boxing.
             </div>
             <br />
-            <div class="hidden">
+            <!-- <div class="hidden">
               I am currently seeking full-time opportunities in a software
               engineering role as I will graduate in May of 2022.
             </div>
-            <br />
+            <br /> -->
             <div class="hidden">
               Get in touch with me at&nbsp;
               <a class="link" href="mailto:hello@andrew-drury.com"
