@@ -4,11 +4,7 @@
       <b-row class="projectRow">
         <b-col class="project-pic mobile hidden" lg="4">
           <a href="https://github.com/AndrewDrury/FakeNewsML" target="_blank">
-            <img
-              srcset="
-                @/assets/ProjectPics/truthWordCloud.png
-              "
-            />
+            <img srcset="@/assets/ProjectPics/truthWordCloud.png" />
           </a>
         </b-col>
         <b-col lg="8">
@@ -28,7 +24,9 @@
           </b-row>
           <b-row class="bot-content">
             <b-col class="award hidden" md="12" lg="6">
-              <h4><i class="fa fa-map-marker"></i>&nbsp;University of Waterloo, ON</h4>
+              <h4>
+                <i class="fa fa-map-marker"></i>&nbsp;University of Waterloo, ON
+              </h4>
             </b-col>
             <b-col class="hackathon hidden" md="12" lg="6"
               ><h4>
@@ -39,14 +37,19 @@
           <b-row>
             <b-col class="details hidden">
               <p>
-                A Fake News ML classifier was created using the Naïves Bayes and Logistic Regression methods.
-                The classifier was trained using 12,386 fact-checked statements made by political figures provided by
+                A Fake News ML classifier was created using the Naïves Bayes and
+                Logistic Regression methods. The classifier was trained using
+                12,386 fact-checked statements made by political figures
+                provided by
                 <a
                   href="https://www.politifact.com/"
                   target="_blank"
                   style="color: black"
                   >PolitiFact.com</a
-                >. Unsupervised learning was performed using Apriori's algorithm and Association Rule Mining to find trends in statements such as words or individuals associated with varying degrees of truthfulness.
+                >. Unsupervised learning was performed using Apriori's algorithm
+                and Association Rule Mining to find trends in statements such as
+                words or individuals associated with varying degrees of
+                truthfulness.
               </p>
             </b-col>
           </b-row>
@@ -63,11 +66,7 @@
         </b-col>
         <b-col class="project-pic desktop hidden" md="4">
           <a href="https://github.com/AndrewDrury/FakeNewsML" target="_blank">
-            <img
-              srcset="
-                @/assets/ProjectPics/truthWordCloud.png
-              "
-            />
+            <img srcset="@/assets/ProjectPics/truthWordCloud.png" />
           </a>
         </b-col>
       </b-row>

@@ -272,7 +272,7 @@
 
 // Navbar
 #navbar {
-  background-color: rgba(255,255,255,0.91);
+  background-color: rgba(255, 255, 255, 0.91);
 
   @media (min-width: $screen-md) {
     background-color: white;
