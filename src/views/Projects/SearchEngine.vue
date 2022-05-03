@@ -17,7 +17,7 @@
           </b-row>
           <b-row class="bot-content">
             <b-col class="award hidden" md="12" lg="6">
-              <!-- <h4><i class="fa fa-trophy"></i>&nbsp;1st Place</h4> -->
+              <h4><i class="fa fa-map-marker"></i>&nbsp;University of Waterloo, ON</h4>
             </b-col>
             <b-col class="hackathon hidden" md="12" lg="6"
               ><h4>

@@ -4,12 +4,7 @@
       <b-row class="projectRow">
         <b-col class="project-pic hidden" lg="4">
           <a href="https://github.com/AndrewDrury/grow" target="_blank">
-            <img
-              srcset="
-                @/assets/ProjectPics/grow.jpg,
-                @/assets/ProjectPics/grow@2x.jpg 2x
-              "
-            />
+            <img src="@/assets/ProjectPics/grow.png" />
           </a>
         </b-col>
         <b-col lg="8">

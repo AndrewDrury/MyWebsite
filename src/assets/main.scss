@@ -41,7 +41,7 @@ $font_path: '~@/assets/fonts/';
 // }
 
 * {
-  color: white;
+  color: black;
   font-family: 'Manrope', Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -58,7 +58,7 @@ $font_path: '~@/assets/fonts/';
 }
 
 .link {
-  color: white;
+  color: black;
   text-decoration: underline $primary;
 }
 
@@ -131,7 +131,7 @@ h2 {
 .experience-hover {
   display:block;
   a {
-    color: white;
+    color: black;
   }
 }
 .experience-hover:hover {
@@ -152,7 +152,7 @@ h2 {
     align-items: center;
 
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 58px;
 
     .position-info {
       display: flex;
@@ -267,38 +267,49 @@ h2 {
       margin-top: 15px;
     }
   }
+  .experienceRow:before {
+    content : "";
+    position: absolute;
+    bottom  : 0;
+    height  : 1px;
+    width   : 60%;  /* or 100px */
+    border-bottom:2px solid $primary;
+  }
 }
 
 #BitGo {
   background: clear;
-  background: linear-gradient(107deg, rgba(24,157,223,1) 0%, rgba(51,51,51,1) 100%);
+  // background: linear-gradient(107deg, rgba(24,157,223,1) 0%, rgba(51,51,51,1) 100%);
 }
 #Cyclica {
   background: clear;
-  background: linear-gradient(107deg, rgba(0,140,56,1) 0%, rgba(0,121,181,1) 100%);
+  // background: linear-gradient(107deg, rgba(0,140,56,1) 0%, rgba(0,121,181,1) 100%);
 }
 #HypotenuseLabs {
   background: clear;
-  background: linear-gradient(107deg, rgb(59, 67, 70) 0%, rgb(39, 39, 39) 100%);
+  // background: linear-gradient(107deg, rgb(59, 67, 70) 0%, rgb(39, 39, 39) 100%);
 }
 #Stratus360 {
   background: clear;
-  background: linear-gradient(107deg, rgba(16,85,82,1) 0%, rgba(8,26,44,1) 100%);
+  // background: linear-gradient(107deg, rgba(16,85,82,1) 0%, rgba(8,26,44,1) 100%);
 }
 #Tucows {
   background: clear;
-  background: linear-gradient(107deg, rgba(99,9,93,1) 0%, rgba(21,74,251,1) 100%);
+  // background: linear-gradient(107deg, rgba(99,9,93,1) 0%, rgba(21,74,251,1) 100%);
 }
 #TDLab {
   background: clear;
-  background: linear-gradient(107deg, rgba(84,207,49,1) 0%, rgba(8,81,0,1) 100%);
+  // background: linear-gradient(107deg, rgba(84,207,49,1) 0%, rgba(8,81,0,1) 100%);
 }
 #ZurApps {
   background: clear;
-  background: linear-gradient(107deg, rgba(255,162,50,1) 0%, rgba(255,92,22,1) 100%);
+  // background: linear-gradient(107deg, rgba(255,162,50,1) 0%, rgba(255,92,22,1) 100%);
 
   h3 {
     line-height: 40px;
+  }
+  .experienceRow:before {
+    border-bottom:0px;
   }
 }
 

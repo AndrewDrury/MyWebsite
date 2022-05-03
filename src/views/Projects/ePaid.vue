@@ -4,12 +4,7 @@
       <b-row class="projectRow">
         <b-col class="project-pic hidden" lg="4">
           <a href="https://tdlab.io/project/ePaid" target="_blank">
-            <img
-              srcset="
-                @/assets/ProjectPics/ePaid.jpg,
-                @/assets/ProjectPics/ePaid@2x.jpg 2x
-              "
-            />
+            <img src="@/assets/ProjectPics/ePaid.png" />
           </a>
         </b-col>
         <b-col lg="8">

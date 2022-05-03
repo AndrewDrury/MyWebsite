@@ -4,12 +4,7 @@
       <b-row class="projectRow">
         <b-col class="project-pic mobile hidden" lg="4">
           <a href="https://github.com/AndrewDrury/TableStory" target="_blank">
-            <img
-              srcset="
-                @/assets/ProjectPics/TableStory.jpg,
-                @/assets/ProjectPics/TableStory@2x.jpg 2x
-              "
-            />
+            <img src="@/assets/ProjectPics/TableStory.png" />
           </a>
         </b-col>
         <b-col lg="8">
@@ -60,12 +55,7 @@
         </b-col>
         <b-col class="project-pic desktop hidden" md="4">
           <a href="https://github.com/AndrewDrury/TableStory" target="_blank">
-            <img
-              srcset="
-                @/assets/ProjectPics/TableStory.jpg,
-                @/assets/ProjectPics/TableStory@2x.jpg 2x
-              "
-            />
+            <img src="@/assets/ProjectPics/TableStory.png" />
           </a>
         </b-col>
       </b-row>

@@ -3,7 +3,7 @@
     <div class="mobile1 navbar-background"></div>
 
     <!-- Navbar -->
-    <b-navbar toggleable="md" class="fixed-top navbar-dark" id="navbar">
+    <b-navbar toggleable="md" class="fixed-top" id="navbar">
       <div class="mobile1">
         <b-navbar-brand
           class="nav-link draw meet"
@@ -124,7 +124,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  background-color: $grey;
+  background-color: white;
   overflow-x: hidden;
 }
 
@@ -143,7 +143,7 @@
   width: 100%;
   top: 0px;
   position: fixed;
-  background-color: $grey;
+  background-color: white;
   left: 0px;
   height: 65.653px;
   z-index: 1;
@@ -202,7 +202,7 @@
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
     transition: 0.5s all ease;
-    color: white;
+    color: black;
   }
   ul.social li a img {
     margin-top: 8px;
@@ -210,7 +210,7 @@
     -webkit-transition: 0.5s all ease;
     -moz-transition: 0.5s all ease;
     transition: 0.5s all ease;
-    color: white;
+    color: black;
   }
 
   ul.social li:hover a i {
@@ -272,10 +272,10 @@
 
 // Navbar
 #navbar {
-  background-color: $grey-opac;
+  background-color: rgba(255,255,255,0.91);
 
   @media (min-width: $screen-md) {
-    background-color: $grey;
+    background-color: white;
     height: 80px;
   }
   @media (max-width: $screen-md) {
@@ -285,8 +285,9 @@
 
   /* change the link color */
   .navbar-nav .nav-link {
-    color: white;
-    width: 140px;
+    color: black;
+    width: 165px;
+    font-weight: 600;
   }
   /* change the color of active or hovered links */
   .nav-link:hover {
@@ -357,7 +358,6 @@ section {
 }
 #contact {
   background: white;
-  z-index: 99;
   position: absolute;
   width: 100%;
   padding-top: 60px;

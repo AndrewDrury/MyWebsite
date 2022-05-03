@@ -7,12 +7,12 @@
             <b-col class="container" align="center">
               <!-- https://vue-particles.netlify.com/ to customize -->
               <vue-particles
-                color="#31e0ff"
+                color="#2D4256"
                 :particleOpacity="1"
                 :particlesNumber="120"
                 shapeType="circle"
                 :particleSize="4"
-                linesColor="#FFFFFF"
+                linesColor="#000000"
                 :linesWidth="1"
                 :lineLinked="true"
                 :lineOpacity="0.4"
@@ -36,11 +36,11 @@
                 <div class="name mobile1 hidden">I am<br />Andrew Drury.</div>
                 <h5 style="margin-top: 0px">
                   <div class="desktop hidden">
-                    4B Mechatronics Engineering @ University of Waterloo
+                    Incoming Software Engineer @ Hypotenuse Labs
                   </div>
                   <div class="mobile1 hidden">
-                    4B Mechatronics Engineering<br />
-                    @ University of Waterloo
+                    Incoming Software Engineer<br />
+                    @ Hypotenuse Labs
                   </div>
                   <div class="contact-info" style="margin-top: 5px">
                     Get in touch with me at&nbsp;
@@ -52,7 +52,6 @@
                     >!
                   </div>
                 </h5>
-                <h5 class="tagline hidden">I love to code.</h5>
                 <div class="scroll-down hidden">
                   <router-link :to="{ name: 'home', hash: '#experiences' }"
                     ><span></span
@@ -87,7 +86,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  color: #fff;
+  color: black;
   pointer-events: none;
   font-size: 72px;
   padding-top: 20px;
@@ -193,7 +192,7 @@
 .scroll-down a {
   position: relative;
   display: inline-block;
-  color: #fff;
+  color: black;
   text-decoration: none;
   transition: opacity 0.3s;
 
@@ -204,7 +203,7 @@
     width: 46px;
     height: 46px;
     margin-left: -23px;
-    border: 1px solid $primary;
+    border: 1px solid black;
     border-radius: 100%;
     box-sizing: border-box;
     -webkit-animation: sdb03 4s infinite;
@@ -219,8 +218,8 @@
     width: 16px;
     height: 16px;
     margin: -12px 0 0 -8px;
-    border-left: 1px solid $primary;
-    border-bottom: 1px solid $primary;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     box-sizing: border-box;
@@ -542,7 +541,7 @@ a:hover {
     }
   }
   .scroll-down {
-    color: #fff;
+    color: black;
     margin-top: 15px;
     pointer-events: auto;
   }
@@ -558,7 +557,7 @@ a:hover {
 
       a {
         font-size: 24.3px !important;
-        color: white;
+        color: black;
       }
       a:hover {
         // text-decoration: underline $primary;

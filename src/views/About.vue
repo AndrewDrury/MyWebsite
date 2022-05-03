@@ -16,21 +16,18 @@
             <div class="hidden">Hi! My name is Andrew.</div>
             <br />
             <div class="hidden">
-              I am a member of the Mechatronics Engineering class of 2022 at the
-              University of Waterloo, and I am in my 4B study term at Waterloo.
-              I am also an incoming Software Engineer at Hypotenuse Labs!
+              I am an incoming software engineer at Hypotenuse Labs. I graduated from the University of Waterloo in 2022 with a degree in Mechatronics Engineering.
             </div>
             <br />
             <div class="hidden">
-              I have a passion for solving people's problems with code. When I
-              am not developing my latest ideas, I enjoy creating music,
+              I love working with blockchain technology. I also enjoy creating music,
               pursuing&nbsp;
               <a
                 class="link"
                 href="https://photography.andrew-drury.com/"
                 target="_blank"
                 >photography</a
-              >, going to the gym, and training boxing.
+              >, and going to the gym.
             </div>
             <br />
             <!-- <div class="hidden">
@@ -39,10 +36,10 @@
             </div>
             <br /> -->
             <div class="hidden">
-              Get in touch with me at&nbsp;
+              Let's talk! Get in touch with me at&nbsp;
               <a class="link" href="mailto:hello@andrew-drury.com"
                 >hello@andrew-drury.com</a
-              >!
+              >.
             </div>
           </div>
         </b-col>
@@ -61,21 +58,18 @@
             <div class="hidden">Hi! My name is Andrew Drury.</div>
             <br />
             <div class="hidden">
-              I am a member of the Mechatronics Engineering class of 2022 at the
-              University of Waterloo, and I am in my 4B study term at Waterloo.
-              I am also an incoming Software Engineer at Hypotenuse Labs!
+              I am an incoming software engineer at Hypotenuse Labs. I graduated from the University of Waterloo in 2022 with a degree in Mechatronics Engineering.
             </div>
             <br />
             <div class="hidden">
-              I have a passion for solving people's problems with code. When I
-              am not developing my latest ideas, I enjoy creating music,
+              I love working with blockchain technology. I also enjoy creating music,
               pursuing&nbsp;
               <a
                 class="link"
                 href="https://photography.andrew-drury.com/"
                 target="_blank"
                 >photography</a
-              >, going to the gym, and training boxing.
+              >, and going to the gym.
             </div>
             <br />
             <!-- <div class="hidden">
@@ -84,10 +78,10 @@
             </div>
             <br /> -->
             <div class="hidden">
-              Get in touch with me at&nbsp;
+              Let's talk! Get in touch with me at&nbsp;
               <a class="link" href="mailto:hello@andrew-drury.com"
                 >hello@andrew-drury.com</a
-              >!
+              >.
             </div>
           </div>
         </b-col>

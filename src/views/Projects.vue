@@ -4,11 +4,13 @@
       <b-row>
         <b-col>
           <b-row class="margin-wrap hidden">
-            <b-col>
+            <b-col style="padding: 0px">
               <h2>Projects</h2>
             </b-col>
 
             <!-- PROJECTS -->
+            <MLFakeNews />
+            <SimuStep />
             <SearchEngine />
             <grow />
             <TableStory />
@@ -34,6 +36,8 @@ import grow from "./Projects/grow.vue";
 import SearchEngine from "./Projects/SearchEngine.vue";
 import sliai from "./Projects/sliai.vue";
 import TableStory from "./Projects/TableStory.vue";
+import SimuStep from "./Projects/SimuStep.vue";
+import MLFakeNews from "./Projects/MLFakeNews.vue";
 
 export default Vue.extend({
   name: "projects",
@@ -44,6 +48,8 @@ export default Vue.extend({
     SearchEngine,
     sliai,
     TableStory,
+    SimuStep,
+    MLFakeNews,
   },
 });
 </script>
