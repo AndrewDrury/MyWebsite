@@ -36,11 +36,23 @@
                 <div class="name mobile1 hidden">I am<br />Andrew Drury.</div>
                 <h5 style="margin-top: 0px">
                   <div class="desktop hidden">
-                    Incoming Software Engineer @ Hypotenuse Labs
+                    Incoming Software Engineer @
+                    <a
+                      class="company-link"
+                      href="https://hypotenuse.ca/"
+                      target="_blank"
+                      >Hypotenuse Labs</a
+                    >
                   </div>
                   <div class="mobile1 hidden">
                     Incoming Software Engineer<br />
-                    @ Hypotenuse Labs
+                    @
+                    <a
+                      class="company-link"
+                      href="https://hypotenuse.ca/"
+                      target="_blank"
+                      >Hypotenuse Labs</a
+                    >
                   </div>
                   <div class="contact-info" style="margin-top: 5px">
                     Get in touch with me at&nbsp;
@@ -542,8 +554,11 @@ a:hover {
   }
   .scroll-down {
     color: black;
-    margin-top: 15px;
+    margin-top: 120px;
     pointer-events: auto;
+    @media (max-width: $screen-md) {
+      margin-top: 60px;
+    }
   }
 
   h5 {
