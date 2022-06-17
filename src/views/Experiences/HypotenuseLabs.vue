@@ -41,12 +41,14 @@
               <b-row>
                 <b-col class="time"
                   ><i class="fa fa-calendar" aria-hidden="true"></i>May, 2022 ->
-                  PRESENT</b-col
+                  Present</b-col
                 >
               </b-row>
               <b-row>
                 <b-col>
-                  <p>Incoming Software Engineer</p>
+                  <p>
+                    Working with Web3 &amp; the metaverse on the blockchain.
+                  </p>
                 </b-col>
               </b-row>
             </b-col>

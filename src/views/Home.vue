@@ -36,7 +36,7 @@
                 <div class="name mobile1 hidden">I am<br />Andrew Drury.</div>
                 <h5 style="margin-top: 0px">
                   <div class="desktop hidden">
-                    Incoming Software Engineer @
+                    Software Engineer @
                     <a
                       class="company-link"
                       href="https://hypotenuse.ca/"
@@ -45,7 +45,7 @@
                     >
                   </div>
                   <div class="mobile1 hidden">
-                    Incoming Software Engineer<br />
+                    Software Engineer<br />
                     @
                     <a
                       class="company-link"

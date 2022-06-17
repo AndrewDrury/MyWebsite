@@ -16,16 +16,16 @@
             <div class="hidden">Hi! My name is Andrew.</div>
             <br />
             <div class="hidden">
-              I am an incoming software engineer at
+              I am a software engineer at
               <a href="https://hypotenuse.ca/" target="_blank"
                 >Hypotenuse Labs</a
               >. I graduated from the University of Waterloo in 2022 with a
-              Mechatronics Engineering.
+              degree in Mechatronics Engineering.
             </div>
             <br />
             <div class="hidden">
               I love working with blockchain &amp; Web3 technologies. I also
-              enjoy creating music, pursuing&nbsp;
+              enjoy creating music, pursuing
               <a
                 class="link"
                 href="https://photography.andrew-drury.com/"
@@ -62,7 +62,7 @@
             <div class="hidden">Hi! My name is Andrew Drury.</div>
             <br />
             <div class="hidden">
-              I am an incoming software engineer at
+              I am a software engineer at
               <a href="https://hypotenuse.ca/" target="_blank"
                 >Hypotenuse Labs</a
               >. I graduated from the University of Waterloo in 2022 with a
@@ -71,7 +71,7 @@
             <br />
             <div class="hidden">
               I love working with blockchain &amp; Web3 technologies. I also
-              enjoy creating music, pursuing&nbsp;
+              enjoy creating music, pursuing
               <a
                 class="link"
                 href="https://photography.andrew-drury.com/"
